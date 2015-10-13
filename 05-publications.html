@@ -1,0 +1,32 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<div class="home">
+
+  <h1>Publications</h1>
+  <ul id="publications">
+    <!-- {% assign years = '2015|2014' | split:'|' %} -->
+    <!-- {% for year in years %} -->
+    <!-- <h2>{{ year }}</h2> -->
+    <!-- {% assign pubs = site.publications | where:'year', 2015  %} -->
+    {% for pub in pubs %}
+    <li>
+      <p class="publication-title">
+        {% if pub.pub-url %}
+        <a href={{ pub.pub-url }}>{{ pub.title }}</a>
+        {% else %}
+        {{ pub.title }}
+        {% endif %}
+      </p>
+      
+      <p><span class="authors">{{ pub.authors }}</span>, <span class="year">{{ pub.year }}</span></p>
+      <p class="publication-content">{{ pub.content }}</p>
+    </li>
+    {% endfor %}
+    <!-- {% endfor %} -->
+  </ul>
+
+</div>
