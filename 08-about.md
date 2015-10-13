@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## Authors and Contributors
-preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.de/wiki/index.php/Home) at the Technische Unversität München by Benjamin Uekermann (@uekerman) and at [Institut für parallele und verteilte Systeme](http://www.ipvs.uni-stuttgart.de/) at the University of Stuttgart.
+preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.de/wiki/index.php/Home) at the Technische Unversität München and at the [Institute for Parallel and Distributed Systems](http://www.ipvs.uni-stuttgart.de/) at the University of Stuttgart.
 
 Main contributers (in alphabetical order):
 
