@@ -8,11 +8,10 @@ permalink: /publications/
 
   <h1>Publications</h1>
   <ul id="publications">
-    <!-- {% assign years = '2015|2014' | split:'|' %} -->
-    <!-- {% for year in years %} -->
-    <!-- <h2>{{ year }}</h2> -->
-    <!-- {% assign pubs = site.publications | where:'year', 2015  %} -->
-    {% for pub in pubs %}
+    {% assign years = site.publications | group_by:"year" | sort:"title" %}
+    {% for year in years reversed %}
+    <h2>{{ year.name }}</h2>
+    {% for pub in year.items %}
     <li>
       <p class="publication-title">
         {% if pub.pub-url %}
@@ -26,7 +25,7 @@ permalink: /publications/
       <p class="publication-content">{{ pub.content }}</p>
     </li>
     {% endfor %}
-    <!-- {% endfor %} -->
+    {% endfor %}
   </ul>
 
 </div>

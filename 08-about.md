@@ -12,7 +12,7 @@ Main contributers (in alphabetical order):
 + Dipl.-Ing. [Florian Lindner](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner) (@floli), University of Stuttgart
 + Prof. Dr. [Miriam Mehl](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl), University of Stuttgart
 + [Klaudius Scheufele](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Klaudius.Scheufele), M.Sc., (@scheufks) University of Stuttgart
-+ Dipl.Math. [Benjamin Uekermann](http://www5.in.tum.de/wiki/index.php/Dipl.-Math._Benjamin_Uekermann) (@uekerman), Technische Universität Stuttgart
++ Dipl.Math. [Benjamin Uekermann](http://www5.in.tum.de/wiki/index.php/Dipl.-Math._Benjamin_Uekermann) (@uekerman), Technische Universität München
 
 Further contributors include (in alphabetical order):
 
