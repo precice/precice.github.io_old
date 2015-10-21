@@ -10,7 +10,7 @@ permalink: /publications/
   {% assign years = site.publications | group_by:"year" | sort:"title" %}
   {% for year in years reversed %}
   <h2>{{ year.name }}</h2>
-  <ul id="publications">
+  <ul class="publications">
     {% for pub in year.items %}
     <li>
       <p class="publication-title">
