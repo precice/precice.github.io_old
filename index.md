@@ -10,6 +10,9 @@ permalink: /
 preCICE (Precise Code Interaction Coupling Environment) is a coupling tool for partitioned simulations of multi-physics scenarios. Partitioned means, that preCICE couples existing programs, capable of simulating a subpart of the complete physics involved in the complete simulation. This allows for a high flexibility, needed to keep a decent time-to-solution for complex multi-physics scenarios (e.g. fluid-structure-acoustics interactions). The conceptual ideas of preCICE are not completely new, preCICE is basically an advancement of FSI*ce which has been developed by Markus Brenk. preCICE offers a high-level programming environment for all basic tasks appearing in the development of partitioned coupling simulation tools, encompassing communication, data mapping, and transient coupling schemes. We are currently working on an efficient parallelization of preCICE for massively parallel systems.
 
 preCICE is Open Source Software and available on [GitHub](https://github.com/precice/precice). It is developed as part of the [SPPEXA ExaFSA](https://ipvs.informatik.uni-stuttgart.de/SGS/EXAFSA/index.php) Project.
+To reference preCICE please cite "Gatzhammer, Efficient and Flexible Partitioned Simulation of Fluid-Structure Interactions, PhD Thesis, Institut für Informatik, Technische Universität München, 2015" or "Bungartz et al., preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling, submitted to Computers and Fluids., Elsevier, 2015."
+
+
 
 ## Features
 

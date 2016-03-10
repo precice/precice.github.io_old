@@ -5,22 +5,23 @@ permalink: /about/
 ---
 
 ## Authors and Contributors
-preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.de/wiki/index.php/Home) at the Technische Unversität München and at the [Institute for Parallel and Distributed Systems](http://www.ipvs.uni-stuttgart.de/) at the University of Stuttgart.
+preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.de/wiki/index.php/Home) at the Technical University of Munich and at the [Institute for Parallel and Distributed Systems](http://www.ipvs.uni-stuttgart.de/) at the University of Stuttgart.
 
 Main contributers (in alphabetical order):
 
 + Prof. Dr. [Miriam Mehl](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl), University of Stuttgart
++ Dr. Bernhard Gatzhammer (@gatzhamm), Alumni of Technical University of Munich
 + Dipl.-Ing. [Florian Lindner](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner) (@floli), University of Stuttgart
 + [Klaudius Scheufele](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Klaudius.Scheufele), M.Sc., (@scheufks) University of Stuttgart
-+ Dipl.Math. [Benjamin Uekermann](http://www5.in.tum.de/wiki/index.php/Dipl.-Math._Benjamin_Uekermann) (@uekerman), Technische Universität München
++ Dipl.Math. [Benjamin Uekermann](http://www5.in.tum.de/wiki/index.php/Dipl.-Math._Benjamin_Uekermann) (@uekerman), Technical University of Munich
 
 Further contributors include (in alphabetical order):
 
-+ Atanas Atanasov (@atanasoa), Technische Universität München
++ Atanas Atanasov (@atanasoa), Technical University of Munich
 + David Blom (@davidsblom), Delft University of Technology
-+ Saumitra Vinay Joshi (@SaumitraVinayJoshi), Technische Universität München
++ Saumitra Vinay Joshi (@SaumitraVinayJoshi), Technical University of Munich
 + Harald Klimach (@haraldkl), University of Siegen
-+ Alexander Shukaev (@Alexander-Shukaev), Technische Universität München
++ Alexander Shukaev (@Alexander-Shukaev), Technical University of Munich
 
 ## Website
 
