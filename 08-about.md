@@ -22,6 +22,7 @@ Further contributors include (in alphabetical order):
 + Saumitra Vinay Joshi (@SaumitraVinayJoshi), Technical University of Munich
 + Harald Klimach (@haraldkl), University of Siegen
 + Alexander Shukaev (@Alexander-Shukaev), Technical University of Munich
++ Peter Vollmer (@PeterVollmer), University of Stuttgart
 
 ## Website
 
