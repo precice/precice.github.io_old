@@ -19,10 +19,10 @@ Further contributors include (in alphabetical order):
 
 + Atanas Atanasov (@atanasoa), Technical University of Munich
 + David Blom (@davidsblom), Delft University of Technology
-+ Saumitra Vinay Joshi (@SaumitraVinayJoshi), Technical University of Munich
++ Saumitra Vinay Joshi (@saumitravinayjoshi), Technical University of Munich
 + Harald Klimach (@haraldkl), University of Siegen
-+ Alexander Shukaev (@Alexander-Shukaev), Technical University of Munich
-+ Peter Vollmer (@PeterVollmer), University of Stuttgart
++ Alexander Shukaev (@alexander-shukaev), Technical University of Munich
++ Peter Vollmer (@petervollmer), University of Stuttgart
 
 ## Website
 
