@@ -13,9 +13,11 @@ preCICE is Open Source Software and available on [GitHub](https://github.com/pre
 
 To reference preCICE please use one of these publications. You can also use the BibTeX entry below.
 
-    Bungartz et al., preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling, submitted to Computers and Fluids., Elsevier, 2015.
+    Bungartz et al., preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling,
+    submitted to Computers and Fluids., Elsevier, 2015.
 
-    Gatzhammer, Efficient and Flexible Partitioned Simulation of Fluid-Structure Interactions, PhD Thesis, Institut für Informatik, Technische Universität München, 2015
+    Gatzhammer, Efficient and Flexible Partitioned Simulation of Fluid-Structure Interactions,
+    PhD Thesis, Institut für Informatik, Technische Universität München, 2015
 
 ## Features
 
