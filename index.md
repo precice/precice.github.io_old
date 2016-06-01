@@ -53,7 +53,7 @@ Please cite preCICE when using it to produce your publications. Use either:
       doi = {10.1016/j.compfluid.2016.04.003},
       issn = {00457930},
       journal = {Computers and Fluids},
-      keywords = {high performance computing,inter-code communication,non-matching grids,partitioned, multi-physics,preCICE,quasi-newton,radial basis functions,strong coupling},
+      keywords = {high performance computing,inter-code communication,non-matching grids,partitioned, multi-physics,quasi-newton,radial basis functions,strong coupling},
       pages = {1--9},
       publisher = {Elsevier Ltd},
       title = {{preCICE - A Fully Parallel Library for Multi-Physics Surface Coupling}},
