@@ -56,7 +56,7 @@ Please cite preCICE when using it to produce your publications. Use either:
       keywords = {high performance computing,inter-code communication,non-matching grids,partitioned, multi-physics,quasi-newton,radial basis functions,strong coupling},
       pages = {1--9},
       publisher = {Elsevier Ltd},
-      title = {{preCICE - A Fully Parallel Library for Multi-Physics Surface Coupling}},
+      title = {preCICE - A Fully Parallel Library for Multi-Physics Surface Coupling},
       url = {http://dx.doi.org/10.1016/j.compfluid.2016.04.003},
       year = {2016}
     }
@@ -66,7 +66,7 @@ or
     @phdthesis{Gatzhammer2014,
       author = {Gatzhammer, Bernhard},
       school = {Technische Universit{\"{a}}t M{\"{u}}nchen},
-      title = {{Efficient and Flexible Partitioned Simulation of Fluid-Structure Interactions}},
+      title = {Efficient and Flexible Partitioned Simulation of Fluid-Structure Interactions},
       type = {PhD Thesis},
       year = {2014}
     }
