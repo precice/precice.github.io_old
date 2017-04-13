@@ -17,7 +17,7 @@ The [Wiki](https://github.com/precice/precice/wiki) contains generell informatio
 For asking questions there is a [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice), you should subscribe when using preCICE.
 
 ## Tutorial
-There is a tutorial that uses a simple one-dimensional example case. It can be [found in the Wiki](https://github.com/precice/precice/wiki/1D_Example).
+There is a tutorial that uses a simple one-dimensional example case. It can be [found in the Wiki](https://github.com/precice/precice/wiki/1D-Example).
 
 The tutorial explains the basic concepts of using PreCICE to couple two functionally independent solvers to compute the solution to a fluid-structure interaction problem. The test case is a simple one-dimensional flow through a deformable artery.
 
