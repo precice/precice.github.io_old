@@ -4,74 +4,34 @@ title:
 permalink: /
 ---
 
-[![Build Status](https://travis-ci.org/precice/precice.svg?branch=develop)](https://travis-ci.org/precice/precice)
 
 # Welcome to preCICE
-preCICE (Precise Code Interaction Coupling Environment) is a coupling tool for partitioned simulations of multi-physics scenarios. Partitioned means, that preCICE couples existing programs, capable of simulating a subpart of the complete physics involved in the complete simulation. This allows for a high flexibility, needed to keep a decent time-to-solution for complex multi-physics scenarios (e.g. fluid-structure-acoustics interactions). The conceptual ideas of preCICE are not completely new, preCICE is basically an advancement of FSI*ce which has been developed by Markus Brenk. preCICE offers a high-level programming environment for all basic tasks appearing in the development of partitioned coupling simulation tools, encompassing communication, data mapping, and transient coupling schemes. We are currently working on an efficient parallelization of preCICE for massively parallel systems.
+preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations. Partitioned means, that preCICE couples existing programs (solvers), capable of simulating a subpart of the complete physics involved in the simulation. This allows for a high flexibility, needed to keep a decent time-to-solution for complex multi-physics scenarios. 
 
-preCICE is Open Source Software and available on [GitHub](https://github.com/precice/precice). It is developed as part of the [SPPEXA ExaFSA](https://ipvs.informatik.uni-stuttgart.de/SGS/EXAFSA/index.php) Project.
+The software offers methods for transient equation coupling, communication means, and data mapping schemes. Ready-to-use adapters for well known commercial and open-source solvers are available. Adapters for in-house codes can be implemented and validated in only a few weeks.
 
-To reference preCICE please use one of these publications. You can also use the BibTeX entry below.
+preCICE is Open Source Software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice). 
 
-    Bungartz et al., preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling,
-    submitted to Computers and Fluids., Elsevier, 2015.
+## Unique Features 
 
-    Gatzhammer, Efficient and Flexible Partitioned Simulation of Fluid-Structure Interactions,
-    PhD Thesis, Institut für Informatik, Technische Universität München, 2015
+In comparison to other coupling software, preCICE is prepared for the next generation of multi-physics simulations due to the following features:
 
-## Features
++ preCICE is built upon a fully parallel peer-to-peer concept. Coupled solvers directly communicate with each other. No central instance is needed to handle the communication. All coupling operations are executed directly on the solvers' compute resources. This enables massively parallel simulations without the coupling being the bottleneck of the overall simulation. 
 
-### Steering
-+ Minimal invasive high-level API in C, C++, Fortran90/95, and Fortran2003
-+ Parallel or sequential coupling between 2 or more coupling participants, configurable at run-time
-+ Timestep size can be set by either participant or by preCICE
-+ Subcycling
++ preCICE follows a pure library approach -- the solvers call preCICE -- in contrast to a framework approach. This makes the coupling minimally-invasive and, therefore, easy to setup and easy to maintain. The API of preCICE operates on a generic level, allowing highest flexibility and the implementation of new adapters in only around 30 lines of code. 
 
-### Communication
-+ Fully parallel point-to-point communication based on either TCP/IP or MPI ports
++ preCICE offers sophisticated and robust quasi-Newton coupling algorithms, which enable the partitioned realization of strongly-coupled problems, such as observed in hemodynamic applications.
 
-### Data Mapping
-+ Projection-based mapping: nearest neighbor or nearest projection
-+ Black-box mapping based on radial-basis functions
-
-### Fix-Point Acceleration
-+ Static or dynamic (Aitken) underrelaxation
-+ Anderson or generalized Broyden acceleration techniques (also known as interface quasi-Newton schemes) extrapolation in time
-
-### Other Features
-+ Geometry interface for fixed-grid solvers, import via STL
-+ Python action interface to modify coupling data at run-time
-+ Restart mechanism for coupling schemes
-+ Coupling mesh export to VTK
-+ Automatic XML reference generation
-+ Open Source using the LGPL3 license
++ preCICE allows the robust coupling of an arbitrary number of solvers to one overall simulation. 
 
 ## Citing preCICE
-Please cite preCICE when using it to produce your publications. Use either:
+To cite preCICE, please use:
 
-    @article{Bungartz2016,
+    @article{Bungartz2016_preCICE,
       title = {preCICE - A Fully Parallel Library for Multi-Physics Surface Coupling},
       author = {Bungartz, Hans-Joachim and Lindner, Florian and Gatzhammer, Bernhard and Mehl, Miriam and Scheufele, Klaudius and Shukaev, Alexander and Uekermann, Benjamin},
-      doi = {10.1016/j.compfluid.2016.04.003},
-      issn = {00457930},
       journal = {Computers and Fluids},
-      keywords = {high performance computing,inter-code communication,non-matching grids,partitioned, multi-physics,quasi-newton,radial basis functions,strong coupling},
-      pages = {1--9},
-      publisher = {Elsevier Ltd},
-      url = {http://dx.doi.org/10.1016/j.compfluid.2016.04.003},
+      volume = {141},
+      pages = {250––258},
       year = {2016}
     }
-
-or
-
-    @phdthesis{Gatzhammer2014,
-      title = {Efficient and Flexible Partitioned Simulation of Fluid-Structure Interactions},
-      author = {Gatzhammer, Bernhard},
-      school = {Technische Universit{\"{a}}t M{\"{u}}nchen},
-      type = {PhD Thesis},
-      year = {2014}
-    }
-
-
-
-
