@@ -59,6 +59,8 @@ ul#publications li {
 header {
     font-size: 1em;
     font-weight: bold;
+    letter-spacing: 0em;
+}
 
 header hr {
     width: 100%;
