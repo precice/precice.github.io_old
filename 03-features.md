@@ -7,11 +7,11 @@ permalink: /codes/
 ## Features
 
 ### General
-+ preCICE is cross-plattform. While we mostly test on Lunix, preCICE has also been succesfully used on Windowns and MAC
++ preCICE is cross-plattform. While we mostly test on Linux, preCICE has also been succesfully used on Windowns and MAC
 + Scalability for most features has been shown up to 10,000 cores
 
 ### Steering
-+ Minimal invasive high-level API in C, C++, Fortran90/95, Fortran2003, and Python
++ Minimally-invasive high-level API in C, C++, Fortran90/95, Fortran2003, and Python
 + Parallel or sequential coupling between 2 or more coupling participants, configurable at run-time
 + Timestep size can be set by either participant or by preCICE
 + Subcycling
@@ -44,8 +44,8 @@ There are various codes - free and proprietary ones - currently coupled with pre
 
 [Ateles (APES)](http://www.mb.uni-siegen.de/sts/departmentmainmenu_de/software/?lang=de) |	Compressible Flow and Acoustics	| in-house (Universität Siegen) | in-house adapter
 [Alya System](http://www.bsc.es/computer-applications/alya-system) |	Incompressible Flow and Structure | in-house (Barcelona Supercomputing Center) | in-house adapter
-[CalculiX](http://www.calculix.de/) |	Structure | open-source 
-Carat++ |	Structure | in-house (STATIK, Technical University of Munich) | in-house adapter
+[CalculiX](http://www.calculix.de/) |	Structure | open-source | [official adapter](https://github.com/precice/calculix-adapter)
+[Carat++](http://carat.st.bv.tum.de/) |	Structure | in-house (STATIK, Technical University of Munich) | in-house adapter
 [Code_Aster](http://www.code-aster.org) |	Structure | open-source | [official adapter](https://github.com/precice/code_aster-adapter)
 [COMSOL](http://www.comsol.com/) | Structure | commercial | [official adapter](https://github.com/precice/comsol-adapter)
 [EFD](https://github.com/precice/efd) | Incompressible Flow | open-source (SCCS, Technical University of Munich) | built-in adapter

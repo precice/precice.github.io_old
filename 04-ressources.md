@@ -7,14 +7,14 @@ permalink: /ressources/
 [![Build Status](https://travis-ci.org/precice/precice.svg?branch=develop)](https://travis-ci.org/precice/precice)
 
 ## Downloads
-The source is available via our [GitHub repository](https://github.com/precice/precice). You can download the current stable version using git:
+The sources are available via our [GitHub repository](https://github.com/precice/precice). You can download the current stable version using git:
 
 git clone git@github.com:precice/precice.git
 
-Recent development takes place in the ```develop``` branch. Official adapters can available under the [preCICE organization](https://github.com/precice). 
+Recent development takes place in the ```develop``` branch. Official adapters are available under the [preCICE organization](https://github.com/precice). 
 
 ## Wiki
-Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where you can find lot's of useful information.
+Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where you can find lots of useful information.
 + Detailed explanation on building and known pitfalls
 + A tutorial how to use preCICE in a simple 1D FSI scenario
 + Background information on specific features of preCICE
