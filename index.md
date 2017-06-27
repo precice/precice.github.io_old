@@ -6,23 +6,23 @@ permalink: /
 
 
 # Welcome to preCICE
-preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations. Partitioned means, that preCICE couples existing programs (solvers), capable of simulating a subpart of the complete physics involved in a simulation. This allows for a high flexibility, needed to keep a decent time-to-solution for complex multi-physics scenarios. 
+preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations. Partitioned means that preCICE couples existing programs (solvers) capable of simulating a subpart of the complete physics involved in a simulation. This allows for the high flexibility that is needed to keep a decent time-to-solution for complex multi-physics scenarios. 
 
-The software offers methods for transient equation coupling, communication means, and data mapping schemes. [Ready-to-use adapters](http://www.precice.org/codes) for well known commercial and open-source solvers are available. Adapters for in-house codes can be implemented and validated in only a few weeks.
+The software offers methods for transient equation coupling, communication means, and data mapping schemes. [Ready-to-use adapters](http://www.precice.org/codes) for well-known commercial and open-source solvers are available. Adapters for in-house codes can be implemented and validated in only a few weeks.
 
-preCICE is an Open Source Software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice). 
+preCICE is an open-source software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice). 
 
 ## Unique Features 
 
-In comparison to other coupling software, preCICE is prepared for the next generation of multi-physics simulations due to the following features:
+In contrast to other coupling software, preCICE is prepared for the next generation of multi-physics simulations thanks to the following features:
 
-+ preCICE is built upon a fully parallel peer-to-peer concept. Coupled solvers directly communicate with each other. No central instance is needed to handle the communication. All coupling operations are executed directly on the solvers' compute resources. This enables massively parallel simulations without the coupling being the bottleneck of the overall simulation. 
++ *Fully parallel peer-to-peer concept:* Coupled solvers directly communicate with each other without requiring a central instance. All coupling operations are executed directly on the solvers' compute resources. This enables massively parallel simulations without the coupling being the bottleneck of the overall simulation. 
 
-+ preCICE follows a pure library approach -- the solvers call preCICE -- in contrast to a framework approach. This makes the coupling minimally-invasive and, therefore, easy to setup and easy to maintain. The API of preCICE operates on a generic level, allowing highest flexibility and the implementation of new adapters in only around 30 lines of code. 
++ *Pure library approach:* In contrast to a framework approach, the solvers call preCICE instead of being called by the framework. This makes coupling minimally-invasive and thus easy to set up and to maintain. The preCICE API operates on a generic level, allowing highest flexibility and the implementation of new adapters in as little as approximately 30 lines of code. 
 
-+ preCICE offers sophisticated and robust quasi-Newton coupling algorithms, which enable the partitioned realization of strongly-coupled problems, such as observed in hemodynamic applications.
++ *Sophisticated and robust quasi-Newton coupling algorithms:* They enable the partitioned realization of strongly-coupled problems, such as those  observed in hemodynamic applications.
 
-+ preCICE allows the robust coupling of an arbitrary number of solvers to one overall simulation. 
++ *Multi coupling:* preCICE allows the robust coupling of an arbitrary number of solvers to one overall simulation. 
 
 ## Citing preCICE
 To cite preCICE, please use:
