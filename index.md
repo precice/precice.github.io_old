@@ -12,6 +12,8 @@ The software offers methods for transient equation coupling, communication means
 
 preCICE is an open-source software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice). 
 
+![image](_images/plugandplay2.pdf)
+
 ## Unique Features 
 
 In contrast to other coupling software, preCICE is prepared for the next generation of multi-physics simulations thanks to the following features:
@@ -26,4 +28,5 @@ In contrast to other coupling software, preCICE is prepared for the next generat
 
 
 To cite preCICE, please use:
+
 H.-J. Bungartz, F. Lindner, B. Gatzhammer, M. Mehl, K. Scheufele, A. Shukaev, and B. Uekermann: preCICE - A Fully Parallel Library for Multi-Physics Surface Coupling. *Computers and Fluids*, [Elsevier](http://www.sciencedirect.com/science/article/pii/S0045793016300974), **141**, 250--258, 2016. [bibtex](https://www5.in.tum.de/cgi-bin/publikationen/bibtex.py?pubid=2434)
