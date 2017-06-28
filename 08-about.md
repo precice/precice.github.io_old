@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-## Authors and Contributors
+# About
+
 preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.de/wiki/index.php/Home) at the Technical University of Munich and at the [Institute for Parallel and Distributed Systems](http://www.ipvs.uni-stuttgart.de/) at the University of Stuttgart.
 
 Main contributers (in alphabetical order):
@@ -15,7 +16,7 @@ Main contributers (in alphabetical order):
 + Dipl.-Ing. [Florian Lindner](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner) (@floli), University of Stuttgart
 + Alexander Rusch (@arusch), B.Sc., ETH Zürich
 + [Klaudius Scheufele](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Klaudius.Scheufele), M.Sc., (@scheufks) University of Stuttgart
-+ Amin Totounferoush (@atotoum), University of Stuttgart
++ Amin Totounferoush (@atotoun), University of Stuttgart
 + Dr. [Benjamin Uekermann](https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann) (@uekerman), Technical University of Munich
 
 
@@ -31,8 +32,6 @@ Further contributors include (in alphabetical order):
 + Peter Vollmer, M.Sc. (@petervollmer), University of Stuttgart
 
 The conceptual ideas of preCICE are not completely new, preCICE is an advancement of FSI*ce, which has been developed by Dr. Markus Brenk.
-
-## Website
 
 This website is maintained by
 

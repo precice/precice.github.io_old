@@ -4,7 +4,7 @@ title: Features
 permalink: /codes/
 ---
 
-## Features
+# Features
 
 ### General
 + preCICE is cross-plattform. While we mostly test on Linux, preCICE has also been succesfully used on Windowns and MAC

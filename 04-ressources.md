@@ -4,6 +4,8 @@ title: Ressources
 permalink: /ressources/
 ---
 
+# Resources
+
 [![Build Status](https://travis-ci.org/precice/precice.svg?branch=develop)](https://travis-ci.org/precice/precice)
 
 ## Downloads
