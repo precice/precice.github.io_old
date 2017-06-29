@@ -12,7 +12,7 @@ The software offers methods for transient equation coupling, communication means
 
 preCICE is an open-source software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice). 
 
-![image2](http://www.precice.org/assets/plugandplay2.pdf)
+![image2](http://www.precice.org/assets/pic9.png)
 
 
 ## Unique Features 
@@ -25,7 +25,7 @@ In contrast to other coupling software, preCICE is prepared for the next generat
 
 + **Sophisticated and robust quasi-Newton coupling algorithms:** They enable the partitioned realization of strongly-coupled problems, such as those  observed in hemodynamic applications.
 
-+ **Multi coupling:** preCICE allows the robust coupling of an arbitrary number of solvers to one overall simulation. 
++ **Multi coupling:** preCICE allows the robust coupling of an arbitrary number of solvers to one overall simulation.  
 
 
 To cite preCICE, please use:  
