@@ -4,7 +4,7 @@
     <nav>
       {% for page in site.pages %}
       {% if page.title %}
-      {% if page.title !="Welcome to preCICE %}  
+      {% if page.title !="Welcome to preCICE" %}  
       <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       {% endif %}
       {% endif %}
