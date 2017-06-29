@@ -22,7 +22,7 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
 + Background information on specific features of preCICE
 + Information how to contribute to preCICE
 
-## Mailinglist
+## Mailing List
 If you use preCICE, please subscribe to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice). You can report bugs or ask any questions there. We also use this mailing list to inform you about newest developments in preCICE. 
 
 ## Source Code Documentation
