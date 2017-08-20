@@ -78,3 +78,7 @@ code {
     font-family: monospace;
 }
 
+
+.testimonial_content {
+	display:flex;
+}
