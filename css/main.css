@@ -16,12 +16,16 @@ h1 {
 
 h2 {
     font-size: 20px;
-    margin-top: 40px;	
+    margin-top: 40px;
 }
 
 h3 {
     font-size: 18px;
 }
+
+.testimonial_content div > div {
+    margin-top: 15px;
+}  
 
 a {
     color: #C30000;
@@ -43,6 +47,8 @@ td {
     margin-right: auto;
 }
 
+
+
 ul#publications li {
     margin-bottom: 2em;
 }
@@ -53,7 +59,7 @@ ul#publications li {
 
 .publication-title {
     font-weight: bold;
-    
+
 }
 
 header {
@@ -80,5 +86,11 @@ code {
 
 
 .testimonial_content {
-	display:flex;
+        display:flex;
 }
+
+.testimonial_content img {
+      margin-right: 25px;
+
+}
+
