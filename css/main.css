@@ -91,9 +91,26 @@ code {
 
 .testimonial_content img {
       margin-right: 25px;
-	  width: 30%;
-
+	  width: 40%;
 }
+
+
+@media(max-width:768px) {
+    testimonial_content img {
+        width:50%;
+    }
+}
+
+@media(max-width:400px) {
+    testimonial_content {
+        display:block;
+    }
+	testimonal_content img {
+		width: 100%;
+		margin: 0;
+	}
+}
+    
 
 
 
