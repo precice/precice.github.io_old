@@ -5,7 +5,14 @@ permalink: /
 ---
 
 
-# Welcome to <img src="http://www.precice.org/assets/precice.png" height="60px">
+# Welcome to preCICE
+
+<!--<p align="center">
+<img src="http://www.precice.org/assets/precice.png" height="60px">
+</p>-->
+
+
+
 
 **News:** preCICE release [v1.0.0](https://github.com/precice/precice/releases/tag/v1.0.0) available since Nov 9, 2017
 
