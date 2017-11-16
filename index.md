@@ -5,7 +5,9 @@ permalink: /
 ---
 
 
-# Welcome to <img src="http://www.precice.org/assets/precice.png" height="60px" margin-bottom="-16px">
+# Welcome to <img src="http://www.precice.org/assets/precice.png" height="60px" style="margin-bottom: -16px;">
+
+
 
 <!--<p align="center">
 <img src="http://www.precice.org/assets/precice.png" height="60px">
