@@ -9,11 +9,11 @@ permalink: /resources/
 [![Build Status](https://travis-ci.org/precice/precice.svg?branch=develop)](https://travis-ci.org/precice/precice)
 
 ## Downloads
-The sources are available via our [GitHub repository](https://github.com/precice/precice). You can download the current stable version using git:
+The sources are available via our [GitHub repository](https://github.com/precice/precice). 
 
-git clone git@github.com:precice/precice.git
+We recommend to use the latest release [v1.0.0](https://github.com/precice/precice/releases/tag/v1.0.0). 
 
-Recent development takes place in the ```develop``` branch. Official adapters are available under the [preCICE organization](https://github.com/precice). 
+Day-to-day development takes place in the ```develop``` branch. Official adapters are available under the [preCICE organization](https://github.com/precice). 
 
 ## Wiki
 Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where you can find lots of useful information.
