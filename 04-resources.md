@@ -26,6 +26,6 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
 If you use preCICE, please subscribe to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice). You can report bugs or ask any questions there. We also use this mailing list to inform you about newest developments in preCICE. 
 
 ## Source Code Documentation
-If you want to contribute to preCICE, you can use our [source code documentation](https://ipvs.informatik.uni-stuttgart.de/sgs/precice/doc/), which is auto-generated for some branches from time to time.
+If you want to contribute to preCICE, you can use our [source code documentation](https://ipvs.informatik.uni-stuttgart.de/sgs/precice/docs/), which is auto-generated for some branches from time to time.
 
 
