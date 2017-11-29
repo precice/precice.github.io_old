@@ -18,6 +18,7 @@ There are various codes - free and proprietary ones - currently coupled with pre
 [FASTEST](http://www.fnb.tu-darmstadt.de/forschung_fnb/software_fnb/software_fnb.en.jsp) | Incompressible Flow | in-house (TU Darmstadt) | in-house adapter 
 [FEAP](http://projects.ce.berkeley.edu/feap/)| Structure | commercial | in-house adapter at TU Darmstadt 
 [Fluent](http://www.ansys.com/products/fluids/ansys-cfd-premium) | Incompressible Flow | commercial | [official adapter](https://github.com/precice/fluent-adapter)
-[OpenFOAM](http://www.openfoam.com/) |Compressible Flow, Incompressible Flow, and Structure | open-source | [third-party-adapter](https://github.com/davidsblom/FOAM-FSI), official adapter under development
+[foam-extend](https://sourceforge.net/projects/foam-extend/) | Compressible Flow, Incompressible Flow, and Structure | open-source | [third-party adapter](https://github.com/davidsblom/FOAM-FSI)
+[OpenFOAM](https://openfoam.org/) | Conjugate heat transfer | open-source | [official adapter](https://github.com/precice/openfoam-adapter)
 [Peano](http://www.peano-framework.org) | Incompressible Flow | in-house (SCCS, Technical University of Munich) | in-house adapter
 [SU2](http://su2.stanford.edu/) | Compressible Flow | open-source | [official adapter](https://github.com/precice/su2-adapter)
