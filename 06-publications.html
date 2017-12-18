@@ -7,6 +7,22 @@ permalink: /publications/
 <div class="home">
 
   <h1>Publications</h1>
+  <h2>To cite preCICE, please use:</h2>
+  <blockquote>
+      <p class="publication-title">
+        <a href="http://www.sciencedirect.com/science/article/pii/S0045793016300974">preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling</a>
+      </p>
+      <p>
+          <span class="authors">Hans-Joachim Bungartz, Bernhard Gatzhammer, Florian Lindner, Miriam Mehl, Klaudius Scheufele, Alexander Shukaev, Benjamin Uekermann</span>,
+          <span class="year">2016</span>
+      </p>
+      <div class="publication-content">
+          <p>
+              In Computers and Fluids, Volume 141, p. 250––258. Elsevier.
+          </p>
+      </div>
+  </blockquote>
+
   {% assign years = site.publications | group_by:"year" | sort:"title" %}
   {% for year in years reversed %}
   <h2>{{ year.name }}</h2>
@@ -20,7 +36,7 @@ permalink: /publications/
         {{ pub.title }}
         {% endif %}
       </p>
-      
+
       <p><span class="authors">{{ pub.authors }}</span>, <span class="year">{{ pub.year }}</span></p>
       <div class="publication-content">{{ pub.content }}</div>
     </li>
