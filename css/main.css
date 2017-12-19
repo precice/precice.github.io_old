@@ -25,7 +25,7 @@ h3 {
 
 .testimonial_content div > div {
     margin-top: 15px;
-}  
+}
 
 a {
     color: #C30000;
@@ -72,6 +72,10 @@ header hr {
     width: 100%;
 }
 
+footer {
+    min-height: 80px;
+}
+
 nav {
     float: right;
 }
@@ -96,10 +100,19 @@ code {
        margin-right: 25px;
 }
 
+.tutorial_image {
+    display: block;
+    max-width: 250px;
+    height: auto;
+}
 
 @media(max-width: 768px) {
     .testimonial_content img {
-        max-width:300px; 
+        max-width:300px;
+    }
+
+    .tutorial_image {
+        max-width: 200px;
     }
 }
 
@@ -111,13 +124,7 @@ code {
 		max-width: 100%;
 		margin: 0;
 	}
+    .tutorial_image {
+        max-width: 150px;
+    }
 }
-    
-
-
-
-
-    
-
-
-

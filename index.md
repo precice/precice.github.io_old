@@ -5,12 +5,12 @@ permalink: /
 ---
 
 
-# Welcome to <img src="http://www.precice.org/assets/precice.png" height="60px" style="margin-bottom: -16px;">
+# Welcome to <img src="../assets/precice.png" height="60px" style="margin-bottom: -16px;">
 
 
 
 <!--<p align="center">
-<img src="http://www.precice.org/assets/precice.png" height="60px">
+<img src="../assets/precice.png" height="60px">
 </p>-->
 
 
@@ -18,23 +18,23 @@ permalink: /
 
 **News:** preCICE release [v1.0.0](https://github.com/precice/precice/releases/tag/v1.0.0) available since Nov 9, 2017
 
-preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. Partitioned means that preCICE couples existing programs (solvers) capable of simulating a subpart of the complete physics involved in a simulation. This allows for the high flexibility that is needed to keep a decent time-to-solution for complex multi-physics scenarios. 
+preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. Partitioned means that preCICE couples existing programs (solvers) capable of simulating a subpart of the complete physics involved in a simulation. This allows for the high flexibility that is needed to keep a decent time-to-solution for complex multi-physics scenarios.
 
-The software offers methods for transient equation coupling, communication means, and data mapping schemes. [Ready-to-use adapters](http://www.precice.org/codes) for well-known commercial and open-source solvers, such as OpenFOAM, SU2, or CalculiX, are available. Adapters for in-house codes can be implemented and validated in only a few weeks.
+The software offers methods for transient equation coupling, communication means, and data mapping schemes. [Ready-to-use adapters](codes) for well-known commercial and open-source solvers, such as OpenFOAM, SU2, or CalculiX, are available. Adapters for in-house codes can be implemented and validated in only a few weeks.
 
-preCICE is an open-source software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice). 
+preCICE is an open-source software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice).
 
 <p align="center">
-<img src="http://www.precice.org/assets/plugandplay.png" height="90px">
+<img src="../assets/plugandplay.png" height="90px">
 </p>
 
-## Unique Features 
+## Unique Features
 
 In contrast to other coupling software, preCICE is prepared for the next generation of multi-physics simulations thanks to the following features:
 
-+ **Fully parallel peer-to-peer concept:** Coupled solvers directly communicate with each other without requiring a central instance. All coupling operations are executed directly on the solvers' compute resources. This enables massively parallel simulations without the coupling being the bottleneck of the overall simulation. 
++ **Fully parallel peer-to-peer concept:** Coupled solvers directly communicate with each other without requiring a central instance. All coupling operations are executed directly on the solvers' compute resources. This enables massively parallel simulations without the coupling being the bottleneck of the overall simulation.
 
-+ **Pure library approach:** In contrast to a framework approach, the solvers call preCICE instead of being called by the framework. This makes coupling minimally-invasive and thus easy to set up and to maintain. The preCICE API operates on a generic level, allowing highest flexibility and the implementation of new adapters in as little as approximately 30 lines of code. 
++ **Pure library approach:** In contrast to a framework approach, the solvers call preCICE instead of being called by the framework. This makes coupling minimally-invasive and thus easy to set up and to maintain. The preCICE API operates on a generic level, allowing highest flexibility and the implementation of new adapters in as little as approximately 30 lines of code.
 
 + **Sophisticated and robust quasi-Newton coupling algorithms:** They enable the partitioned realization of strongly-coupled problems, such as those  observed in hemodynamic applications.
 
