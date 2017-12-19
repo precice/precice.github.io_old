@@ -22,6 +22,7 @@ Main contributors (in alphabetical order):
 
 Further contributors include (in alphabetical order):
 
++ Georg Abrams (@pikotee), University of Stuttgart
 + Dr. Atanas Atanasov (@atanasoa), Technical University of Munich
 + Dr. David Blom (@davidsblom), Delft University of Technology
 + Lucia Cheung, M.Sc. (@ludcila), Technical University of Munich
