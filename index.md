@@ -7,16 +7,10 @@ permalink: /
 
 # Welcome to <img src="../assets/precice.png" height="60px" style="margin-bottom: -16px;">
 
-
-
-<!--<p align="center">
-<img src="../assets/precice.png" height="60px">
-</p>-->
-
-
-
-
-**News:** preCICE release [v1.0.0](https://github.com/precice/precice/releases/tag/v1.0.0) available since Nov 9, 2017
+<p id="latest-release">
+    <!-- This will be replaced by the handleResponse() when the page is loaded -->
+    <strong>News:</strong> (looking for the <a href="https://github.com/precice/precice/releases/latest">latest release on GitHub</a>...)
+</p>
 
 preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. Partitioned means that preCICE couples existing programs (solvers) capable of simulating a subpart of the complete physics involved in a simulation. This allows for the high flexibility that is needed to keep a decent time-to-solution for complex multi-physics scenarios.
 
