@@ -14,6 +14,72 @@
 
     </div>
 
+    <!-- Get information about the latest preCICE release from GitHub -->
+    <script type="text/javascript">
+        // Script to get information about the latest preCICE release from GitHub,
+        // using the Atom feeds.
+        // The feeds are processed using the Yahoo Query Language (YQL):
+        //   https://developer.yahoo.com/yql/
+        // The script is based on an answer in StackOverflow by the user Tony:
+        //   https://stackoverflow.com/a/34050077/2254346
+        // The date is processed based on an answer in StackOverflow by the user Marko:
+        //   https://stackoverflow.com/a/3552493/2254346
+        // The comments were not part of that answer and may not be precise enough.
+
+        // When the page is loaded, the injectScript() is executed, which submits
+        // a YQL query to the Yahoo API. This returns the Atom feed data in json
+        // format and triggers a callback to the handleResponse().
+        // The handleResponse() processes the data and modifies the HTML element
+        // with id "latest-release".
+
+        // Source a Javascript script from the specified url
+        function injectScript(url) {
+            var scriptElement = document.createElement('script');
+            scriptElement.setAttribute('type', 'text/javascript');
+            scriptElement.setAttribute('src', url);
+            document.getElementsByTagName('head')[0].appendChild(scriptElement);
+        }
+
+        // Get the updated field of an entry of the feed and format it like "Jan 1, 1970"
+        function formatDate(updated) {
+            // Extract the date and create a Date object
+            date = new Date(updated.replace('T', ' ').split('+')[0]);
+
+            // Names for the months (we do not need an external library just for this)
+            var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+            // Returns e.g. "Jan 1, 1970"
+            return monthNames[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear();
+        }
+
+        // Extract the first (latest) entry from the received json file
+        // and use it to format the news message, which goes into the element
+        // with id "latest-release"
+        function handleResponse(response) {
+            var text = '',
+            item;
+            // Get only the first entry from the results. For more results, increase the upper bound
+            // and use a list instead of a paragraph.
+            for (var i = 0, k = response.query.results.feed.entry.length; i < 1; i++) {
+                // Get the i-entry
+                item = response.query.results.feed.entry[i];
+
+                // Format the text, which contains the link, the title, and the date.
+                text += '<strong>News:</strong> preCICE release <a href="' + 'https://github.com' + item.link.href + '">' + item.title + '</a>' + ' available since ' + formatDate(item.updated);
+            }
+            // Replace the content of 'latest-release'
+            document.getElementById('latest-release').innerHTML = text;
+        }
+
+        // Wait until the complete page has loaded (so that the latest-release exists)
+        document.addEventListener("DOMContentLoaded", function() {
+            // In the https://developer.yahoo.com/yql/ put the query
+            // select * from feednormalizer where url='https://github.com/precice/precice/releases.atom' and output='atom_1.0'
+            // and insert the resulting link in the injectScript()
+            injectScript("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D'https%3A%2F%2Fgithub.com%2Fprecice%2Fprecice%2Freleases.atom'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=handleResponse");
+        }, false );
+    </script>
+
     <!-- GitHub buttons, generated via https://buttons.github.io/ -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
