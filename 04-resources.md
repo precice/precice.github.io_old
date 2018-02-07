@@ -43,5 +43,8 @@ Flow above a heated plate | Shell-and-tube heat exchanger
 ## Mailing List
 If you use preCICE, please subscribe to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice). You can report bugs or ask any questions there. We also use this mailing list to inform you about newest developments in preCICE.
 
+## Gitter Chat Room
+In case you prefer a more interactive way of communication, preCICE has a [chat room on Gitter](https://gitter.im/precice/Lobby). If you use GitHub or Twitter, then you can simply login with your account, from any device. Feel free to ask us anything there!
+
 ## Source Code Documentation
 If you want to contribute to preCICE, you can use our [source code documentation](https://ipvs.informatik.uni-stuttgart.de/sgs/precice/docs/), which is auto-generated for some branches from time to time.
