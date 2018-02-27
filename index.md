@@ -1,11 +1,11 @@
 ---
 layout: default
-title:
+title: "Home"
 permalink: /
 ---
 
 
-# Welcome to <img src="../assets/precice.png" height="60px" style="margin-bottom: -16px;">
+# Welcome to <img src="../assets/precice.png" alt="preCICE" height="60px" style="margin-bottom: -16px;">
 
 <p id="latest-release">
     <!-- This will be replaced by the handleResponse() when the page is loaded -->
