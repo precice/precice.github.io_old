@@ -41,3 +41,8 @@ This website is maintained by
     Institut für parallele und verteilte Systeme, Universität Stuttgart
     Universitätsstraße 38 | 70569 Stuttgart | Germany
     Tel: +49 (0)711 685 88427
+
+<p>
+    <img src="../assets/doughnuts.JPG" alt="preCICE doughnuts" style="max-width:100%" >
+    <em>preCICE is tasty because it is made with love by its contributors</em>
+</p>
