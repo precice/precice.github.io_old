@@ -36,8 +36,8 @@ Function mapping include contributions from neighboring nodes.
 No. Using files would be very slow. The preCICE participants communicate either
 through TCP/IP sockets or through MPI ports.
 
-Additionally, each process of each participant communicates with any other
-process of any other participant directly, without any central instance ("server").
+Additionally, any processes that need to communicate, do so directly (Peer-to-Peer),
+without needing to go through any central instance ("server").
 
 ## Can preCICE be used for volume coupling?
 
@@ -52,8 +52,9 @@ introductory section of our [reference paper](../publications).
 
 When comparing preCICE to other software, look for the following key points:
 
-* **Library approach:** There is no central executable ("server") required
-in preCICE, something that allows for great flexibility. You can easily make
+* **Library approach:** preCICE is _not_ a framework which is used to call the
+participating solvers, but a library which the solvers call.
+This allows for great flexibility: you can easily make
 your own in-house solvers use the preCICE library and you can allocate different
 computational resources for each participant, using the same tools that you
 may already use.
