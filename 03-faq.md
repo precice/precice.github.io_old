@@ -45,7 +45,7 @@ Yes, but it will be computationally expensive. preCICE is mainly designed to
 couple simulations that share a common surface boundary. In this case, all the
 coupled volume nodes should be specified in the coupling mesh.
 
-## What are some advantages of preCICE in comparison to other coupling software?
+## What are the advantages of preCICE in comparison to other coupling software?
 
 Such a list would be difficult to maintain, however you can have a look at the
 introductory section of our [reference paper](../publications).
@@ -82,3 +82,11 @@ and actively maintained on [GitHub](https://github.com/precice/). Of course, as
 with any free software, the documentation of a commercial alternative may be
 more extended. However, we constantly improve our [documentation](https://github.com/precice/precice/wiki), based on the
 feedback we get from preCICE users.
+
+## How is preCICE funded?
+
+preCICE is orginally an academic software. We have received public funding from several projects that use and develop preCICE. This applies currently, e.g., to the DFG-funded [ExaFSA project](http://ipvs.informatik.uni-stuttgart.de/SGS/EXAFSA/index.php), part of [SPPEXA](http://www.sppexa.de/). Recently, DFG had also a specific call on [research software sustainability](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/call_proposal_software), in which we were succesful: The project preDOM should take preCICE to the next level, from a prototype to a wide-spread sustainable scientific software. Specific funding for basic un-academic things such as tutorials, outreach, or documentation has been granted. Besides this public funding, both active academic developer groups, [SCCS](https://www5.in.tum.de/wiki/index.php/Home) at the Technical University of Munich and [SGS](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs) at the University of Stuttgart, also invest own internal funding.  
+
+Since 2017, the spin-off [COPLON](http://coplon.de/) provides support, training, and software solutions for industrials users of preCICE. 
+
+Last, as any open-source project, preCICE could only survive through its user's and developer's  passionate commitment also in their after-work hours.       
