@@ -10,15 +10,19 @@ preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.d
 
 Main contributors (in alphabetical order):
 
-+ Dr. Janos Benk (@benkjanos), Alumni of Technical University of Munich
-+ Dr. Bernhard Gatzhammer (@gatzhamm), Alumni of Technical University of Munich
++ Gerasimos Chourdakis, M.Sc. (@MakisH), Technical University of Munich
 + Prof. Dr. [Miriam Mehl](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl), University of Stuttgart
 + Dipl.-Ing. [Florian Lindner](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner) (@floli), University of Stuttgart
 + Alexander Rusch (@arusch), B.Sc., ETH Zürich
-+ [Klaudius Scheufele](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Klaudius.Scheufele), M.Sc., (@scheufks) University of Stuttgart
 + Amin Totounferoush (@atotoun), University of Stuttgart
 + Dr. [Benjamin Uekermann](https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann) (@uekerman), Technical University of Munich
++ [Benjamin Rüth](https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)), M.Sc. (hons) (@BenjaminRueth), Technical University of Munich
 
+
+Previous main contributors
+
++ Dr. Bernhard Gatzhammer (@gatzhamm), Alumni of Technical University of Munich
++ [Klaudius Scheufele](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Klaudius.Scheufele), M.Sc., (@scheufks) University of Stuttgart
 
 Further contributors include (in alphabetical order):
 
@@ -26,7 +30,6 @@ Further contributors include (in alphabetical order):
 + Dr. Atanas Atanasov (@atanasoa), Technical University of Munich
 + Dr. David Blom (@davidsblom), Delft University of Technology
 + Lucia Cheung, M.Sc. (@ludcila), Technical University of Munich
-+ Gerasimos Chourdakis, M.Sc. (@MakisH), Technical University of Munich
 + Saumitra Vinay Joshi, M.Sc. (@saumitravinayjoshi), Technical University of Munich
 + Dr. Harald Klimach (@haraldkl), University of Siegen
 + Alexander Shukaev, M.Sc. (@alexander-shukaev), Technical University of Munich
