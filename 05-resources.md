@@ -23,9 +23,9 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
 
 #### Fluid-Structure Interaction
 
-[Interactive tutorial][] | [1D FSI Example][] | [FSI with SU2 and CalculiX][]
+[Web-based tutorial][] | [1D FSI Example][] | [FSI with SU2 and CalculiX][]
 Flow in a channel with an elastic flap | Flow through a deformable tube | Flow in a channel with an elastic flap
-<a href="http://run.coplon.de/" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/run-precice.png" alt="Interactive tutorial"></a> | <a href="https://github.com/precice/precice/wiki/1D-Example" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/FSI_1D_example.png" alt="Case description and results"></a> | <a href="https://github.com/precice/precice/wiki/FSI-tutorial" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/FSI_SU2_CalculiX_Flap.png" alt="Case description and results"></a>
+<a href="http://run.coplon.de/" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/run-precice.png" alt="Web-based tutorial"></a> | <a href="https://github.com/precice/precice/wiki/1D-Example" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/FSI_1D_example.png" alt="Case description and results"></a> | <a href="https://github.com/precice/precice/wiki/FSI-tutorial" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/FSI_SU2_CalculiX_Flap.png" alt="Case description and results"></a>
 
 #### Conjugate Heat Transfer
 
@@ -38,7 +38,7 @@ Flow above a heated plate | Shell-and-tube heat exchanger
 [FSI with SU2 and CalculiX]: https://github.com/precice/precice/wiki/FSI-tutorial
 [CHT with OpenFOAM]: https://github.com/precice/openfoam-adapter/wiki/Tutorial-for-CHT:-Flow-over-a-heated-plate
 [CHT with OpenFOAM and CalculiX]: https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX
-[Interactive tutorial]: http://run.coplon.de/
+[Web-based tutorial]: http://run.coplon.de/
 
 ## Mailing List
 If you use preCICE, please subscribe to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice). You can report bugs or ask any questions there. We also use this mailing list to inform you about newest developments in preCICE.
