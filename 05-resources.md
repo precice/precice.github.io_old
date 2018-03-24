@@ -19,15 +19,15 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
 + Background information on specific features of preCICE
 + Information how to contribute to preCICE
 
-### Tutorials
+## Tutorials
 
-#### Fluid-Structure Interaction
+### Fluid-Structure Interaction
 
 [Web-based tutorial][] | [1D FSI Example][] | [FSI with SU2 and CalculiX][]
 Flow in a channel with an elastic flap | Flow through a deformable tube | Flow in a channel with an elastic flap
 <a href="http://run.coplon.de/" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/run-precice.png" alt="Web-based tutorial"></a> | <a href="https://github.com/precice/precice/wiki/1D-Example" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/FSI_1D_example.png" alt="Case description and results"></a> | <a href="https://github.com/precice/precice/wiki/FSI-tutorial" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/FSI_SU2_CalculiX_Flap.png" alt="Case description and results"></a>
 
-#### Conjugate Heat Transfer
+### Conjugate Heat Transfer
 
 [CHT with OpenFOAM][] | [CHT with OpenFOAM and CalculiX][]
 Flow above a heated plate | Shell-and-tube heat exchanger
@@ -40,11 +40,18 @@ Flow above a heated plate | Shell-and-tube heat exchanger
 [CHT with OpenFOAM and CalculiX]: https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX
 [Web-based tutorial]: http://run.coplon.de/
 
-## Mailing List
+## Contact
+
+### Mailing List
 If you use preCICE, please subscribe to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice). You can report bugs or ask any questions there. We also use this mailing list to inform you about newest developments in preCICE.
 
-## Gitter Chat Room
+### Gitter Chat Room
 In case you prefer a more interactive way of communication, preCICE has a [chat room on Gitter](https://gitter.im/precice/Lobby). If you use GitHub or Twitter, then you can simply login with your account, from any device. Feel free to ask us anything there!
 
-## Source Code Documentation
+### Report a bug
+If you found a bug, please open an issue on [GitHub](https://github.com/precice). Please discuss only one specific problem in each issue and remember that they are not the correct place to ask for general support. Prefer using our mailing list or Gitter for this.
+
+## For developers
+
+### Source Code Documentation
 If you want to contribute to preCICE, you can use our [source code documentation](https://ipvs.informatik.uni-stuttgart.de/sgs/precice/docs/), which is auto-generated for some branches from time to time.
