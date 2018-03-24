@@ -108,6 +108,14 @@ code {
     margin-right: auto;
 }
 
+a img {
+    border: 0 none;
+}
+
+.link_image {
+    text-decoration: none;
+}
+
 @media(max-width: 768px) {
     .testimonial_content img {
         max-width:300px;
