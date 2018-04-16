@@ -15,7 +15,7 @@ Scientific project leaders:
 
 Main contributors (in alphabetical order):
 
-+ Gerasimos Chourdakis, M.Sc. (@MakisH), Technical University of Munich
++ Gerasimos Chourdakis, M.Sc. (https://www5.in.tum.de/wiki/index.php/Gerasimos_Chourdakis,_M.Sc.) (@MakisH), Technical University of Munich
 + Dipl.-Ing. [Florian Lindner](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner) (@floli), University of Stuttgart
 + [Benjamin Rüth](https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)), M.Sc. (hons) (@BenjaminRueth), Technical University of Munich
 + Alexander Rusch (@arusch), B.Sc., ETH Zürich
