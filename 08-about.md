@@ -23,7 +23,7 @@ Main contributors (in alphabetical order):
 + Dr. [Benjamin Uekermann](https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann) (@uekerman), Technical University of Munich
 
 
-Previous main contributors
+Previous main contributors:
 
 + Dr. Bernhard Gatzhammer (@gatzhamm), Alumni of Technical University of Munich
 + [Klaudius Scheufele](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Klaudius.Scheufele), M.Sc., (@scheufks) University of Stuttgart
