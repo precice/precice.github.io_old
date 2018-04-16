@@ -8,11 +8,15 @@ permalink: /about/
 
 preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.de/wiki/index.php/Home) at the Technical University of Munich and at the [Institute for Parallel and Distributed Systems](http://www.ipvs.uni-stuttgart.de/) at the University of Stuttgart.
 
+Scientific project leaders:
+
++ Prof. Dr. [Hans-Joachim Bungartz](https://www5.in.tum.de/wiki/index.php/Univ.-Prof._Dr._Hans-Joachim_Bungartz), Technical University of Munich
++ Prof. Dr. [Miriam Mehl](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl), University of Stuttgart
+
 Main contributors (in alphabetical order):
 
 + Gerasimos Chourdakis, M.Sc. (@MakisH), Technical University of Munich
 + Dipl.-Ing. [Florian Lindner](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner) (@floli), University of Stuttgart
-+ Prof. Dr. [Miriam Mehl](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl), University of Stuttgart
 + [Benjamin Rüth](https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)), M.Sc. (hons) (@BenjaminRueth), Technical University of Munich
 + Alexander Rusch (@arusch), B.Sc., ETH Zürich
 + Amin Totounferoush (@atotoun), University of Stuttgart
