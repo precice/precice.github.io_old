@@ -36,3 +36,6 @@ permalink: /features/
 + Restart mechanism for coupling schemes
 + Coupling mesh export to VTK
 + Automatic XML reference generation
+
+### Missing a feature?
+We describe our plans for the future in our [Roadmap](https://github.com/precice/precice/wiki/Roadmap). If you don't see what you need there, [let us know](../resources/#contact)!
