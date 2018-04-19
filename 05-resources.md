@@ -13,6 +13,8 @@ We recommend that you use the [latest release](https://github.com/precice/precic
 
 Official adapters are available under the [preCICE organization](https://github.com/precice).
 
+If you want to write about preCICE, you may also download some [additional material](https://github.com/precice/precice.github.io/material), including images that you can use and modify. As with the rest of this website, this material is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
 ## Wiki
 Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where you can find lots of useful information.
 + Detailed explanation on building and known pitfalls
