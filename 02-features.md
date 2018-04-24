@@ -7,7 +7,7 @@ permalink: /features/
 # Features
 
 ### General
-+ preCICE is cross-plattform. While we mostly test on Linux, preCICE has also been succesfully used on Windowns and macOS.
++ preCICE is cross-plattform. While we mostly test on Linux, preCICE has also been succesfully used on Windows and macOS.
 + Scalability for most features has been shown up to 10,000 cores.
 
 ### Steering
