@@ -114,6 +114,7 @@ a img {
 
 .link_image {
     text-decoration: none;
+    margin-left: 2px;
 }
 
 @media(max-width: 768px) {
