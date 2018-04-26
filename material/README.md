@@ -1,5 +1,3 @@
-# preCICE-related graphics
-
 Here you may find a few graphics files that you can use when writing about preCICE. **If you need any other graphics, just ask!**
 
 * `coupled`: Figures for coupling two or more solvers, where the distinction to "solver", "adapter", and "preCICE library" is shown.
