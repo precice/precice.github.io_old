@@ -11,10 +11,10 @@ permalink: /testimonials/
   <p>We are always happy to hear about interesting projects that use preCICE. Please <a href="../resources/#contact">write us</a> about your project!</p>
   
   
-  <h2>Fluid-Structure-Acoustics Interaction with OpenFOAM and deal.II</h2>
+  <h2>Development of adapter-codes for multiphysical simulations</h2>
   <div class="testimonial_content">
      <div>
-     The LSM group at the University of Siegen is currently developing different adapter codes to run partitioned simulations with preCICE. In a first step, we have coupled an in-house code of deal.II and foam-extend to simulate conjugate heat transfers. In a next step, we have coupled an extended version of a deal.II code for solid mechanics and a foam-extend code for fluid mechanics to run FSI simulations using an ALE approach. Here, the foam-extend code is based on the pimpleDyMFoam solver to capture the mesh movement. We are currently looking forward to extend the FSI coupling with acoustics. preCICE offers sophisticated post-processing methods, which successfully accelerated the convergence of our implicit coupling methods and stabilized the whole coupled system. Also, the possible use of peer-to-peer communications in case of parallel simulations was a reason for us to choose preCICE as coupling library.
+At the University of Siegen (LSM group), we are currently developing different adapter codes to run partitioned simulations using preCICE as the coupling interface. In a first step, we coupled two solvers within the frameworks of deal.II and OpenFOAM (foam-extend) to simulate conjugate heat transfer problems. In a second project, a structural solver based on deal.II was coupled with an OpenFOAM solver, capable of handling dynamic mesh movement for FSI simulations. preCICE offers sophisticated post-processing methods, which considerably improved the convergence and stability of our implicitly coupled system. Additionally, the capability of peer-to-peer communication in case of parallel simulations was a reason to choose preCICE. From our point of view, preCICE proved to be a very promising and efficient coupling strategy supported by a commited community of users and a dedicated developer team. For the future, we would like to further improve our self-written adapters as well as test and integrate available adapters 
     <div class="authors"><a href="https://www.mb.uni-siegen.de/lfst/index.html.en?lang=en">Dr.-Ing. Fettah Aldudak</a>, Chair of Fluid Mechanics, University of Siegen, Germany</div>
        </div>
 </div>
