@@ -65,7 +65,7 @@
                 item = response.query.results.feed.entry[i];
 
                 // Format the text, which contains the link, the title, and the date.
-                text += '<strong>News:</strong> preCICE release <a href="' + 'https://github.com' + item.link.href + '">' + item.title + '</a>' + ' available since ' + formatDate(item.updated);
+                text += '<strong>News:</strong> preCICE release <a href="' + item.link.href + '">' + item.title + '</a>' + ' available since ' + formatDate(item.updated);
             }
             // Replace the content of 'latest-release'
             document.getElementById('latest-release').innerHTML = text;
