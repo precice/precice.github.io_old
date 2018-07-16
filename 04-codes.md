@@ -32,7 +32,7 @@ If you would like to contribute to these adapters, please [contact us](../resour
 * **Can write:** Displacement, Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
 * **Can read:** Force, Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
 * **Tutorials:**
-   * [FSI with SU2 and CalculiX](https://github.com/precice/precice/wiki/FSI-tutorial) (also [in your browser](http://run.coplon.de/))
+   * [FSI with SU2 and CalculiX](https://github.com/precice/precice/wiki/FSI-tutorial) (also [in your browser](http://run.precice.org/))
    * [CHT with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX)
 
 ### OpenFOAM
@@ -61,7 +61,7 @@ Today, there are two major "flavors" of OpenFOAM, one developed by the OpenFOAM 
 * **Can write:** Force
 * **Can read:** Displacement
 * **Tutorials:**
-  * [FSI with SU2 and CalculiX](https://github.com/precice/precice/wiki/FSI-tutorial) (also [in your browser](http://run.coplon.de/))
+  * [FSI with SU2 and CalculiX](https://github.com/precice/precice/wiki/FSI-tutorial) (also [in your browser](http://run.precice.org/))
 
 ### Code_Aster
 
