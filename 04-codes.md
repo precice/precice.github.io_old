@@ -132,7 +132,7 @@ Ateles is an in-house acoustics far-field solver, developed at the [University o
 
 ## Legacy adapters
 
-These adapters and/or the respective solvers are not maintained anymore, but are
+These adapters and/or the respective solvers are not maintained and might not work anymore, but are
 listed here as an example of what other projects have used preCICE in the past.
 
 ### Carat++
@@ -144,7 +144,7 @@ listed here as an example of what other projects have used preCICE in the past.
 
 ### EFD
 
-[EFD](https://github.com/precice/efd) was a free/open-source "Eulerian finite difference (EFD) fluid solver", which was coupled to preCICE. It was developed at the [Chair of Scientific Computing of the Technical University of Munich](https://www5.in.tum.de/). This solver is not maintained anymore.
+[EFD](https://github.com/precice/efd) was a free/open-source "Eulerian finite difference (EFD) fluid solver", which was coupled to preCICE. It was developed at the [Chair of Scientific Computing of the Technical University of Munich](https://www5.in.tum.de/). This solver is not maintained anymore and does not work with the current version of preCICE.
 
 * **Contact:** The solver is hosted on [GitHub](https://github.com/precice/efd).
 * **Typical applications:** Fluid-Structure Interaction (fluid part).
@@ -161,5 +161,5 @@ listed here as an example of what other projects have used preCICE in the past.
 
 [Peano](http://www.peano-framework.org/) is a free/open-source (GPL) "Framework for Solvers on Spacetree Grids", developed from 2009-2012 at the [Chair of Scientific Computing at the Technical University of Munich](https://www5.in.tum.de/) and today at the [Durham University](https://community.dur.ac.uk/tobias.weinzierl/home.html).
 
-* **Contact:** A preCICE adapter has been developed in the past at the [Chair of Scientific Computing at the Technical University of Munich](https://www5.in.tum.de/). This adapter is not maintained anymore.
+* **Contact:** A preCICE adapter has been developed in the past at the [Chair of Scientific Computing at the Technical University of Munich](https://www5.in.tum.de/). This adapter is not maintained anymore and does not work with the current version of preCICE.
 * **Typical applications:** Fluid-Structure Interaction (flow part)
