@@ -12,7 +12,7 @@ permalink: /features/
 
 ### Steering
 + Minimally-invasive, high-level API in C, C++, Fortran 90/95, Fortran 2003, and Python
-+ Parallel or sequential coupling between 2 or more coupling participants, configurable at run-time
++ Parallel or sequential coupling between two or more coupling participants, configurable at run-time
 + Timestep size can be set by either participant or by preCICE.
 + Subcycling
 
@@ -31,9 +31,7 @@ permalink: /features/
 + Extrapolation in time
 
 ### Other Features
-+ Geometry interface for fixed-grid solvers, import via STL
 + Python action interface to modify coupling data at run-time
-+ Restart mechanism for coupling schemes
 + Coupling mesh export to VTK
 + Automatic XML reference generation
 
