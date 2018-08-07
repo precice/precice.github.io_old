@@ -40,5 +40,7 @@ In contrast to other coupling software, preCICE is prepared for the next generat
 
 + **Multi coupling:** preCICE allows the robust coupling of an arbitrary number of solvers to one overall simulation.
 
+Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precice.github.io/tree/master/material/slides/preCICE_Slides.pdf) 
+
 ## To cite preCICE, please use:  
 > H.-J. Bungartz, F. Lindner, B. Gatzhammer, M. Mehl, K. Scheufele, A. Shukaev, and B. Uekermann: preCICE - A Fully Parallel Library for Multi-Physics Surface Coupling. *Computers and Fluids*, [Elsevier](http://www.sciencedirect.com/science/article/pii/S0045793016300974), **141**, 250--258, 2016. [BibTeX](../assets/precice.bib)
