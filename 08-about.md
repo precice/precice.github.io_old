@@ -19,6 +19,7 @@ Main contributors (in alphabetical order):
 + Dipl.-Ing. [Florian Lindner](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner) (@floli), University of Stuttgart
 + [Benjamin Rüth](https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)), M.Sc. (hons) (@BenjaminRueth), Technical University of Munich
 + Alexander Rusch (@arusch), B.Sc., ETH Zürich
++ Frederic Simonis (@fsimonis), M.Sc., Technical University of Munich
 + [Amin Totounferoush](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Amin.Totounferoush) (@atotoun), University of Stuttgart
 + Dr. [Benjamin Uekermann](https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann) (@uekerman), Technical University of Munich
 
@@ -37,6 +38,7 @@ Further contributors include (in alphabetical order):
 + Saumitra Vinay Joshi, M.Sc. (@saumitravinayjoshi), Technical University of Munich
 + Dr. Harald Klimach (@haraldkl), University of Siegen
 + Alexander Shukaev, M.Sc. (@alexander-shukaev), Technical University of Munich
++ Alex Trujillo, B.Sc. (@Alex-tru), University of Uppsala
 + Peter Vollmer, M.Sc. (@petervollmer), University of Stuttgart
 
 The conceptual ideas of preCICE are not completely new, preCICE is an advancement of FSI*ce, which has been developed by Dr. Markus Brenk.
