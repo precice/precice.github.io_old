@@ -37,6 +37,7 @@ Further contributors include (in alphabetical order):
 + Lucia Cheung, M.Sc. (@ludcila), Technical University of Munich
 + Saumitra Vinay Joshi, M.Sc. (@saumitravinayjoshi), Technical University of Munich
 + Dr. Harald Klimach (@haraldkl), University of Siegen
++ Dmytro Sashko, B.Sc. (@shkodm), Technical University of Munich
 + Alexander Shukaev, M.Sc. (@alexander-shukaev), Technical University of Munich
 + Alex Trujillo, B.Sc. (@Alex-tru), University of Uppsala
 + Peter Vollmer, M.Sc. (@petervollmer), University of Stuttgart
