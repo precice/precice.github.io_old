@@ -8,7 +8,7 @@ permalink: /codes/
 
 There are various codes - free and proprietary ones - currently coupled with preCICE. If you want to add your code here, please let us know.
 
-**Official adapters:** [CalculiX](#calculix), [OpenFOAM](#openfoam), [SU2](#su2), [Code_Aster](#code_aster), [Fluent](#fluent), [COMSOL Multiphysics](#comsol-multiphysics)
+**Official adapters:** [CalculiX](#calculix), [OpenFOAM](#openfoam), [SU2](#su2), [Code_Aster](#code_aster), [FEniCS](#fenics), [Fluent](#fluent), [COMSOL Multiphysics](#comsol-multiphysics)
 
 **Third-party adapters:** [Ateles (APES)](#ateles-apes), [Alya System](#alya-system), [FASTEST](#fastest), [FEAP](#feap)
 
