@@ -76,6 +76,16 @@ Today, there are two major "flavors" of OpenFOAM, one developed by the OpenFOAM 
 * **Tutorials:** No step-by-step tutorials are available at the moment. However,
 you may like to have a look at Section 4.4 of [Lucia Cheung Yau's master's thesis](https://www5.in.tum.de/pub/Cheung2016_Thesis.pdf).
 
+### FEniCS
+
+[FEniCS](https://fenicsproject.org/) is an open-source (LGPLv3) computing platform for solving partial differential equations (PDEs), developed by the [FEniCS Community](https://fenicsproject.org/community/).
+
+* **Adapter's repository:** [precice/fenics-adapter](https://github.com/precice/fenics-adapter) (Python)
+* **Status:** <span style="color:red">experimental</span>
+* **FEniCS versions:** 2017.2.0
+* **Tutorials:** No step-by-step tutorials are available at the moment. However,
+you may like to have a look at the tutorials in the adapter repository.
+
 ### Fluent
 
 [Fluent](https://www.ansys.com/products/fluids/ansys-fluent) is a commercial Finite Volume solver for CFD, developed by [ANSYS](https://www.ansys.com/).
