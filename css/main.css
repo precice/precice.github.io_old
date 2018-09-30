@@ -76,6 +76,14 @@ footer {
     min-height: 80px;
 }
 
+.twitter_content {
+  margin: auto;
+  width: 80%;
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 30px;
+}
+
 nav {
     float: right;
 }
