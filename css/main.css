@@ -95,9 +95,15 @@ code {
 
 .testimonial_content img {
        display: block;
-       max-width:400px;
+       max-width: 300px;
        height: auto;
-       margin-right: 25px;
+       width: auto;
+       margin: auto;
+}
+
+.testimonial_content div {
+	margin-left: 2%;
+	width: 80%;
 }
 
 .tutorial_image {
@@ -131,10 +137,10 @@ a img {
     .testimonial_content {
         display:block;
     }
-	.testimonal_content img {
-		max-width: 100%;
-		margin: 0;
-	}
+    .testimonal_content img {
+	max-width: 300px;
+	margin: 0;
+    }
     .tutorial_image {
         max-width: 150px;
     }
