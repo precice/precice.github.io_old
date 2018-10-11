@@ -39,6 +39,7 @@ Further contributors include (in alphabetical order):
 + Dr. Harald Klimach (@haraldkl), University of Siegen
 + Dmytro Sashko, B.Sc. (@shkodm), Technical University of Munich
 + Alexander Shukaev, M.Sc. (@alexander-shukaev), Technical University of Munich
++ David Sommer (@S0mmerD), University of Stuttgart
 + Alex Trujillo, B.Sc. (@Alex-tru), University of Uppsala
 + Peter Vollmer, M.Sc. (@petervollmer), University of Stuttgart
 
