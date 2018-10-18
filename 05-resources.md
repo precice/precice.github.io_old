@@ -59,4 +59,4 @@ Follow us on [Twitter](https://twitter.com/preCICE_org) and on [ResearchGate](ht
 ## For developers
 
 ### Source Code Documentation
-If you want to contribute to preCICE, you can use our [source code documentation](https://ipvs.informatik.uni-stuttgart.de/sgs/precice/docs/), which is auto-generated for some branches from time to time.
+If you want to contribute to preCICE, you can use our [source code documentation](https://xgm.de/precice/docs/), which is auto-generated for some branches from time to time.
