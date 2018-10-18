@@ -59,4 +59,4 @@ Follow us on [Twitter](https://twitter.com/preCICE_org) and on [ResearchGate](ht
 ## For developers
 
 ### Source Code Documentation
-If you want to contribute to preCICE, you can use our [source code documentation](https://xgm.de/precice/docs/), which is auto-generated for some branches from time to time.
+The [source code documentation](https://xgm.de/precice/docs/), is auto-generated daily for the most important branches. It also provides the definitve [API documentation](http://xgm.de/precice/docs/develop/classprecice_1_1SolverInterface.html).
