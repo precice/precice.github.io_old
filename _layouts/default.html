@@ -13,7 +13,7 @@
     <!-- Twitter and github timelines -->
     <h1> Latest updates </h1>
     <div class="social_feed">
-    <div class="twitter_content"> 
+    <div class="news_timeline">
     <a class="twitter-timeline" href="https://twitter.com/preCICE_org?ref_src=twsrc%5Etfw"
       data-tweet-limit="3"
       data-height="300"
@@ -22,7 +22,7 @@
       > Fetching latest tweets... </a>
     </div>
 
-    <div class="twitter_content">
+    <div class="news_timeline">
       <div id="github-feed"> <a> Fetching github activity...</a> </div>
     </div>
     </div>
@@ -104,13 +104,12 @@
     </script>
     <!-- Github activity -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="../assets/external/github-activity-0.1.5.min.css">
+    <link rel="stylesheet" href="assets/external/github-activity-0.1.5.min.css">
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="../assets/external/github-activity-0.1.5.min.js"></script>
+    <script type="text/javascript" src="assets/external/github-activity-0.1.5.min.js"></script>
     <script type="text/javascript">
     GitHubActivity.feed({
       username: "precice",
-      repository: "precice", // optional
       selector: "#github-feed",
 
       limit: 5 // optional

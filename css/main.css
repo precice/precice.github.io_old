@@ -76,12 +76,19 @@ footer {
     min-height: 80px;
 }
 
-.twitter_content {
-  margin: auto;
-  width: 80%;
-  height: 300px;
-  overflow-y: scroll;
+.social_feed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 30px;
+}
+
+.social_feed .news_timeline {
+  height: 300px;
+  margin: auto;
+  width: 45%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 nav {
