@@ -10,23 +10,6 @@
 
     {{ content }}
 
-    <!-- Twitter and github timelines -->
-    <h1> Latest updates </h1>
-    <div class="social_feed">
-    <div class="news_timeline">
-    <a class="twitter-timeline" href="https://twitter.com/preCICE_org?ref_src=twsrc%5Etfw"
-      data-tweet-limit="3"
-      data-height="300"
-      data-width="800"
-      data-chrome="nofooter transparent"
-      > Fetching latest tweets... </a>
-    </div>
-
-    <div class="news_timeline">
-      <div id="github-feed"> <a> Fetching github activity...</a> </div>
-    </div>
-    </div>
-
     {% include footer.html %}
 
     </div>
@@ -99,23 +82,6 @@
 
     <!-- GitHub buttons, generated via https://buttons.github.io/ -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <!-- Twitter feed -->
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-    </script>
-    <!-- Github activity -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="assets/external/github-activity-0.1.5.min.css">
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/external/github-activity-0.1.5.min.js"></script>
-    <script type="text/javascript">
-    GitHubActivity.feed({
-      username: "precice",
-      selector: "#github-feed",
-
-      limit: 5 // optional
-    });
-    </script>
-
 
   </body>
 
