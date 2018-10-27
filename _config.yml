@@ -10,6 +10,6 @@ markdown: kramdown
 collections:
   - publications
 
-gems:
+plugins:
   - jekyll-mentions
 
