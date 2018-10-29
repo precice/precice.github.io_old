@@ -1,0 +1,5 @@
+main {
+    @include xy-grid-container(960px, $grid-container-padding);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
