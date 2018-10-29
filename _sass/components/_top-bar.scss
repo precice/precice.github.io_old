@@ -14,6 +14,26 @@ $topbar-padding: 0.5rem !default;
 /// @type Color
 $topbar-background: $light-gray !default;
 
+/// Topbar border color
+/// @type Color
+$topbar-border-color: get-color(secondary) !default;
+
+/// Topbar border size
+/// @type Number
+$topbar-border-size: 2px !default;
+
+/// Topbar border offset
+/// @type Number
+$topbar-border-offset: 4px !default;
+
+/// Topbar brand font color
+/// @type Color
+$topbar-brand-color: $white !default;
+
+/// Topbar brand background color
+/// @type Color
+$topbar-brand-background: get-color(secondary) !default;
+
 /// Background color submenus within the top bar. Usefull if $topbar-background is transparent.
 /// @type Color
 $topbar-submenu-background: $topbar-background !default;
@@ -44,6 +64,8 @@ $topbar-unstack-breakpoint: medium !default;
 
   padding: $topbar-padding;
 
+  border-bottom: $topbar-border-color solid $topbar-border-size;
+
   &,
   ul {
     background-color: $topbar-background;
@@ -70,6 +92,21 @@ $topbar-unstack-breakpoint: medium !default;
 
   input.button { // sass-lint:disable-line no-qualifying-elements
     width: auto;
+  }
+
+  li {
+      margin-bottom: $topbar-border-offset;
+  }
+
+  .is-logo {
+      background-color: $topbar-brand-background;
+      color: $topbar-brand-color;
+      font-weight: bold;
+      a {
+          color: inherit;
+      }
+      margin-bottom: 0;
+      padding-bottom: $topbar-border-offset;
   }
 }
 

@@ -39,6 +39,7 @@ $titlebar-icon-spacing: 0.25rem !default;
     padding: $titlebar-padding;
     background: $titlebar-background;
     color: $titlebar-color;
+    display: none;
 
     @if $global-flexbox {
       display: flex;
