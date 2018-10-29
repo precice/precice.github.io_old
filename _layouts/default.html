@@ -4,28 +4,11 @@
   {% include head.html %}
 
   <body>
-
-    <div class="wrapper">
     {% include header.html %}
 
+    <main class="grid-container">
     {{ content }}
-
-    <!-- Twitter and github timelines -->
-    <h1> Latest updates </h1>
-    <div class="social_feed">
-    <div class="news_timeline">
-    <a class="twitter-timeline" href="https://twitter.com/preCICE_org?ref_src=twsrc%5Etfw"
-      data-tweet-limit="3"
-      data-height="300"
-      data-width="800"
-      data-chrome="nofooter transparent"
-      > Fetching latest tweets... </a>
-    </div>
-
-    <div class="news_timeline">
-      <div id="github-feed"> <a> Fetching github activity...</a> </div>
-    </div>
-    </div>
+    </main>
 
     {% include footer.html %}
 

@@ -1,0 +1,45 @@
+footer {
+    .newsfeed {
+        background-color: $dark-gray;
+        & h1 {
+            color: $light-gray;
+            width: 100%;
+        }
+        .feed {
+            @include card-container( $light-gray, $black, 1rem, 1px solid $dark-gray, 10px);
+        }
+    }
+
+    .navigation {
+        background-color: $medium-gray;
+        color: $dark-gray;
+        a {
+            color: inherit;
+            font-weight: bold;
+            &:hover {
+                color: get-color(secondary);
+            }
+        }
+    }
+
+    .social {
+        background-color: $dark-gray;
+        color: $light-gray;
+        a {
+            color: inherit;
+            &:hover {
+                color: get-color(secondary);
+            }
+        }
+    }
+
+    .copyright {
+        background-color: $medium-gray;
+        color: $dark-gray;
+        padding: 1rem 0 1rem 0;
+        a {
+            color: inherit;
+            font-weight: bold;
+        }
+    }
+}
