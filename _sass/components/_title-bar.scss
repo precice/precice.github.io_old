@@ -80,5 +80,9 @@ $titlebar-icon-spacing: 0.25rem !default;
     display: inline-block;
     vertical-align: middle;
     font-weight: $titlebar-text-font-weight;
+
+    a {
+        color: inherit;
+    }
   }
 }
