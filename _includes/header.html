@@ -16,7 +16,7 @@
           {% if ipage.title %}
             {% if ipage.title !="Home" %}
               <li>
-                <a href="{{ ipage.url | prepend: site.baseurl }}" {{ if ipage.url == page.url }} class="is-active" {{ endif }}>{{ ipage.title }}</a>
+                <a href="{{ ipage.url | prepend: site.baseurl }}"{% if ipage.url == page.url %} class="is-active" {% endif %}>{{ ipage.title }}</a>
               </li>
             {% endif %}
           {% endif %}
