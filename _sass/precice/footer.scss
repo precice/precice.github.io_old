@@ -7,6 +7,12 @@ footer {
         }
         .feed {
             @include card-container( $light-gray, $black, 1rem, 1px solid $dark-gray, 10px);
+            #github-feed {
+                height: 100%;
+            }
+            .card-section {
+                background: $white;
+            }
         }
     }
 
