@@ -7,45 +7,40 @@ permalink: /publications/
 <div class="home">
 
   <h1>Publications</h1>
+
   <h2>To cite preCICE, please use:</h2>
-  <blockquote>
-      <p class="publication-title">
-        <a href="http://www.sciencedirect.com/science/article/pii/S0045793016300974">preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling</a>
-      </p>
-      <p>
-          <span class="authors">Hans-Joachim Bungartz, Bernhard Gatzhammer, Florian Lindner, Miriam Mehl, Klaudius Scheufele, Alexander Shukaev, Benjamin Uekermann</span>,
-          <span class="year">2016</span>
-      </p>
-      <div class="publication-content">
-          <p>
-              In Computers and Fluids, Volume 141, p. 250––258. Elsevier.
-          </p>
-      </div>
-      <a href="../assets/precice.bib">BibTeX</a>
-  </blockquote>
-
-
+  <article class="publication">
+    <header>
+      <a href="http://www.sciencedirect.com/science/article/pii/S0045793016300974">preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling</a>
+    </header>
+    <section>
+      <span class="authors">Hans-Joachim Bungartz, Bernhard Gatzhammer, Florian Lindner, Miriam Mehl, Klaudius Scheufele, Alexander Shukaev, Benjamin Uekermann</span>,
+      <span class="year">2016</span>
+    </section>
+    <section>
+      <p>In Computers and Fluids, Volume 141, p. 250––258. Elsevier.</p>
+    </section>
+    <footer>
+      <a class="button" href="../assets/precice.bib">BibTeX</a>
+    </footer>
+  </article>
 
   {% assign years = site.publications | group_by:"year" | sort:"title" %}
   {% for year in years reversed %}
   <h2>{{ year.name }}</h2>
-  <ul class="publications">
-    {% for pub in year.items %}
-    <li>
-      <p class="publication-title">
+  {% for pub in year.items %}
+    <article class="publication">
+      <header>
         {% if pub.pub-url %}
-        <a href={{ pub.pub-url }}>{{ pub.title }}</a>
+          <a href={{ pub.pub-url }}>{{ pub.title }}</a>
         {% else %}
-        {{ pub.title }}
+          {{ pub.title }}
         {% endif %}
-      </p>
-
-      <p><span class="authors">{{ pub.authors }}</span>, <span class="year">{{ pub.year }}</span></p>
-      <div class="publication-content">{{ pub.content }}</div>
-    </li>
-    {% endfor %}
-  </ul>
-
+      </header>
+      <section><span class="authors">{{ pub.authors }}</span>, <span class="year">{{ pub.year }}</span></section>
+      <section>{{ pub.content }}</section>
+    </article>
   {% endfor %}
 
+  {% endfor %}
 </div>
