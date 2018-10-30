@@ -59,6 +59,9 @@
 //  54. Tooltip
 //  55. Top Bar
 //  56. Xy Grid
+//
+//  Custom
+//  57. Publication
 
 @import 'util/util';
 
@@ -873,7 +876,7 @@ $xy-block-grid-max: 8;
 $publication-background: $white;
 $publication-divider-background: $light-gray;
 $publication-font-color: $body-font-color;
-$publication-margin: 0 0 $global-margin 0;
+$publication-margin: $global-margin;
 $publication-border: 1px solid $light-gray;
 $publication-radius: 5px;
 $publication-shadow: none;

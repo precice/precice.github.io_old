@@ -10,9 +10,9 @@ $publication-divider-background: $light-gray !default;
 /// @type Color
 $publication-font-color: $body-font-color !default;
 
-/// Margin around a publication container.
+/// Bottom margin of a publication container.
 /// @type Number
-$publication-margin: 0 0 $global-margin 0 !default;
+$publication-margin: $global-margin !default;
 
 /// Color of breadcrumb links.
 /// @type Color
@@ -41,7 +41,7 @@ $publication-shadow: none !default;
         background-color: $publication-divider-background;
     }
 
-    > p {
+    > section {
         @include card-section;
 
         > .authors {
