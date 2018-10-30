@@ -867,3 +867,13 @@ $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
 
+// 57. Publication
+// ---------------
+
+$publication-background: $white;
+$publication-divider-background: $light-gray;
+$publication-font-color: $body-font-color;
+$publication-margin: 0 0 $global-margin 0;
+$publication-border: 1px solid $light-gray;
+$publication-radius: 5px;
+$publication-shadow: none;

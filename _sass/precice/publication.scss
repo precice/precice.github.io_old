@@ -1,0 +1,61 @@
+/// Background color of the publication:
+/// @type Color
+$publication-background: $white !default;
+
+/// Background color of the header and footer
+/// @type Color
+$publication-divider-background: $light-gray !default;
+
+/// Font Color of the publication
+/// @type Color
+$publication-font-color: $body-font-color !default;
+
+/// Margin around a publication container.
+/// @type Number
+$publication-margin: 0 0 $global-margin 0 !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$publication-border: 1px solid $light-gray !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$publication-radius: $global-radius !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$publication-shadow: none !default;
+
+.publication {
+    @include card-container(
+    $publication-background,
+    $publication-font-color,
+    $publication-margin,
+    $publication-border,
+    $publication-radius,
+    $publication-shadow
+    );
+
+    > header {
+        @include card-divider;
+        background-color: $publication-divider-background;
+    }
+
+    > p {
+        @include card-section;
+
+        > .authors {
+            font-style: italic;
+        }
+
+        > .year {
+            font-weight: bold;
+        }
+    }
+
+    & > footer {
+        @include card-divider;
+        background-color: $publication-divider-background;
+        justify-content: center;
+    }
+}
