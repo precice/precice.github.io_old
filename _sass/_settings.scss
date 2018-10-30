@@ -881,3 +881,15 @@ $publication-margin: 2rem;
 $publication-border: 1px solid get-color(primary);
 $publication-radius: 5px;
 $publication-shadow: none;
+
+// 58. Testimonial
+// ---------------
+
+$testimonial-background: $white;
+$testimonial-divider-background: get-color(primary);
+$testimonial-divider-color: $white;
+$testimonial-font-color: $body-font-color;
+$testimonial-margin: 2rem;
+$testimonial-border: 1px solid get-color(primary);
+$testimonial-radius: $global-radius;
+$testimonial-shadow: none;

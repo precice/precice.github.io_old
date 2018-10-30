@@ -17,7 +17,7 @@ permalink: /testimonials/
 </section>
 
 {% for testimonial in site.testimonials %}
-  <article>
+  <article class="testimonial">
     <header>
       <h2>{{ testimonial.title }}</h2>
     </header>
@@ -28,11 +28,11 @@ permalink: /testimonials/
     {% endif %}
     <section>
       {{ testimonial.content }}
+    </section>
     <section>
-    <address>
       <span class="authors">
       {{ testimonial.authors }}
       </span>
-    </address>
+    </section>
   </article>
 {% endfor %}

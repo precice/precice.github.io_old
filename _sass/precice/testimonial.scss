@@ -1,0 +1,67 @@
+/// Background color of the testimonial:
+/// @type Color
+$testimonial-background: $white !default;
+
+/// Background color of the header and footer
+/// @type Color
+$testimonial-divider-background: $light-gray !default;
+
+
+/// Font Color of the testimonial header and footer
+/// @type Color
+$testimonial-divider-color: $white;
+
+/// Font Color of the testimonial
+/// @type Color
+$testimonial-font-color: $body-font-color !default;
+
+/// Bottom margin of a testimonial container.
+/// @type Number
+$testimonial-margin: $global-margin !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$testimonial-border: 1px solid $light-gray !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$testimonial-radius: $global-radius !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$testimonial-shadow: none !default;
+
+.testimonial {
+    @include card-container(
+    $testimonial-background,
+    $testimonial-font-color,
+    $testimonial-margin,
+    $testimonial-border,
+    $testimonial-radius,
+    $testimonial-shadow
+    );
+
+    > header {
+        @include card-divider;
+        background-color: $testimonial-divider-background;
+        color: $testimonial-divider-color;
+        font-weight: bold;
+        a {
+            color: inherit;
+            font-weight: inherit;
+        }
+    }
+
+    > figure {
+        @include card-section;
+        text-align: center;
+    }
+
+    > section {
+        @include card-section;
+
+        > .authors {
+            font-style: italic;
+        }
+    }
+}
