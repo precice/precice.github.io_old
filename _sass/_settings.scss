@@ -874,9 +874,10 @@ $xy-block-grid-max: 8;
 // ---------------
 
 $publication-background: $white;
-$publication-divider-background: $light-gray;
+$publication-divider-background: get-color(primary);
+$publication-divider-color: $white;
 $publication-font-color: $body-font-color;
-$publication-margin: $global-margin;
-$publication-border: 1px solid $light-gray;
+$publication-margin: 2rem;
+$publication-border: 1px solid get-color(primary);
 $publication-radius: 5px;
 $publication-shadow: none;

@@ -6,6 +6,11 @@ $publication-background: $white !default;
 /// @type Color
 $publication-divider-background: $light-gray !default;
 
+
+/// Font Color of the publication header and footer
+/// @type Color
+$publication-divider-color: $white;
+
 /// Font Color of the publication
 /// @type Color
 $publication-font-color: $body-font-color !default;
@@ -39,6 +44,12 @@ $publication-shadow: none !default;
     > header {
         @include card-divider;
         background-color: $publication-divider-background;
+        color: $publication-divider-color;
+        font-weight: bold;
+        a {
+            color: inherit;
+            font-weight: inherit;
+        }
     }
 
     > section {
@@ -55,7 +66,13 @@ $publication-shadow: none !default;
 
     & > footer {
         @include card-divider;
-        background-color: $publication-divider-background;
+        background-color: $publication-background;
+        border-top: $publication-border;
         justify-content: center;
+
+        color: $publication-divider-color;
+        a {
+            color: inherit;
+        }
     }
 }

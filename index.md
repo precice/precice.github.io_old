@@ -43,4 +43,18 @@ In contrast to other coupling software, preCICE is prepared for the next generat
 Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precice.github.io/tree/master/material/slides/preCICE_Slides.pdf) 
 
 ## To cite preCICE, please use:  
-> H.-J. Bungartz, F. Lindner, B. Gatzhammer, M. Mehl, K. Scheufele, A. Shukaev, and B. Uekermann: preCICE - A Fully Parallel Library for Multi-Physics Surface Coupling. *Computers and Fluids*, [Elsevier](http://www.sciencedirect.com/science/article/pii/S0045793016300974), **141**, 250--258, 2016. [BibTeX](../assets/precice.bib)
+<article class="publication">
+  <header>
+    <a href="http://www.sciencedirect.com/science/article/pii/S0045793016300974">preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling</a>
+  </header>
+  <section>
+    <span class="authors">Hans-Joachim Bungartz, Bernhard Gatzhammer, Florian Lindner, Miriam Mehl, Klaudius Scheufele, Alexander Shukaev, Benjamin Uekermann</span>,
+    <span class="year">2016</span>
+  </section>
+  <section>
+    <p>In Computers and Fluids, Volume 141, p. 250––258. Elsevier.</p>
+  </section>
+  <footer>
+    <a class="button" href="../assets/precice.bib">BibTeX</a>
+  </footer>
+</article>
