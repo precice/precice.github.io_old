@@ -66,6 +66,10 @@ $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif !defau
 /// @type Boolean
 $body-antialiased: true !default;
 
+/// Global img max-height
+/// @type Number
+$global-img-max-height: 100% !default;
+
 /// Global value used for margin on components.
 /// @type Number
 $global-margin: 1rem !default;
@@ -177,6 +181,7 @@ $alert-color: get-color(alert);
 
     // Grid defaults to get images and embeds to work properly
     max-width: 100%;
+    max-height: $global-img-max-height;
     height: auto;
     -ms-interpolation-mode: bicubic;
   }

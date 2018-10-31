@@ -100,6 +100,7 @@ $global-flexbox: true;
 $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
 $global-color-pick-contrast-tolerance: 0;
+$global-img-max-height: 20rem;
 $print-transparent-backgrounds: true;
 
 @include add-foundation-colors;
