@@ -47,11 +47,13 @@ The conceptual ideas of preCICE are not completely new, preCICE is an advancemen
 
 This website is maintained by
 
-    Florian Lindner
-    Simulation großer Systeme
-    Institut für parallele und verteilte Systeme, Universität Stuttgart
-    Universitätsstraße 38 | 70569 Stuttgart | Germany
-    Tel: +49 (0)711 685 88427
+<tt>
+Florian Lindner  
+Simulation großer Systeme  
+Institut für parallele und verteilte Systeme, Universität Stuttgart  
+Universitätsstraße 38 | 70569 Stuttgart | Germany  
+Tel: +49 (0)711 685 88427
+</tt>
 
 <figure>
     <img src="../assets/doughnuts.JPG" alt="preCICE doughnuts" style="max-width:100%" >
