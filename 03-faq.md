@@ -52,14 +52,16 @@ introductory section of our [reference paper](../publications).
 
 When comparing preCICE to other software, look for the following key points:
 
-* **Library approach:** preCICE is _not_ a framework which is used to call the
+Library approach
+: preCICE is _not_ a framework which is used to call the
 participating solvers, but a library which the solvers call.
 This allows for great flexibility: you can easily make
 your own in-house solvers use the preCICE library and you can allocate different
 computational resources for each participant, using the same tools that you
 may already use.
 
-* **Performance:** preCICE is designed especially for massively parallel simulations.
+Performance
+: preCICE is designed especially for massively parallel simulations.
 For this reason, each process of each participant communicates directly with
 any other processes of other participants, without passing through a
 central bottleneck. Additionally, all the communication happens using either
@@ -67,17 +69,21 @@ the network TCP/IP sockets or MPI ports, methods much faster than exchanging
 files through the filesystem. Last but not least, advanced numerical methods
 can accelerate the coupling already in the algorithmic level.
 
-* **Coupling algorithms:** preCICE supports fully implicit (strong) coupling,
+Coupling algorithms
+: preCICE supports fully implicit (strong) coupling,
 accelerated by sophisticated and robust quasi-Newton algorithms. These stabilize
 and accelerate the solution.
 
-* **Data mapping techniques:** preCICE offers several first and second order
+Data mapping techniques
+: preCICE offers several first and second order
 methods to map the interface values between non-matching meshes,
 including Radial-Basis Functions.
 
-* **Multi-coupling:** preCICE can easily be used to couple more than two simulations.
+Multi-coupling
+: preCICE can easily be used to couple more than two simulations.
 
-* **License:** preCICE is free software, distributed under the GNU LGPL3 license
+License
+: preCICE is free software, distributed under the GNU LGPL3 license
 and actively maintained on [GitHub](https://github.com/precice/). Of course, as
 with any free software, the documentation of a commercial alternative may be
 more extended. However, we constantly improve our [documentation](https://github.com/precice/precice/wiki), based on the
