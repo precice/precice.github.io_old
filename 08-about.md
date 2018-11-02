@@ -53,7 +53,7 @@ This website is maintained by
     Universitätsstraße 38 | 70569 Stuttgart | Germany
     Tel: +49 (0)711 685 88427
 
-<p>
+<figure>
     <img src="../assets/doughnuts.JPG" alt="preCICE doughnuts" style="max-width:100%" >
-    <em>preCICE is tasty because it is made with love by its contributors</em>
-</p>
+    <figcaption>preCICE is tasty because it is made with love by its contributors</figcaption>
+</figure>
