@@ -14,3 +14,14 @@ bundle install
 bundle exec jekyll serve
 ```
 You can now view website locally in your browser at http://localhost:4000 
+
+## SASS
+
+We use the front-end framework foundation 6.4.5.
+The sass files are located  in `_sass`, the main settings file is `_settings.scss`.
+Due to the restrictions of jekyll's strict mode we are not allowed to specify multiple search paths.
+Thus, the sass-roots of foundation and its dependecies `stylesheets` and `normalize` are merged in the folder.
+
+The folder `precice` contains further project specific files, these are all imported by `_precice.scss` at the root.
+
+`css/main.scss` is the main file that will be compiled into the provided css file.
