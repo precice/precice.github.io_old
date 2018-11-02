@@ -1,0 +1,65 @@
+/// Background color of the example:
+/// @type Color
+$example-background: $card-background !default;
+
+/// Background color of the header and footer
+/// @type Color
+$example-divider-background: $card-divider-background !default;
+
+/// Font Color of the example header and footer
+/// @type Color
+$example-divider-color: $white;
+
+/// Font Color of the example
+/// @type Color
+$example-font-color: $card-font-color !default;
+
+/// Bottom margin of a example container.
+/// @type Number
+$example-margin: $global-margin !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$example-border: 1px solid $light-gray !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$example-radius: $global-radius !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$example-shadow: none !default;
+
+.examples {
+    @include xy-grid;
+    > article {
+        @include xy-cell;
+        @include breakpoint(large) {
+            @include xy-cell(1 of 2);
+        }
+        @include card-container($example-background, $example-font-color, $example-margin, $example-border, $example-radius, $example-shadow);
+
+        > header {
+            @include card-divider;
+
+            background-color: $example-divider-background;
+            color: $example-divider-color;
+            font-weight: bold;
+
+            a {
+                color: inherit;
+                font-weight: inherit;
+            }
+        }
+
+        > figure {
+            @include card-section;
+
+            text-align: center;
+        }
+
+        > section {
+            @include card-section;
+        }
+    }
+}

@@ -25,22 +25,97 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
 
 ### Fluid-Structure Interaction
 
-[Web-based tutorial][] | [1D FSI Example][] | [FSI with SU2 and CalculiX][]
-Flow in a channel with an elastic flap | Flow through a deformable tube | Flow in a channel with an elastic flap
-<a href="http://run.precice.org/" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/run-precice.png" alt="Web-based tutorial"></a> | <a href="https://github.com/precice/precice/wiki/1D-Example" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/FSI_1D_example.png" alt="Case description and results"></a> | <a href="https://github.com/precice/precice/wiki/FSI-tutorial" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/FSI_SU2_CalculiX_Flap.png" alt="Case description and results"></a>
+<div class="examples">
+
+  <article>
+    <header>
+      <a href="http://run.precice.org/" title="Go to the tutorial">
+        Web-based tutorial
+      </a>
+    </header>
+    <figure>
+      <img src="../assets/tutorials/run-precice.png" alt="Web-based tutorial">
+    </figure>
+    <section>
+      <p>
+        Flow in a channel with an elastic flap
+      </p>
+    </section>
+  </article>
+
+  <article>
+    <header>
+      <a href="https://github.com/precice/precice/wiki/1D-Example" title="Go to the tutorial">
+        1D FSI Example
+      </a>
+    </header>
+    <figure>
+      <img src="../assets/tutorials/FSI_1D_example.png" alt="Web-based tutorial">
+    </figure>
+    <section>
+      <p>
+        Flow through a deformable tube
+      </p>
+    </section>
+  </article>
+
+  <article>
+    <header>
+      <a href="https://github.com/precice/precice/wiki/FSI-tutorial" title="Go to the tutorial">
+        FSI with SU2 and CalculiX
+      </a>
+    </header>
+    <figure>
+      <img src="../assets/tutorials/run-precice.png" alt="Web-based tutorial">
+    </figure>
+    <section>
+      <p>
+        Flow in a channel with an elastic flap
+      </p>
+    </section>
+  </article>
+
+</div>
 
 ### Conjugate Heat Transfer
 
-[CHT with OpenFOAM][] | [CHT with OpenFOAM and CalculiX][]
-Flow above a heated plate | Shell-and-tube heat exchanger
-<a href="https://github.com/precice/openfoam-adapter/wiki/Tutorial-for-CHT:-Flow-over-a-heated-plate" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/CHT_OpenFOAM_OpenFOAM_Plate.png" alt="Case description and results"></a>| <a href="https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX" title="Go to the tutorial"><img class="tutorial_image" src="../assets/tutorials/CHT_OpenFOAM_CalculiX_HeatExchanger.jpg" alt="Case description and results"></a>
 
 
-[1D FSI Example]: https://github.com/precice/precice/wiki/1D-Example
-[FSI with SU2 and CalculiX]: https://github.com/precice/precice/wiki/FSI-tutorial
-[CHT with OpenFOAM]: https://github.com/precice/openfoam-adapter/wiki/Tutorial-for-CHT:-Flow-over-a-heated-plate
-[CHT with OpenFOAM and CalculiX]: https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX
-[Web-based tutorial]: http://run.precice.org/
+<div class="examples">
+
+  <article>
+    <header>
+      <a href="https://github.com/precice/openfoam-adapter/wiki/Tutorial-for-CHT:-Flow-over-a-heated-plate" title="Go to the tutorial">
+        CHT with OpenFOAM
+      </a>
+    </header>
+    <figure>
+      <img src="../assets/tutorials/CHT_OpenFOAM_OpenFOAM_Plate.png" alt="Case description and results">
+    </figure>
+    <section>
+      <p>
+        Flow above a heated plate 
+      </p>
+    </section>
+  </article>
+
+  <article>
+    <header>
+      <a href="https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX" title="Go to the tutorial">
+        CHT with OpenFOAM and CalculiX
+      </a>
+    </header>
+    <figure>
+      <img src="../assets/tutorials/CHT_OpenFOAM_CalculiX_HeatExchanger.jpg" alt="Case description and results">
+    </figure>
+    <section>
+      <p>
+       Shell-and-tube heat exchanger
+      </p>
+    </section>
+  </article>
+
+</div>
 
 ## Contact
 
