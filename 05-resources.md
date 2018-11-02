@@ -66,7 +66,7 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
       </a>
     </header>
     <figure>
-      <img src="../assets/tutorials/run-precice.png" alt="Web-based tutorial">
+      <img src="../assets/tutorials/FSI_SU2_CalculiX_Flap.png" alt="Web-based tutorial">
     </figure>
     <section>
       <p>
