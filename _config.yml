@@ -14,3 +14,5 @@ collections:
 plugins:
   - jekyll-mentions
 
+sass:
+  style: compressed
