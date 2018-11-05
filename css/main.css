@@ -105,7 +105,9 @@ code {
 
 
 .testimonial_content {
-        display:flex;
+      display:flex;
+      align-items: flex-start;
+      justify-content: center;
 }
 
 .testimonial_content img {
@@ -118,7 +120,7 @@ code {
 
 .testimonial_content div {
 	margin-left: 2%;
-	width: 80%;
+  width: 100%;
 }
 
 .tutorial_image {
