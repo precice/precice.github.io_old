@@ -1,0 +1,4 @@
+// This prevents the responsive title-bar to flash up on page load
+body > header .title-bar {
+    display: none;
+}
