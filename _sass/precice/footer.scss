@@ -3,20 +3,42 @@ body > footer {
     .newsfeed {
         padding-top: 1.5rem;
         background-color: $dark-gray;
-        & h1 {
-            color: $light-gray;
-            width: 100%;
-        }
-        .feed {
-            @include card-container( $light-gray, $black, 1rem, 1px solid $dark-gray, 10px);
-            #github-feed {
-                height: 100%;
+        .newsfeed-wrapper {
+            @include xy-grid-container;
+            & h1 {
+                color: $light-gray;
+                width: 100%;
             }
-            .card-section {
-                background: $white;
-            }
-            .card-divider {
-                background: $medium-gray;
+            .feeds {
+                @include xy-grid;
+                .feed {
+                    @include xy-cell();
+                    @include breakpoint(medium) {
+                        @include xy-cell(1 of 2);
+                    }
+
+                    @include card-container( $light-gray, $black, 1rem, 1px solid $dark-gray, 10px);
+                    #github-feed {
+                        height: 100%;
+                    }
+                    & > .feed-content {
+                        @include card-section;
+                        padding: 0;
+                        background: $white;
+                        overflow-y:auto;
+                        @include breakpoint(medium){
+                            height:20rem;
+                        }
+                    }
+                    & > .feed-footer {
+                        @include card-divider;
+                        background: $medium-gray;
+                        padding: 0;
+                        & > ul {
+                            width: 100%;
+                        }
+                    }
+                }
             }
         }
     }
