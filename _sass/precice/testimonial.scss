@@ -31,6 +31,10 @@ $testimonial-radius: $global-radius !default;
 /// @type Color
 $testimonial-shadow: none !default;
 
+.testimonials {
+    @include xy-grid;
+}
+
 .testimonial {
     @include card-container(
     $testimonial-background,
@@ -40,6 +44,13 @@ $testimonial-shadow: none !default;
     $testimonial-radius,
     $testimonial-shadow
     );
+
+    @include breakpoint(large) {
+        @include xy-cell(1 of 2);
+        &.large {
+            @include xy-cell(full);
+        }
+    }
 
     > header {
         @include card-divider;
@@ -59,7 +70,7 @@ $testimonial-shadow: none !default;
             @include xy-grid;
             > figure {
                 @include xy-cell(1 of 3);
-                @include flex-align-self(center);
+                @include flex-align-self(middle);
             }
             > section {
                 @include xy-cell(auto);

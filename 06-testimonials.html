@@ -16,8 +16,10 @@ permalink: /testimonials/
   </div>
 </section>
 
+<div class="testimonials">
+
 {% for testimonial in site.testimonials %}
-  <article class="testimonial">
+  <article class="testimonial{% if testimonial.img-url %} large{% endif %}">
     <header>
       <h3>{{ testimonial.title }}</h3>
     </header>
@@ -37,3 +39,5 @@ permalink: /testimonials/
     </section>
   </article>
 {% endfor %}
+
+</div>
