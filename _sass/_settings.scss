@@ -878,10 +878,13 @@ $publication-background: $white;
 $publication-divider-background: get-color(primary);
 $publication-divider-color: $white;
 $publication-font-color: $body-font-color;
-$publication-margin: 2rem;
+$publication-margin: 0.5rem;
 $publication-border: 1px solid get-color(primary);
 $publication-radius: $global-radius;
 $publication-shadow: none;
+$publication-header-padding: 0.5rem;
+$publication-section-padding: 0.5rem 1rem;
+$publication-footer-padding: 0.5rem;
 
 // 58. Testimonial
 // ---------------

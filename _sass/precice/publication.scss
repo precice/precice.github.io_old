@@ -19,6 +19,10 @@ $publication-font-color: $body-font-color !default;
 /// @type Number
 $publication-margin: $global-margin !default;
 
+$publication-header-padding: $global-padding !default;
+$publication-section-padding: $global-padding !default;
+$publication-footer-padding: $global-padding !default;
+
 /// Color of breadcrumb links.
 /// @type Color
 $publication-border: 1px solid $light-gray !default;
@@ -46,6 +50,7 @@ $publication-shadow: none !default;
         background-color: $publication-divider-background;
         color: $publication-divider-color;
         font-weight: bold;
+        padding: $publication-header-padding;
         a {
             color: inherit;
             font-weight: inherit;
@@ -54,6 +59,7 @@ $publication-shadow: none !default;
 
     > section {
         @include card-section;
+        padding: $publication-section-padding;
 
         > .authors {
             font-style: italic;
@@ -69,6 +75,7 @@ $publication-shadow: none !default;
         background-color: $publication-background;
         border-top: $publication-border;
         justify-content: center;
+        padding: $publication-footer-padding;
 
         color: $publication-divider-color;
         a {
