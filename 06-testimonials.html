@@ -19,20 +19,21 @@ permalink: /testimonials/
 {% for testimonial in site.testimonials %}
   <article class="testimonial">
     <header>
-      <h2>{{ testimonial.title }}</h2>
+      <h3>{{ testimonial.title }}</h3>
     </header>
-    {% if testimonial.img-url %}
-    <figure>
-      <img src="{{ testimonial.img-url}}">
-    </figure>
-    {% endif %}
     <section>
-      {{ testimonial.content }}
-    </section>
-    <section>
-      <span class="authors">
-      {{ testimonial.authors }}
-      </span>
+      {% if testimonial.img-url %}
+        <figure>
+          <img src="{{ testimonial.img-url}}">
+        </figure>
+      {% endif %}
+      <section>
+        {{ testimonial.content }}
+
+        <span class="authors">
+          {{ testimonial.authors }}
+        </span>
+      </section>
     </section>
   </article>
 {% endfor %}

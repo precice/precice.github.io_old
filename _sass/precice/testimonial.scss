@@ -52,16 +52,28 @@ $testimonial-shadow: none !default;
         }
     }
 
-    > figure {
-        @include card-section;
-        text-align: center;
-    }
-
     > section {
         @include card-section;
 
-        > .authors {
-            font-style: italic;
+        @include breakpoint(large){
+            @include xy-grid;
+            > figure {
+                @include xy-cell(1 of 3);
+                @include flex-align-self(center);
+            }
+            > section {
+                @include xy-cell(auto);
+            }
         }
+
+        > figure {
+            text-align: center;
+        }
+
+        > section {
+            > .authors {
+                font-style: italic;
+            }
+    }
     }
 }
