@@ -2,20 +2,6 @@
 
   {% include newsfeed.html %}
 
-  <section class="navigation">
-    <nav>
-      <ul class="menu align-center">
-        {% for ipage in site.pages %}
-          {% if ipage.title %}
-            <li>
-              <a href="{{ ipage.url | prepend: site.baseurl }}">{{ ipage.title }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
-  </section>
-
   <section class="social">
     <nav>
       <ul class="menu align-center">
