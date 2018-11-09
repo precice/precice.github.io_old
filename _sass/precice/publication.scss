@@ -51,10 +51,11 @@ $publication-shadow: none !default;
 
     > header {
         @include card-divider;
-        background-color: $publication-divider-background;
-        color: $publication-divider-color;
+        background-color: $white;
+        color: $publication-divider-background;
         font-weight: bold;
         padding: $publication-header-padding;
+        border-bottom: $publication-border;
         a {
             color: inherit;
             font-weight: inherit;
