@@ -43,6 +43,7 @@ In contrast to other coupling software, preCICE is prepared for the next generat
 Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precice.github.io/tree/master/material/slides/preCICE_Slides.pdf) 
 
 ## To cite preCICE, please use:  
+<div class="publications">
 <article class="publication">
   <header>
     <a href="http://www.sciencedirect.com/science/article/pii/S0045793016300974">preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling</a>
@@ -58,3 +59,4 @@ Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precic
     <a class="button" href="../assets/precice.bib">BibTeX</a>
   </footer>
 </article>
+</div>

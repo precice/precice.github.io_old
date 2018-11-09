@@ -35,6 +35,10 @@ $publication-radius: $global-radius !default;
 /// @type Color
 $publication-shadow: none !default;
 
+.publications {
+    @include xy-grid-container(($global-width / 10 * 9));
+}
+
 .publication {
     @include card-container(
     $publication-background,

@@ -9,6 +9,7 @@ permalink: /publications/
   <h1>Publications</h1>
 
   <h2>To cite preCICE, please use:</h2>
+  <div class="publications">
   <article class="publication">
     <header>
       <a href="http://www.sciencedirect.com/science/article/pii/S0045793016300974">preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling</a>
@@ -24,10 +25,12 @@ permalink: /publications/
       <a class="button" href="../assets/precice.bib">BibTeX</a>
     </footer>
   </article>
+  </div>
 
   {% assign years = site.publications | group_by:"year" | sort:"title" %}
   {% for year in years reversed %}
   <h2>{{ year.name }}</h2>
+  <div class="publications">
   {% for pub in year.items %}
     <article class="publication">
       <header>
@@ -41,6 +44,7 @@ permalink: /publications/
       <section>{{ pub.content }}</section>
     </article>
   {% endfor %}
+  </div>
 
   {% endfor %}
 </div>
