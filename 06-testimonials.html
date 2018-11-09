@@ -6,16 +6,6 @@ permalink: /testimonials/
 
 <h1>Testimonials</h1>
 
-<section class="callout">
-  <h2>Do you use preCICE?</h2>
-  <p>
-    We are always happy to hear about interesting projects that use preCICE.
-  </p>
-  <div class="text-center">
-    <a class="button secondary" href="../resources/#contact">Tell us your story!</a>
-  </div>
-</section>
-
 <div class="testimonials">
 
 {% for testimonial in site.testimonials %}
@@ -39,5 +29,18 @@ permalink: /testimonials/
     </section>
   </article>
 {% endfor %}
+<article class="testimonial large">
+  <header>
+    <h3>Do you use preCICE?</h3>
+  </header>
+  <section>
+    <p>
+      We are always happy to hear about interesting projects that use preCICE.
+    </p>
+  </section>
+  <section>
+      <a class="button primary float-center" href="../resources/#contact">Tell us your story!</a>
+  </section>
+</article>
 
 </div>
