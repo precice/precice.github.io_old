@@ -51,8 +51,6 @@ Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precic
   <section>
     <span class="authors">Hans-Joachim Bungartz, Bernhard Gatzhammer, Florian Lindner, Miriam Mehl, Klaudius Scheufele, Alexander Shukaev, Benjamin Uekermann</span>,
     <span class="year">2016</span>
-  </section>
-  <section>
     <p>In Computers and Fluids, Volume 141, p. 250––258. Elsevier.</p>
   </section>
   <footer>

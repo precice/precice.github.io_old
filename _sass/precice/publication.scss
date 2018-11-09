@@ -73,6 +73,10 @@ $publication-shadow: none !default;
         > .year {
             font-weight: bold;
         }
+
+        > p {
+            margin-top: 0.25rem;
+        }
     }
 
     & > footer {
