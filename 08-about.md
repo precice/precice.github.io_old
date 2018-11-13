@@ -36,7 +36,7 @@ Further contributors include (in alphabetical order):
 + Dr. David Blom (@davidsblom), Delft University of Technology
 + Lucia Cheung, M.Sc. (@ludcila), Technical University of Munich
 + Richard Hertrich (@richahert), Technical University of Munich
-+ Saumitra Vinay Joshi, M.Sc., Technical University of Munich
++ Saumitra Vinay Joshi (@saumiJ), M.Sc., Technical University of Munich
 + Dr. Harald Klimach (@haraldkl), University of Siegen
 + Peter Meisrimel, M.Sc., Lund University
 + Derek Risseeuw, B.Sc. (@derekrisseeuw), Delft University of Technology
