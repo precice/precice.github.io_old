@@ -4,63 +4,43 @@ title: Testimonials
 permalink: /testimonials/
 ---
 
-<div class="home">
-
 <h1>Testimonials</h1>
 
-  <p>We are always happy to hear about interesting projects that use preCICE. Please <a href="../resources/#contact">write us</a> about your project!</p>
-  
-  
-  <h2>FLEXCFD – Aeronautic Fluid-Structure Interaction Problems</h2>
-  <div class="testimonial_content">
-     <img src="../assets/testimonial_cira.png">
-     <div>
-The project FLEXCFD aims to upgrade our in-house developed aerodynamic solver in order to simulate unsteady configurations with flexible surfaces in relative motion. Our main objective is to simulate dynamic fluid-structure interaction, with fluid and structural solvers synchronized by a partitioned approach. We foresee aeronautic applications, such as flexible aircrafts and rotorcrafts. We choose preCICE for several reasons: the open source environment, availability of non-linear structural dynamics, the possibility to test both explicit and implicit coupling, and the numerous already implemented interpolation and exchange methods for forces and deformations. <a href="http://www.eccm-ecfd2018.org/admin/files/filePaper/p1493.pdf">Learn more</a>
-    <div class="authors"><a href="https://www.cira.it/en/competences/fluid-mechanics/__subnav/fluidodinamica-numerica">Davide Cinquegrana, PhD</a>, CFD Laboratory, CIRA - Italian Aerospace Research Centre, Italy</div>
-       </div>
-</div>  
-  
-  <h2>Development of adapter-codes for multiphysical simulations</h2>
-  <div class="testimonial_content">
-     <div>
-At the University of Siegen (LSM group), we are currently developing different adapter codes to run partitioned simulations using preCICE as the coupling interface. In a first step, we coupled two solvers within the frameworks of deal.II and OpenFOAM (foam-extend) to simulate conjugate heat transfer problems. In a second project, a structural solver based on deal.II was coupled with an OpenFOAM solver, capable of handling dynamic mesh movement for FSI simulations. preCICE offers sophisticated post-processing methods, which considerably improved the convergence and stability of our implicitly coupled system. Additionally, the capability of peer-to-peer communication in case of parallel simulations was a reason to choose preCICE. From our point of view, preCICE proved to be a very promising and efficient coupling strategy supported by a commited community of users and a dedicated developer team. For the future, we would like to further improve our self-written adapters as well as test and integrate available adapters. 
-    <div class="authors"><a href="https://www.mb.uni-siegen.de/lfst/index.html.en?lang=en">Dr.-Ing. Fettah Aldudak</a>, Chair of Fluid Mechanics, University of Siegen, Germany</div>
-       </div>
-</div>
-  
-  
-  <h2>Fluid-Structure Interaction Modelling of Biomimetics</h2>
-  <div class="testimonial_content">
-     <div>CFD & FSI-RG at University of Strathclyde UK is a Computational Fluid Dynamics & Computational Structural Dynamics research group. Particular interests focus on the investigation for marine renewable energy devices, biomimetics and offshore fluid-structure-interaction research using numerical modelling methods. One of the numerical approaches we are currently using is to integrate our in-house CFD solver with the open-source structural analysis code CalculiX via preCICE, a coupling library for partitioned multi-physics simulations. At this stage, the coupling is successfully implemented with an explicit scheme, which demonstrates that preCICE has potential advantages in data mapping techniques. We selected preCICE not only because of the high-level API features and the advanced coupling techniques, but more importantly, because the preCICE team is always helpful in providing relevant support. We are looking forward to further close collaboration with the preCICE developers in our research for marine bio-inspired and offshore ocean engineering applications.
-    <div class="authors"><a href="http://personal.strath.ac.uk/qing.xiao/index.html">Dr. Qing Xiao</a>, CFD & FSI-RG, University of Strathclyde, UK</div>
-       </div>
-</div>
+<div class="testimonials">
 
+{% for testimonial in site.testimonials %}
+  <article class="testimonial{% if testimonial.img-url %} large{% endif %}">
+    <header>
+      <h3>{{ testimonial.title }}</h3>
+    </header>
+    <section>
+      {% if testimonial.img-url %}
+        <figure>
+          <img src="{{ testimonial.img-url}}">
+        </figure>
+      {% endif %}
+      <section>
+        {{ testimonial.content }}
 
-  <h2>Exascale Simulation of Fluid-Structure-Acoustics Interaction</h2>
-  <div class="testimonial_content">
-     <div>At TU Darmstadt we are interested in engineering applications that involve coupled fluid-structure problems, as well as aeroacoustics. Our research focuses on the development of our CFD/CAA solver FASTEST, which we couple via preCICE to the structural solver FEAP, and to the generic solver Ateles for an acoustic far-field. preCICE is particularly well-equipped for cutting-edge research: it is highly customizable to specific setups, it has a comprehensive debugging output that lets you find errors fast, and it offers high scalability that ensures applicability to large problems in future years. Especially important for us is the availability of advanced coupling schemes and post-processing methods. Over the several years of cooperation with the preCICE developers we have learned to appreciate their quick and competent response to support and feature requests.
-    <div class="authors"><a href="http://www.sc.informatik.tu-darmstadt.de/fg/people/thorsten_reimann.en.jsp">Dr. Thorsten Reimann</a>, Scientific Computing, Technical University Darmstadt, Germany</div>
-       </div>
-</div>
-
-  <h2>Evaluation of Heart Valve Biomechanics</h2>
-  <div class="testimonial_content">
-<img src="../assets/testimonial_kyle.JPG">
-     <div>We are performing research into the design of artificial heart valves, by using experimental and numerical techniques. We are currently using preCICE to couple OpenFOAM (FOAM-Extend, self-written adapter with immersed boundary approach)  and CalculiX (official adapter) to perform numerical simulations of the opening and closing of heart valves. We are using preCICE as it can handle numerical simulations of large sizes with ease as opposed to previous in-house couplers. Furthermore, the quick and efficient coupling techniques reduce our simulation time significantly.
-    <div class="authors"><a href="https://www.ufs.ac.za/health/departments-and-divisions/cardiothoracic-surgery-home">Kyle Davis</a>, University of the Free State, Department of Cardiothoracic Surgery, South Africa</div>
-       </div>
-</div>
-
-
-  <h2>FSI Simulations of High Impact Loads on Structures</h2>
-   <div class="testimonial_content">
-   <img src="../assets/testimonial_vinhtan.png">
-   <div>Understanding high energetic explosive impact loads on structures is fundamental in risk assessment and development of mitigation plans. Using preCICE as a coupling platform, we successfully coupled our in-house unstructured compressible flow solver (muSICS) with an opensource structural FEM solver (CalculiX). Acting as a plug-in to existing solvers, preCICE provided a very efficient coupling mechanism for fluid-structure interaction applications. Collaborating with the developer from preCICE team has been instrumental for us to further develop our inhouse capability for this type of simulation platform. We would continue and look forward to our collaboration with the preCICE team for future applications. <a href="http://www.sciencedirect.com/science/article/pii/S0734743X15000172">Learn more</a>
-     <div class="authors"> <a href="https://www.researchgate.net/profile/Vinh-Tan_Nguyen">Vinh-Tan Nguyen, PhD</a>, Senior Scientist and Capability Group Manager,
-Institute of High Performance Computing, A*STAR, Singapore</div>
-     </div>
-</div>
-
+        <span class="authors">
+          {{ testimonial.authors }}
+        </span>
+      </section>
+    </section>
+  </article>
+{% endfor %}
+<article class="testimonial large">
+  <header>
+    <h3>Do you use preCICE?</h3>
+  </header>
+  <section>
+    <p>
+      We are always happy to hear about interesting projects that use preCICE.
+    </p>
+  </section>
+  <section>
+      <a class="button primary float-center" href="../resources/#contact">Tell us your story!</a>
+  </section>
+</article>
 
 </div>

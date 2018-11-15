@@ -2,10 +2,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#0a76bb">
+    <link rel="icon" sizes="192x192" href="{{ "/assets/icon.png" | prepend: site.base }}">
+    <link rel="apple-touch-icon" sizes="310x310" href="{{ "/assets/icon-310x310.png" | prepend: site.base }}">
+    <meta name="msapplication-square310x310logo" content="{{ "/assets/icon-310x310.png" | prepend: site.base }}">
 
     <title>{{ site.title }}{% if page.title %} :: {{ page.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <!-- motionui for foundation -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
 </head>

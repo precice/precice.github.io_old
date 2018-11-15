@@ -9,7 +9,10 @@ markdown: kramdown
 
 collections:
   - publications
+  - testimonials
 
-gems:
+plugins:
   - jekyll-mentions
 
+sass:
+  style: compressed

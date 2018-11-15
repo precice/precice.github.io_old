@@ -1,15 +1,33 @@
 <header>
+  <nav data-sticky-containter>
+    <div data-sticky data-margin-top="0">
 
-    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <nav>
-      {% for page in site.pages %}
-      {% if page.title %}
-      {% if page.title !="Home" %}
-      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-    </nav>
-    <hr />
+      <div class="title-bar"  data-responsive-toggle="main-menu" data-hide-for="large" aria-hidden="true">
+        <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+        <div class="title-bar-title">
+          <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+        </div>
+      </div>
 
+      <div class="top-bar" id="main-menu">
+        <div class="top-bar-left">
+          <ul class="vertical large-horizontal menu">
+            <li class="show-for-large is-logo">
+              <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+            </li>
+            {% for ipage in site.pages %}
+              {% if ipage.title %}
+                {% if ipage.title !="Home" %}
+                  <li{% if ipage.url == page.url %} class="is-active" {% endif %}>
+                    <a href="{{ ipage.url | prepend: site.baseurl }}">{{ ipage.title }}</a>
+                  </li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
 </header>

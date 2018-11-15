@@ -1,25 +1,50 @@
 <footer>
-    <hr />
-    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+  {% include newsfeed.html %}
+
+  <section class="navigation">
     <nav>
-        <a class="github-button" href="https://github.com/precice/precice" target="_blank" data-show-count="false" aria-label="Star precice/precice on GitHub">GitHub</a>
-        <a class="link_image" href="https://github.com/precice/precice/blob/develop/LICENSE" target="_blank">
-            <img src="https://img.shields.io/github/license/precice/precice.svg" alt="GNU LGPL license">
-        </a>
-        <a class="link_image" href="https://travis-ci.org/precice/precice" target="_blank">
-            <img src="https://travis-ci.org/precice/precice.svg?branch=develop" alt="Build status">
-        </a>
-        <a class="link_image" href="https://github.com/precice/precice/releases/latest" target="_blank">
-            <img src="https://img.shields.io/github/release/precice/precice.svg" alt="Release">
-        </a>
-        <a class="link_image" href="https://gitter.im/precice/Lobby" target="_blank">
-            <img src="https://img.shields.io/badge/chat-on%20gitter-9c3375.svg" alt="Gitter chat">
-        </a>
-        <a class="link_image" href="https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice" target="_blank">
-            <img src="https://img.shields.io/badge/mailing%20list-subscribe-blue.svg" alt="Mailing list">
-        </a>
-        <a class="link_image" href="https://twitter.com/preCICE_org" target="_blank">
-            <img src="https://img.shields.io/badge/twitter-%40preCICE__org-1da1f2.svg" alt="Twitter">
-        </a>
+      <ul class="menu align-center">
+        {% for ipage in site.pages %}
+          {% if ipage.title %}
+            <li>
+              <a href="{{ ipage.url | prepend: site.baseurl }}">{{ ipage.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </nav>
+  </section>
+
+  <section class="social">
+    <nav>
+      <ul class="menu align-center">
+        <li>
+          <a href="https://github.com/precice/precice" target="_blank" data-show-count="false" aria-label="Star precice/precice on GitHub"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a class="link_image" href="https://gitter.im/precice/Lobby" target="_blank" aria-label="Join us on gitter">
+            <i class="fab fa-gitter"></i>
+          </a>
+        </li>
+        <li>
+          <a class="link_image" href="https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice" target="_blank" aria-label="Subscribe to our mailing list">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a class="link_image" href="https://twitter.com/preCICE_org" target="_blank" aria-label="Visit our twitter profile">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+
+  <section class="copyright text-center">
+    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a> <br />
+    This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </section>
 </footer>

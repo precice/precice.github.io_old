@@ -5,7 +5,7 @@ permalink: /
 ---
 
 
-# Welcome to <img src="../assets/precice.png" alt="preCICE" height="60px" style="margin-bottom: -16px;">
+# Welcome to <img src="../assets/precice.png" alt="preCICE">
 
 <p id="latest-release">
     <!-- This will be replaced by the handleResponse() when the page is loaded -->
@@ -24,9 +24,9 @@ The software offers methods for transient equation coupling, communication means
 
 preCICE is an open-source software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice).
 
-<div align="center" style="margin-bottom:10px">
-<img src="../assets/precice_overview.png" style="max-height: 100%; max-width: 100%">
-</div>
+<figure class="text-center">
+  <img src="../assets/precice_overview.png">
+</figure>
 
 ## Unique Features
 
@@ -43,4 +43,18 @@ In contrast to other coupling software, preCICE is prepared for the next generat
 Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precice.github.io/tree/master/material/slides/preCICE_Slides.pdf) 
 
 ## To cite preCICE, please use:  
-> H.-J. Bungartz, F. Lindner, B. Gatzhammer, M. Mehl, K. Scheufele, A. Shukaev, and B. Uekermann: preCICE - A Fully Parallel Library for Multi-Physics Surface Coupling. *Computers and Fluids*, [Elsevier](http://www.sciencedirect.com/science/article/pii/S0045793016300974), **141**, 250--258, 2016. [BibTeX](../assets/precice.bib)
+<div class="publications">
+<article class="publication">
+  <header>
+    <a href="http://www.sciencedirect.com/science/article/pii/S0045793016300974">preCICE -- A Fully Parallel Library for Multi-Physics Surface Coupling</a>
+  </header>
+  <section>
+    <span class="authors">Hans-Joachim Bungartz, Bernhard Gatzhammer, Florian Lindner, Miriam Mehl, Klaudius Scheufele, Alexander Shukaev, Benjamin Uekermann</span>,
+    <span class="year">2016</span>
+    <p>In Computers and Fluids, Volume 141, p. 250––258. Elsevier.</p>
+  </section>
+  <footer>
+    <a class="button" href="../assets/precice.bib">BibTeX</a>
+  </footer>
+</article>
+</div>

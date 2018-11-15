@@ -1,0 +1,94 @@
+/// Background color of the publication:
+/// @type Color
+$publication-background: $white !default;
+
+/// Background color of the header and footer
+/// @type Color
+$publication-divider-background: $light-gray !default;
+
+
+/// Font Color of the publication header and footer
+/// @type Color
+$publication-divider-color: $white;
+
+/// Font Color of the publication
+/// @type Color
+$publication-font-color: $body-font-color !default;
+
+/// Bottom margin of a publication container.
+/// @type Number
+$publication-margin: $global-margin !default;
+
+$publication-header-padding: $global-padding !default;
+$publication-section-padding: $global-padding !default;
+$publication-footer-padding: $global-padding !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$publication-border: 1px solid $light-gray !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$publication-radius: $global-radius !default;
+
+/// Color of breadcrumb links.
+/// @type Color
+$publication-shadow: none !default;
+
+.publications {
+    @include xy-grid-container(($global-width / 10 * 9));
+}
+
+.publication {
+    @include card-container(
+    $publication-background,
+    $publication-font-color,
+    $publication-margin,
+    $publication-border,
+    $publication-radius,
+    $publication-shadow
+    );
+
+    > header {
+        @include card-divider;
+        background-color: $white;
+        color: $publication-divider-background;
+        font-weight: bold;
+        padding: $publication-header-padding;
+        border-bottom: $publication-border;
+        a {
+            color: inherit;
+            font-weight: inherit;
+        }
+    }
+
+    > section {
+        @include card-section;
+        padding: $publication-section-padding;
+
+        > .authors {
+            font-style: italic;
+        }
+
+        > .year {
+            font-weight: bold;
+        }
+
+        > p {
+            margin-top: 0.25rem;
+        }
+    }
+
+    & > footer {
+        @include card-divider;
+        background-color: $publication-background;
+        border-top: $publication-border;
+        justify-content: center;
+        padding: $publication-footer-padding;
+
+        color: $publication-divider-color;
+        a {
+            color: inherit;
+        }
+    }
+}

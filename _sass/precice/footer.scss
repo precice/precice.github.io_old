@@ -1,0 +1,78 @@
+body > footer {
+    margin-top: 2rem;
+    .newsfeed {
+        padding-top: 1.5rem;
+        background-color: $dark-gray;
+        .newsfeed-wrapper {
+            @include xy-grid-container;
+            & h1 {
+                color: $light-gray;
+                width: 100%;
+            }
+            .feeds {
+                @include xy-grid;
+                .feed {
+                    @include xy-cell();
+                    @include breakpoint(medium) {
+                        @include xy-cell(1 of 2);
+                    }
+
+                    @include card-container( $light-gray, $black, 1rem, 1px solid $dark-gray, 10px);
+                    #github-feed {
+                        height: 100%;
+                    }
+                    & > .feed-content {
+                        @include card-section;
+                        padding: 0;
+                        background: $white;
+                        overflow-y:auto;
+                        @include breakpoint(medium){
+                            height:20rem;
+                        }
+                    }
+                    & > .feed-footer {
+                        @include card-divider;
+                        background: $medium-gray;
+                        padding: 0;
+                        & > ul {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .navigation {
+        background-color: $medium-gray;
+        color: $dark-gray;
+        a {
+            color: inherit;
+            font-weight: bold;
+            &:hover {
+                color: get-color(secondary);
+            }
+        }
+    }
+
+    .social {
+        background-color: $dark-gray;
+        color: $light-gray;
+        a {
+            color: inherit;
+            &:hover {
+                color: get-color(secondary);
+            }
+        }
+    }
+
+    .copyright {
+        background-color: $medium-gray;
+        color: $dark-gray;
+        padding: 1rem 0 1rem 0;
+        a {
+            color: inherit;
+            font-weight: bold;
+        }
+    }
+}
