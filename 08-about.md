@@ -35,13 +35,18 @@ Further contributors include (in alphabetical order):
 + Dr. Atanas Atanasov (@atanasoa), Technical University of Munich
 + Dr. David Blom (@davidsblom), Delft University of Technology
 + Lucia Cheung, M.Sc. (@ludcila), Technical University of Munich
-+ Saumitra Vinay Joshi, M.Sc. (@saumitravinayjoshi), Technical University of Munich
++ Richard Hertrich (@richahert), Technical University of Munich
++ Saumitra Vinay Joshi (@saumiJ), M.Sc., Technical University of Munich
 + Dr. Harald Klimach (@haraldkl), University of Siegen
++ Peter Meisrimel, M.Sc., Lund University
++ Derek Risseeuw, B.Sc. (@derekrisseeuw), Delft University of Technology
 + Dmytro Sashko, B.Sc. (@shkodm), Technical University of Munich
++ David Schneider, B.Sc. (@DavidSCN), Technical University of Munich
 + Alexander Shukaev, M.Sc. (@alexander-shukaev), Technical University of Munich
 + David Sommer (@S0mmerD), University of Stuttgart
 + Alex Trujillo, B.Sc. (@Alex-tru), University of Uppsala
 + Peter Vollmer, M.Sc. (@petervollmer), University of Stuttgart
++ Jiho Yang, B.Sc. (@JihoYang), Technical University of Munich
 
 The conceptual ideas of preCICE are not completely new, preCICE is an advancement of FSI*ce, which has been developed by Dr. Markus Brenk.
 
