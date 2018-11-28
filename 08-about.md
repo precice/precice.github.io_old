@@ -18,7 +18,7 @@ Main contributors (in alphabetical order):
 + [Gerasimos Chourdakis](https://www5.in.tum.de/wiki/index.php/Gerasimos_Chourdakis,_M.Sc.), M.Sc.  (@MakisH), Technical University of Munich
 + Dipl.-Ing. [Florian Lindner](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner) (@floli), University of Stuttgart
 + [Benjamin Rüth](https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)), M.Sc. (hons) (@BenjaminRueth), Technical University of Munich
-+ Alexander Rusch (@arusch), B.Sc., ETH Zürich
++ Alexander Rusch (@arusch), M.Sc., ETH Zürich
 + Frédéric Simonis (@fsimonis), M.Sc., Technical University of Munich
 + [Amin Totounferoush](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Amin.Totounferoush) (@atotoun), University of Stuttgart
 + Dr. [Benjamin Uekermann](https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann) (@uekerman), Technical University of Munich
