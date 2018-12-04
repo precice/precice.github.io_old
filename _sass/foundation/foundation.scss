@@ -7,13 +7,13 @@
 
 // Dependencies
 @import 'normalize';
-@import 'stylesheets/helpers/missing-dependencies';
-@import 'stylesheets/helpers/true';
-@import 'stylesheets/functions/contain';
-@import 'stylesheets/functions/purge';
-@import 'stylesheets/functions/remove';
-@import 'stylesheets/functions/replace';
-@import 'stylesheets/functions/to-list';
+@import 'sassy-list/stylesheets/helpers/missing-dependencies';
+@import 'sassy-list/stylesheets/helpers/true';
+@import 'sassy-list/stylesheets/functions/contain';
+@import 'sassy-list/stylesheets/functions/purge';
+@import 'sassy-list/stylesheets/functions/remove';
+@import 'sassy-list/stylesheets/functions/replace';
+@import 'sassy-list/stylesheets/functions/to-list';
 
 // Settings
 // import your own `settings` here or
