@@ -34,7 +34,7 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
       </a>
     </header>
     <figure>
-      <img src="../assets/tutorials/run-precice.png" alt="Web-based tutorial">
+      <img src="../assets/tutorials/run-precice.png" alt="Tutorial overview">
     </figure>
     <section>
       <p>
@@ -50,7 +50,7 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
       </a>
     </header>
     <figure>
-      <img src="../assets/tutorials/FSI_1D_example.png" alt="Web-based tutorial">
+      <img src="../assets/tutorials/FSI_1D_example.png" alt="Tutorial overview">
     </figure>
     <section>
       <p>
@@ -66,11 +66,27 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
       </a>
     </header>
     <figure>
-      <img src="../assets/tutorials/FSI_SU2_CalculiX_Flap.png" alt="Web-based tutorial">
+      <img src="../assets/tutorials/FSI_SU2_CalculiX_Flap.png" alt="Tutorial overview">
     </figure>
     <section>
       <p>
-        Flow in a channel with an elastic flap
+        Flow in a channel with a perpendicular elastic flap
+      </p>
+    </section>
+  </article>
+  
+  <article>
+    <header>
+      <a href="https://github.com/precice/precice/wiki/Tutorial-for-FSI-with-OpenFOAM-and-CalculiX" title="Go to the tutorial">
+        FSI with OpenFOAM and CalculiX
+      </a>
+    </header>
+    <figure>
+      <img src="../assets/tutorials/FSI_OpenFOAM_CalculiX_cylinderFlap.png" alt="Tutorial overview">
+    </figure>
+    <section>
+      <p>
+        Flow in a channel with a parallel elastic flap attached to a cylinder
       </p>
     </section>
   </article>
