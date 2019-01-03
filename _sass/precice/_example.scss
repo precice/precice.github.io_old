@@ -20,7 +20,7 @@ $example-margin: $global-margin !default;
 
 /// Color of breadcrumb links.
 /// @type Color
-$example-border: 1px solid $light-gray !default;
+$example-border: 1px solid get-color(primary) !default;
 
 /// Color of breadcrumb links.
 /// @type Color
