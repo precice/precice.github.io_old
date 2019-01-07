@@ -18,8 +18,8 @@ Scientific project leaders:
       <i>{{ p.institution }}</i>
     </div>
     <ul class="devlist-right">
-      {% if p.url %}<li><a href="{{ p.url }}"><i class="fas fa-university"></i></a></li>{% endif %}
-      {% if p.github %}<li><a href="{{ p.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+      {% if p.url %}<li><a href="{{ p.url }}" alt="See the institutional website"><i class="fas fa-university"></i></a></li>{% endif %}
+      {% if p.github %}<li><a href="https://github.com/{{ p.github }}" alt="See the Github profile"><i class="fab fa-github"></i></a></li>{% endif %}
     </ul>
   </li>
   {% endfor %}
@@ -35,8 +35,8 @@ Main contributors (in alphabetical order):
       <i>{{ p.institution }}</i>
     </div>
     <ul class="devlist-right">
-      {% if p.url %}<li><a href="{{ p.url }}"><i class="fas fa-university"></i></a></li>{% endif %}
-      {% if p.github %}<li><a href="{{ p.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+      {% if p.url %}<li><a href="{{ p.url }}" alt="See the institutional website"><i class="fas fa-university"></i></a></li>{% endif %}
+      {% if p.github %}<li><a href="https://github.com/{{ p.github }}" alt="See the Github profile"><i class="fab fa-github"></i></a></li>{% endif %}
     </ul>
   </li>
   {% endfor %}
@@ -52,8 +52,8 @@ Previous main contributors:
       <i>{{ p.institution }}</i>
     </div>
     <ul class="devlist-right">
-      {% if p.url %}<li><a href="{{ p.url }}"><i class="fas fa-university"></i></a></li>{% endif %}
-      {% if p.github %}<li><a href="{{ p.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+      {% if p.url %}<li><a href="{{ p.url }}" alt="See the institutional website"><i class="fas fa-university"></i></a></li>{% endif %}
+      {% if p.github %}<li><a href="https://github.com/{{ p.github }}" alt="See the Github profile"><i class="fab fa-github"></i></a></li>{% endif %}
     </ul>
   </li>
   {% endfor %}
@@ -69,8 +69,8 @@ Further contributors include (in alphabetical order):
       <i>{{ p.institution }}</i>
     </div>
     <ul class="devlist-right">
-      {% if p.url %}<li><a href="{{ p.url }}"><i class="fas fa-university"></i></a></li>{% endif %}
-      {% if p.github %}<li><a href="{{ p.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+      {% if p.url %}<li><a href="{{ p.url }}" alt="See the institutional website"><i class="fas fa-university"></i></a></li>{% endif %}
+      {% if p.github %}<li><a href="https://github.com/{{ p.github }}" alt="See the Github profile"><i class="fab fa-github"></i></a></li>{% endif %}
     </ul>
   </li>
   {% endfor %}
