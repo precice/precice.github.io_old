@@ -23,6 +23,7 @@ $precice-devlist-item-paddin: 0.5rem !default;
             @include xy-cell(shrink, false);
             @include menu-base();
             @include menu-simple();
+            font-size: larger;
         }
     }
 }
