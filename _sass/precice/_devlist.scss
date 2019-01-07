@@ -1,0 +1,28 @@
+
+$precice-devlist-border-color: get-color(primary) !default;
+$precice-devlist-item-paddin: 0.5rem !default;
+
+.devlist {
+    border: 1px solid $precice-devlist-border-color;
+    border-radius: $global-radius;
+
+    .devlist-first {
+        border-top: 1px solid transparent;
+    }
+
+    > li {
+        @include xy-grid;
+        border-top: 1px solid $precice-devlist-border-color;
+        border-top-radius: $global-radius;
+        padding: $global-padding / 2 $global-padding;
+
+        .devlist-left {
+            @include xy-cell(auto, false);
+        }
+        .devlist-right {
+            @include xy-cell(shrink, false);
+            @include menu-base();
+            @include menu-simple();
+        }
+    }
+}

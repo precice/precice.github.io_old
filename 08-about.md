@@ -10,53 +10,69 @@ preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.d
 
 Scientific project leaders:
 
-<ul>
+<ul class="devlist">
   {% for p in site.data.developer.leads %}
-    <li>
-    {% if p.url %}
-    <a href="{{ p.url }}" target="blank_">{{ p.name }}</a>
-    {% else %}
-    {{ p.name }}
-    {% endif%}, <i>{{ p.institution }}</i>
-    </li>
+  <li{% if forloop.first %} class="devlist-first"{% endif %}>
+    <div class="devlist-left">
+      {{ p.name }}<br/>
+      <i>{{ p.institution }}</i>
+    </div>
+    <ul class="devlist-right">
+      {% if p.url %}<li><a href="{{ p.url }}"><i class="fas fa-university"></i></a></li>{% endif %}
+      {% if p.github %}<li><a href="{{ p.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+    </ul>
+  </li>
   {% endfor %}
 </ul>
 
 Main contributors (in alphabetical order):
 
-<ul>
+<ul class="devlist">
   {% for p in site.data.developer.main %}
-    <li>
-    {% if p.url %}
-    <a href="{{ p.url }}" target="blank_">{{ p.name }}</a>
-    {% else %}
-    {{ p.name }}
-    {% endif%} (@{{ p.github }}), <i>{{ p.institution }}</i>
-    </li>
+  <li{% if forloop.first %} class="devlist-first"{% endif %}>
+    <div class="devlist-left">
+      {{ p.name }}<br/>
+      <i>{{ p.institution }}</i>
+    </div>
+    <ul class="devlist-right">
+      {% if p.url %}<li><a href="{{ p.url }}"><i class="fas fa-university"></i></a></li>{% endif %}
+      {% if p.github %}<li><a href="{{ p.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+    </ul>
+  </li>
   {% endfor %}
 </ul>
 
 Previous main contributors:
 
-<ul>
+<ul class="devlist">
   {% for p in site.data.developer.main-inactive %}
-    <li>
-    {% if p.url %}
-    <a href="{{ p.url }}" target="blank_">{{ p.name }}</a>
-    {% else %}
-    {{ p.name }}
-    {% endif%} (@{{ p.github }}), <i>{{ p.institution }}</i>
-    </li>
+  <li{% if forloop.first %} class="devlist-first"{% endif %}>
+    <div class="devlist-left">
+      {{ p.name }}<br/>
+      <i>{{ p.institution }}</i>
+    </div>
+    <ul class="devlist-right">
+      {% if p.url %}<li><a href="{{ p.url }}"><i class="fas fa-university"></i></a></li>{% endif %}
+      {% if p.github %}<li><a href="{{ p.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+    </ul>
+  </li>
   {% endfor %}
 </ul>
 
 Further contributors include (in alphabetical order):
 
-<ul>
+<ul class="devlist">
   {% for p in site.data.developer.contributors %}
-    <li>
-    {{ p.name }} (@{{ p.github }}), <i>{{ p.institution }}</i>
-    </li>
+  <li{% if forloop.first %} class="devlist-first"{% endif %}>
+    <div class="devlist-left">
+      {{ p.name }}<br/>
+      <i>{{ p.institution }}</i>
+    </div>
+    <ul class="devlist-right">
+      {% if p.url %}<li><a href="{{ p.url }}"><i class="fas fa-university"></i></a></li>{% endif %}
+      {% if p.github %}<li><a href="{{ p.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+    </ul>
+  </li>
   {% endfor %}
 </ul>
 
