@@ -13,6 +13,11 @@ Scientific project leaders:
 <ul class="devlist">
   {% for p in site.data.developer.leads %}
   <li{% if forloop.first %} class="devlist-first"{% endif %}>
+    <div class="devlist-img">
+      {% if p.img %}
+      <img src="{{site.static_files | where: "basename", p.img | map: "path"}}" alt="Portait">
+      {% endif %}
+    </div>
     <div class="devlist-left">
       {{ p.name }}<br/>
       <i>{{ p.institution }}</i>
@@ -30,6 +35,11 @@ Main contributors (in alphabetical order):
 <ul class="devlist">
   {% for p in site.data.developer.main %}
   <li{% if forloop.first %} class="devlist-first"{% endif %}>
+    <div class="devlist-img">
+      {% if p.img %}
+      <img src="{{site.static_files | where: "basename", p.img | map: "path"}}" alt="Portait">
+      {% endif %}
+    </div>
     <div class="devlist-left">
       {{ p.name }}<br/>
       <i>{{ p.institution }}</i>
