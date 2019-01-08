@@ -1,11 +1,20 @@
 
+$precice-devlist-radius: $global-radius !default;
 $precice-devlist-border-color: get-color(primary) !default;
-$precice-devlist-item-paddin: 0.5rem !default;
+$precice-devlist-padding: $global-padding !default;
+$precice-devlist-image-radius: $global-radius !default;
+$precice-devlist-image-width: 3rem !default;
 
+$precice-devlist-item-padding: $precice-devlist-padding / 2 $precice-devlist-padding !default;
+
+
+// the class to be applied to the ul
 .devlist {
     border: 1px solid $precice-devlist-border-color;
-    border-radius: $global-radius;
+    border-radius: $precice-devlist-radius;
 
+
+    // the class to be applied to the first li
     .devlist-first {
         border-top: 1px solid transparent;
     }
@@ -13,12 +22,26 @@ $precice-devlist-item-paddin: 0.5rem !default;
     > li {
         @include xy-grid;
         border-top: 1px solid $precice-devlist-border-color;
-        border-top-radius: $global-radius;
-        padding: $global-padding / 2 $global-padding;
+        border-top-radius: $precice-devlist-radius;
+        padding: $precice-devlist-item-padding;
 
+        // Add a div with this class to add a picture or a placeholder/spacing.
+        .devlist-img {
+            @include xy-cell(shrink, false);
+            > img {
+                border-radius: $precice-devlist-image-radius;
+                width: 100%;
+            }
+            width: $precice-devlist-image-width;
+            margin-right: $global-padding;
+        }
+
+        // Add a div with this class and add the main texutal info.
         .devlist-left {
             @include xy-cell(auto, false);
         }
+
+        // Add a div with this class and add links
         .devlist-right {
             @include xy-cell(shrink, false);
             @include menu-base();

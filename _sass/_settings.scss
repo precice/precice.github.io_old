@@ -897,3 +897,12 @@ $testimonial-margin: 2rem;
 $testimonial-border: 1px solid get-color(primary);
 $testimonial-radius: $global-radius;
 $testimonial-shadow: none;
+
+// 59. Devlist
+// ---------------
+
+$precice-devlist-radius: $global-radius;
+$precice-devlist-border-color: get-color(primary);
+$precice-devlist-padding: $global-padding;
+$precice-devlist-image-radius: $global-radius;
+$precice-devlist-image-width: 3rem;
