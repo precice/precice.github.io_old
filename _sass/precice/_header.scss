@@ -35,9 +35,18 @@ body > header {
         }
         // main menu
         > .top-bar {
+            .is-logo {
+                @include breakpoint($last-mobile-breakpoint down) {
+                    display: none;
+                }
+            }
+
             a { height: $precice-header-item-base-size; }
             >.top-bar-right {
                 color: $precice-header-icon-color;
+                @include breakpoint($last-mobile-breakpoint down) {
+                    display: none;
+                }
                 li {
                     a {
                         width: $precice-header-item-base-size;
