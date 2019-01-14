@@ -1,0 +1,103 @@
+leads:
+  - name: Prof. Dr. Hans-Joachim Bungartz
+    institution: Technical University of Munich
+    url: https://www5.in.tum.de/wiki/index.php/Univ.-Prof._Dr._Hans-Joachim_Bungartz
+    img: Hans_Bungartz
+  - name: Prof. Dr. Miriam Mehl
+    institution: University of Stuttgart
+    url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl
+    img: Miriam_Mehl
+
+main:
+  - name: Gerasimos Chourdakis, M.Sc.
+    institution: Technical University of Munich
+    github: MakisH
+    url: https://www5.in.tum.de/wiki/index.php/Gerasimos_Chourdakis,_M.Sc.
+    img: Gerasimos_Chourdakis
+  - name: Dipl.-Ing. Florian Lindner
+    institution: University of Stuttgart
+    github: floli
+    url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner
+    img: Florian_Lindner
+  - name: Benjamin Rüth, M.Sc. (hons)
+    institution:  Technical University of Munich
+    github: BenjaminRueth
+    url:  https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)
+    img: Benjamin_Rueth
+  - name: Alexander Rusch, M.Sc.
+    institution:  ETH Zürich
+    github: arusch
+    img: Alexander_Rusch
+  - name: Frédéric Simonis, M.Sc.
+    institution:  Technical University of Munich
+    github:  fsimonis
+    url: https://www5.in.tum.de/wiki/index.php/Fr%C3%A9d%C3%A9ric_Simonis,_M.Sc.
+    img: Frederic_Simonis
+  - name:   Amin Totounferoush
+    institution:  University of Stuttgart
+    github: atotoun
+    url:  https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Amin.Totounferoush
+    img: Amin_Totounferoush
+  - name: Dr. Benjamin Uekermann 
+    institution:  Technical University of Munich
+    github: uekerman
+    url:  https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann
+    img: Benjamin_Uekermann
+
+main-inactive:
+  - name: Dr. Bernhard Gatzhammer
+    institution: Alumni of Technical University of Munich
+    github: gatzhamm
+  - name: Klaudius Scheufele, M.Sc.
+    institution: University of Stuttgart
+    github: scheufks
+    url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Klaudius.Scheufele
+
+contributors:
+  - name: Georg Abrams 
+    institution: University of Stuttgart
+    github: pikotee
+  - name: Dr. Atanas Atanasov 
+    institution: Technical University of Munich
+    github: atanasoa
+  - name: Dr. David Blom 
+    institution: Delft University of Technology
+    github: davidsblom
+  - name: Lucia Cheung, M.Sc. 
+    institution: Technical University of Munich
+    github: ludcila
+  - name: Richard Hertrich 
+    institution: Technical University of Munich
+    github: richahert
+  - name: Saumitra Vinay Joshi 
+    institution: M.Sc., Technical University of Munich
+    github: saumiJ
+  - name: Dr. Harald Klimach 
+    institution: University of Siegen
+    github: haraldkl
+  - name: Peter Meisrimel, M.Sc.
+    institution: Lund University
+  - name: Derek Risseeuw, B.Sc. 
+    institution: Delft University of Technology
+    github: derekrisseeuw
+  - name: Dmytro Sashko, B.Sc. 
+    institution: Technical University of Munich
+    github: shkodm
+  - name: David Schneider, B.Sc. 
+    institution: Technical University of Munich
+    github: DavidSCN
+  - name: Alexander Shukaev, M.Sc. 
+    institution: Technical University of Munich
+    github: alexander-shukaev
+  - name: David Sommer 
+    institution: University of Stuttgart
+    github: S0mmerD
+  - name: Alex Trujillo, B.Sc. 
+    institution: University of Uppsala
+    github: Alex-tru
+  - name: Peter Vollmer, M.Sc. 
+    institution: University of Stuttgart
+    github: petervollmer
+  - name: Jiho Yang, B.Sc. 
+    institution: Technical University of Munich
+    github: JihoYang

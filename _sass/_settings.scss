@@ -62,6 +62,9 @@
 //
 //  Custom
 //  57. Publication
+//  58. Testimonial
+//  59. Header settings
+//  60. Devlist
 
 @import 'foundation/util/util';
 
@@ -907,3 +910,12 @@ $precice-header-spacing: 3rem;
 $precice-header-icon-font-size: 1.5rem;
 $precice-header-icon-color: $black;
 $precice-header-item-base-size: 2.4rem;
+
+// 60. Devlist
+// ---------------
+
+$precice-devlist-radius: $global-radius;
+$precice-devlist-border-color: get-color(primary);
+$precice-devlist-padding: $global-padding;
+$precice-devlist-image-radius: $global-radius;
+$precice-devlist-image-width: 3rem;
