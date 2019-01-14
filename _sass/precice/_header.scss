@@ -1,4 +1,64 @@
+$precice-header-spacing: 3rem !default;
+$precice-header-icon-font-size: 1.5rem !default;
+$precice-header-icon-color: $black !default;
+$precice-header-item-base-size: 2.4rem !default;
+
+
 // This prevents the responsive title-bar to flash up on page load
-body > header .title-bar {
-    display: none;
+body > header {
+    height: $precice-header-spacing;
+
+    > nav { 
+        z-index: 1; // stay on top of everything
+        position: fixed;
+        left: 0;
+        right: 0;
+        width: 100%;
+
+        // responsive title bar
+        > .title-bar {
+            a { height: $precice-header-item-base-size; }
+            .title-bar-right {
+                flex: 0 1 auto;
+                a {
+                    width: $precice-header-item-base-size;
+                    font-size: $precice-header-icon-font-size;
+                    color: inherit;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    > i {
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+        // main menu
+        > .top-bar {
+            .is-logo {
+                @include breakpoint($last-mobile-breakpoint down) {
+                    display: none;
+                }
+            }
+
+            a { height: $precice-header-item-base-size; }
+            >.top-bar-right {
+                color: $precice-header-icon-color;
+                @include breakpoint($last-mobile-breakpoint down) {
+                    display: none;
+                }
+                li {
+                    a {
+                        width: $precice-header-item-base-size;
+                        font-size: $precice-header-icon-font-size;
+                        color: inherit;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        > i{ vertical-align: middle; }
+                    }
+                }
+            }
+        }
+    }
 }
