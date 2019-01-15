@@ -2,8 +2,11 @@ main {
     @include xy-grid-container($global-width, $grid-container-padding);
     padding-top: 1rem;
     padding-bottom: 1rem;
-
     h1 > img {
         height:1.5em;
     }
+}
+
+main[data-fullscreen] {
+    @include xy-grid-container(100%, $grid-container-padding);
 }

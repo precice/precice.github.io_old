@@ -45,11 +45,14 @@ $testimonial-shadow: none !default;
     $testimonial-shadow
     );
 
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
         @include xy-cell(1 of 2);
-        &.large {
-            @include xy-cell(full);
-        }
+    }
+    @include breakpoint(xlarge) {
+        @include xy-cell(1 of 3);
+    }
+    @include breakpoint(xxlarge) {
+        @include xy-cell(1 of 4);
     }
 
     > header {
@@ -63,28 +66,26 @@ $testimonial-shadow: none !default;
         }
     }
 
+    > figure {
+        @include card-section;
+        text-align: center;
+    }
+
     > section {
         @include card-section;
-
-        @include breakpoint(large){
-            @include xy-grid;
-            > figure {
-                @include xy-cell(1 of 3);
-                @include flex-align-self(middle);
-            }
-            > section {
-                @include xy-cell(auto);
-            }
+        > p {
+            text-indent: $global-text-indent;
         }
-
-        > figure {
-            text-align: center;
+        > .authors {
+            font-style: italic;
         }
+    }
+}
 
-        > section {
-            > .authors {
-                font-style: italic;
-            }
-    }
-    }
+.testimonial[data-callout] {
+    @include xy-cell(full);
+    max-width: 40rem;
+    max-height: 15rem;
+    margin: 0 auto;
+    align-self: center;
 }
