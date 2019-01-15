@@ -14,19 +14,17 @@ fullscreen: true
     <header>
       <h3>{{ testimonial.title }}</h3>
     </header>
+    {% if testimonial.img-url %}
+      <figure>
+        <img src="{{ testimonial.img-url}}">
+      </figure>
+    {% endif %}
     <section>
-      {% if testimonial.img-url %}
-        <figure>
-          <img src="{{ testimonial.img-url}}">
-        </figure>
-      {% endif %}
-      <section>
-        {{ testimonial.content }}
+      {{ testimonial.content }}
 
-        <span class="authors">
-          {{ testimonial.authors }}
-        </span>
-      </section>
+      <span class="authors">
+        {{ testimonial.authors }}
+      </span>
     </section>
   </article>
 {% endfor %}
