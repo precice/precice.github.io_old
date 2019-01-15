@@ -85,5 +85,7 @@ $testimonial-shadow: none !default;
 .testimonial[data-callout] {
     @include xy-cell(full);
     max-width: 40rem;
+    max-height: 15rem;
     margin: 0 auto;
+    align-self: center;
 }
