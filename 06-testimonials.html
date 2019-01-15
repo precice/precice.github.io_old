@@ -9,7 +9,8 @@ fullscreen: true
 
 <div class="testimonials">
 
-{% for testimonial in site.testimonials %}
+{% assign testimonials = site.testimonials | reverse %}
+{% for testimonial in testimonials %}
   <article class="testimonial{% if testimonial.img-url %} large{% endif %}">
     <header>
       <h3>{{ testimonial.title }}</h3>
