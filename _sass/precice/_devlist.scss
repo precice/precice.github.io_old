@@ -13,6 +13,9 @@ $precice-devlist-item-padding: $precice-devlist-padding / 2 $precice-devlist-pad
     border: 1px solid $precice-devlist-border-color;
     border-radius: $precice-devlist-radius;
 
+    @include breakpoint(small down) {
+        font-size: $small-font-size
+    }
 
     // the class to be applied to the first li
     .devlist-first {
@@ -46,6 +49,9 @@ $precice-devlist-item-padding: $precice-devlist-padding / 2 $precice-devlist-pad
             @include xy-cell(shrink, false);
             @include menu-base();
             @include menu-simple();
+            @include breakpoint(small down){
+                @include menu-simple($global-left, $menu-simple-margin*0.5);
+            }
             font-size: larger;
         }
     }
