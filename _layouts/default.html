@@ -6,7 +6,7 @@
   <body>
     {% include header.html %}
 
-    <main>
+    <main{% if page.fullscreen %} data-fullscreen{% endif %}>
     {{ content }}
     </main>
 

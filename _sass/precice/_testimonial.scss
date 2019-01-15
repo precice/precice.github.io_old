@@ -71,6 +71,9 @@ $testimonial-shadow: none !default;
             > figure {
                 @include xy-cell(1 of 3);
                 @include flex-align-self(middle);
+                > img {
+                    max-height: 100%;
+                }
             }
             > section {
                 @include xy-cell(auto);
@@ -85,6 +88,11 @@ $testimonial-shadow: none !default;
             > .authors {
                 font-style: italic;
             }
+        }
     }
-    }
+}
+
+.testimonial[data-callout] {
+    max-width: 40rem;
+    margin: 0 auto;
 }
