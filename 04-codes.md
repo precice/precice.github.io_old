@@ -28,9 +28,9 @@ If you would like to contribute to these adapters, please [contact us](../resour
 * **Adapter's repository:** [precice/calculix-adapter](https://github.com/precice/calculix-adapter) (C/Fortran)
 * **Status:** <span style="color:green">up-to-date</span>
 * **CalculiX versions:** 2.10, 2.12, 2.13 (2.14 coming soon)
-* **Typical applications:** Fluid-Structure Interaction (structure part), Conjugate Heat Transfer (solid part)
-* **Can write:** Displacement, Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
-* **Can read:** Force, Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
+* **Typical applications:** Fluid-Structure Interaction (structure part), Conjugate Heat Transfer (solid part), Structure-Structure Coupling
+* **Can write:** Force, Displacement, Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
+* **Can read:** Force, Displacement, Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
 * **Tutorials:**
    * [FSI with SU2 and CalculiX](https://github.com/precice/precice/wiki/FSI-tutorial) (also [in your browser](http://run.precice.org/))
    * [CHT with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX)
