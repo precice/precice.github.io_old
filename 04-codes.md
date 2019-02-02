@@ -34,6 +34,7 @@ If you would like to contribute to these adapters, please [contact us](../resour
 * **Tutorials:**
    * [FSI with SU2 and CalculiX](https://github.com/precice/precice/wiki/FSI-tutorial) (also [in your browser](http://run.precice.org/))
    * [CHT with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX)
+   * [SSI with CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-SSI-with-CalculiX)
 
 ### OpenFOAM
 
@@ -43,12 +44,13 @@ Today, there are two major "flavors" of OpenFOAM, one developed by the OpenFOAM 
 * **Adapter's repository:** [precice/openfoam-adapter](https://github.com/precice/openfoam-adapter) (C++)
 * **Status:** <span style="color:green">up-to-date</span>
 * **OpenFOAM versions:** 4.0-dev (.org), v1706-? (.com)
-* **Typical applications:** Conjugate Heat Transfer (fluid and solid parts). Coming soon: Fluid-Structure Interaction (fluid part).
-* **Can write:** Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
-* **Can read:** Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
+* **Typical applications:** Conjugate Heat Transfer (fluid and solid parts), Fluid-Structure Interaction (fluid part).
+* **Can write:** Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient, Force
+* **Can read:** Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient, Displacement
 * **Tutorials:**
   * [CHT with OpenFOAM](https://github.com/precice/openfoam-adapter/wiki/Tutorial-for-CHT:-Flow-over-a-heated-plate)
   * [CHT with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX)
+  * [FSI with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-FSI-with-OpenFOAM-and-CalculiX)
 
 ### SU2
 
