@@ -14,7 +14,7 @@ permalink: /
 
 **Give us your feedback**: [please use this form](https://precice.typeform.com/to/IeiyKF), it's important for us!
 
-**preCICE is now on Twitter**: Follow us at [@preCICE_org](https://twitter.com/preCICE_org) to always stay up-to-date!
+**preCICE on Twitter**: Follow us at [@preCICE_org](https://twitter.com/preCICE_org) to always stay up-to-date!
 
 **preCICE in the media**: Feature on [Science Node](https://sciencenode.org/feature/exafsa.php)
 
