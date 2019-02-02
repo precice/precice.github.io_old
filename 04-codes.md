@@ -27,7 +27,7 @@ If you would like to contribute to these adapters, please [contact us](../resour
 
 * **Adapter's repository:** [precice/calculix-adapter](https://github.com/precice/calculix-adapter) (C/Fortran)
 * **Status:** <span style="color:green">up-to-date</span>
-* **CalculiX versions:** 2.10, 2.12, 2.13 (2.14 coming soon)
+* **CalculiX versions:** 2.10, 2.12, 2.13, 2.15
 * **Typical applications:** Fluid-Structure Interaction (structure part), Conjugate Heat Transfer (solid part), Structure-Structure Coupling
 * **Can write:** Force, Displacement, Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
 * **Can read:** Force, Displacement, Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient
@@ -43,7 +43,7 @@ Today, there are two major "flavors" of OpenFOAM, one developed by the OpenFOAM 
 
 * **Adapter's repository:** [precice/openfoam-adapter](https://github.com/precice/openfoam-adapter) (C++)
 * **Status:** <span style="color:green">up-to-date</span>
-* **OpenFOAM versions:** 4.0-dev (.org), v1706-? (.com)
+* **OpenFOAM versions:** 4.0-dev (.org), v1706-v1812 (.com)
 * **Typical applications:** Conjugate Heat Transfer (fluid and solid parts), Fluid-Structure Interaction (fluid part).
 * **Can write:** Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient, Force
 * **Can read:** Temperature, Heat Flux, Sink Temperature, Heat Transfer Coefficient, Displacement
