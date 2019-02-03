@@ -51,6 +51,7 @@ Today, there are two major "flavors" of OpenFOAM, one developed by the OpenFOAM 
   * [CHT with OpenFOAM](https://github.com/precice/openfoam-adapter/wiki/Tutorial-for-CHT:-Flow-over-a-heated-plate)
   * [CHT with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX)
   * [FSI with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-FSI-with-OpenFOAM-and-CalculiX)
+* **Build/tests status:** <a style="text-decoration: none" href="https://travis-ci.org/precice/openfoam-adapter" target="_blank"><img src="https://travis-ci.org/precice/openfoam-adapter.svg?branch=master" alt="Build status"></a>
 
 ### SU2
 
