@@ -1,0 +1,29 @@
+{
+    "@content": "https://schema.org",
+    "@type": "Organization",
+    "name": "preCICE",
+    "alternateName": "precice",
+    "description": "Coupling Library for Partitioned Multi-Physics Simulations in High Performance Computing",
+    "url": "https://www.precice.org",
+    "logo": "https://www.precice.org/assets/precice.png",
+    "contactPoint": "info(at)precice.org",
+    "email": "info(at)precice.org",
+    "sameAs": [
+        "https://twitter.com/preCICE_org",
+        "https://github.com/precice"
+    ],
+    "memberOf" : [
+        {
+            "@type" : "Organization",
+            "name" : "Technical University of Munich",
+            "department" : "Chair of Scientific Computing in Computer Science",
+            "url" : "https://www5.in.tum.de"
+        },
+        {
+            "@type" : "Organization",
+            "name" : "University of Stuttgart",
+            "department" : "Institut für Parallele und Verteile Systeme",
+            "url" : "https://www.ipvs.uni-stuttgart.de"
+        }
+    ]
+}
