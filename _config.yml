@@ -13,6 +13,7 @@ collections:
 
 plugins:
   - jekyll-mentions
+  - jekyll-sitemap
 
 sass:
   style: compressed
