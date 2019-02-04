@@ -31,6 +31,10 @@ to the other. The simplest method uses the nearest-neighbor's value, while
 more advanced methods like the nearest-projection mapping or the Radial-Basis
 Function mapping include contributions from neighboring nodes.
 
+## Does partitioned coupling introduce error?
+
+Partitioned coupling can indeed lead to errors such as the Added-Mass Effect. However, preCICE provides implicit coupling algorithms to treat the error introduced.
+
 ## Does preCICE use files for the communication?
 
 No. Using files would be very slow. The preCICE participants communicate either
@@ -39,11 +43,42 @@ through TCP/IP sockets or through MPI ports.
 Additionally, any processes that need to communicate, do so directly (Peer-to-Peer),
 without needing to go through any central instance ("server").
 
+## Can the individual solvers run on two different platforms on two different machines in/out of a network?
+
+Yes, at least as long as communication over TCP/IP is possible. The participants find each other using a network address, which is written in a file and read once in the beginning of the simulation. For this reason, all the participants need to be started from the same directory.
+
+## Can preCICE couple more than two participants?
+
+Yes! [Here is an example](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX).
+
 ## Can preCICE be used for volume coupling?
 
 Yes, but it will be computationally expensive. preCICE is mainly designed to
 couple simulations that share a common surface boundary. In this case, all the
 coupled volume nodes should be specified in the coupling mesh.
+
+preCICE only knows about points and their connectivity, so it doesn't make much of a difference if the points are on a surface or on a volume. However, in the case of volume coupling, nearest-projection mapping would not be available. You may still use the nearest-neighbor or RBF mapping, however.
+
+## Can preCICE be used for one-way coupling?
+
+Yes! Several people are doing this already and we also kind of do this in our [OpenFOAM-CalculiX FSI tutorial](https://github.com/precice/precice/wiki/Tutorial-for-FSI-with-OpenFOAM-and-CalculiX), where we have two one-way couplings (as we use different meshes). We also often use this for debugging. Nothing changes apart from the configuration file.
+
+Even though there may be simpler ways to do one-way coupling, it may still be beneficial to use preCICE here: flexible data mapping methods and parallel communication (your coupling data might be too large to write to disk).
+
+## Can preCICE be used with adaptive meshes?
+
+Or: " Is it correct that preCICE cannot support couplings when the interface mesh is changing its connectivity during the simulation?"
+
+The mapping setup only happens once, in the initialization. So, currently, in order to modify the mapping setup, one needs to restart the simulation, which would be inefficient. However, a dissertation in progress studies this issue and preCICE will have such a feature in the future.
+
+## Which code drives the coupled simulation in preCICE?
+Or: "Which code is executing the coupling iterations given that preCICE does not really have a centralized engine to orchestrate the simulation?"
+
+It is the preCICE library! Every participant loads the library and works on its own part of the mesh. Of course, there needs to be some cooperation between the different processes, but this does not need to be blocking or through a central process. If you want to know more details about the implementation of specific features, you may look into our [literature guide](https://github.com/precice/precice/wiki/Literature-guide), in particular in the dissertation of Benjamin Uekermann. And of course, the code is open!
+
+## Where can I find more details for the methods involved?
+
+Have a look into our [literature guide](https://github.com/precice/precice/wiki/Literature-guide).
 
 ## What are the advantages of preCICE in comparison to other coupling software?
 
