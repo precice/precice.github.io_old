@@ -14,6 +14,11 @@ main:
     github: MakisH
     url: https://www5.in.tum.de/wiki/index.php/Gerasimos_Chourdakis,_M.Sc.
     img: Gerasimos_Chourdakis
+  - name: M.Eng. Kyle Davis
+    institution: University of Stuttgart
+    github: KyleDavisSA
+    url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Kyle.Davis
+    img: Kyle_Davis
   - name: Dipl.-Ing. Florian Lindner
     institution: University of Stuttgart
     github: floli
