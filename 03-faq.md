@@ -69,7 +69,8 @@ Even though there may be simpler ways to do one-way coupling, it may still be be
 
 Or: "Is it correct that preCICE cannot support couplings when the interface mesh is changing its connectivity during the simulation?"
 
-The mapping setup only happens once, in the initialization. So, currently, in order to modify the mapping setup, one needs to restart the simulation, which would be inefficient. However, a dissertation in progress studies this issue and preCICE will have such a feature in the future.
+Currently, the mapping setup only occurs once during the initialization of preCICE. Thus, in order to modify the mapping one must restart the simulation. It depends on a case-by-case basis whether this costly method is acceptable or not.
+A dissertation in progress studies this issue and preCICE will have such a feature in the future.
 
 ## Which code drives the coupled simulation in preCICE?
 Or: "Which code is executing the coupling iterations given that preCICE does not really have a centralized engine to orchestrate the simulation?"
