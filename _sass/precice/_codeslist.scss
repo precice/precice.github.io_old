@@ -1,0 +1,34 @@
+
+$precice-codeslist-radius: $global-radius !default;
+$precice-codeslist-border-color: get-color(primary) !default;
+$precice-codeslist-padding: $global-padding !default;
+$precice-codeslist-image-radius: $global-radius !default;
+$precice-codeslist-image-width: 3rem !default;
+
+$precice-codeslist-item-padding: $precice-codeslist-padding / 2 $precice-codeslist-padding !default;
+
+
+// the class to be applied to the ul
+.codeslist {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+
+    > li {
+        @include card-container();
+
+        > h1, > h2, > h3 {
+            @include card-divider;
+            color: $white;
+        }
+
+        > div {
+            @include card-section;
+            //margin: $precice-codeslist-item-padding;
+        }
+
+        > dl {
+            @include card-section;
+        }
+    }
+}
