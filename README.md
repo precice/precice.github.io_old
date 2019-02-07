@@ -9,19 +9,23 @@ After that all you need is:
 
 ```
 git clone https://github.com/precice/precice.github.io && cd precice.github.io
-printf "source 'https://rubygems.org'\ngem 'github-pages', group: :jekyll_plugins " > Gemfile
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --safe
 ```
 You can now view website locally in your browser at http://localhost:4000 
 
 ## SASS
 
-We use the front-end framework foundation 6.4.5.
+We use SCSS in our project, __NOT__ the semicolon and braceless style that is SASS.
+
+We use the front-end framework foundation 6.5.1.
 The sass files are located  in `_sass`, the main settings file is `_settings.scss`.
 Due to the restrictions of jekyll's strict mode we are not allowed to specify multiple search paths.
-Thus, the sass-roots of foundation and its dependecies `stylesheets` and `normalize` are merged in the folder.
 
-The folder `precice` contains further project specific files, these are all imported by `_precice.scss` at the root.
+Thus, the sass-roots of foundation and its dependecies are merged in the folder `foundation`.
+Please leave this directory untouched as it greatly simplifies updating the foundation framework.
 
-`css/main.scss` is the main file that will be compiled into the provided css file.
+The folder `precice` contains project specific files, these are all imported by `_precice.scss` at the root.
+Use this folder to add new css.
+
+`css/main.scss` is the main css file that will be compiled and compressed into the final css file.
