@@ -10,8 +10,9 @@ preCICE is developed at the [Chair of Scientific Computing](http://www5.in.tum.d
 
 Scientific project leaders:
 
+{% assign dev_leads = site.data.developer.leads | sort: "name" %}
 <ul class="devlist">
-  {% for p in site.data.developer.leads %}
+  {% for p in dev_leads %}
   <li{% if forloop.first %} class="devlist-first"{% endif %}>
     <div class="devlist-img">
       {% if p.img %}
@@ -19,7 +20,7 @@ Scientific project leaders:
       {% endif %}
     </div>
     <div class="devlist-left">
-      {{ p.name }}<br/>
+      {{ p.fullname }}<br/>
       <i>{{ p.institution }}</i>
     </div>
     <ul class="devlist-right">
@@ -30,10 +31,11 @@ Scientific project leaders:
   {% endfor %}
 </ul>
 
-Main contributors (in alphabetical order):
+Main contributors:
 
+{% assign dev_main = site.data.developer.main | sort: "name" %}
 <ul class="devlist">
-  {% for p in site.data.developer.main %}
+  {% for p in dev_main %}
   <li{% if forloop.first %} class="devlist-first"{% endif %}>
     <div class="devlist-img">
       {% if p.img %}
@@ -41,7 +43,7 @@ Main contributors (in alphabetical order):
       {% endif %}
     </div>
     <div class="devlist-left">
-      {{ p.name }}<br/>
+      {{ p.fullname }}<br/>
       <i>{{ p.institution }}</i>
     </div>
     <ul class="devlist-right">
@@ -54,11 +56,12 @@ Main contributors (in alphabetical order):
 
 Previous main contributors:
 
+{% assign dev_premain = site.data.developer.main-inactive | sort: "name" %}
 <ul class="devlist">
-  {% for p in site.data.developer.main-inactive %}
+  {% for p in dev_premain %}
   <li{% if forloop.first %} class="devlist-first"{% endif %}>
     <div class="devlist-left">
-      {{ p.name }}<br/>
+      {{ p.fullname }}<br/>
       <i>{{ p.institution }}</i>
     </div>
     <ul class="devlist-right">
@@ -69,13 +72,14 @@ Previous main contributors:
   {% endfor %}
 </ul>
 
-Further contributors include (in alphabetical order):
+Further contributors include:
 
+{% assign dev_contrib = site.data.developer.contributors | sort: "name" %}
 <ul class="devlist">
-  {% for p in site.data.developer.contributors %}
+  {% for p in dev_contrib %}
   <li{% if forloop.first %} class="devlist-first"{% endif %}>
     <div class="devlist-left">
-      {{ p.name }}<br/>
+      {{ p.fullname }}<br/>
       <i>{{ p.institution }}</i>
     </div>
     <ul class="devlist-right">
