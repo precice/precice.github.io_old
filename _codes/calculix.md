@@ -12,7 +12,7 @@ versions: 2.10, 2.12, 2.13, 2.15
 ---
 [CalculiX](http://www.calculix.de/) is a free/open-source (GPL) Finite Element solver, developed at the [MTU Aero Engines](http://www.mtu.de/).
 
-* **Tutorials:**
+#### Tutorials:
    * [FSI with SU2 and CalculiX](https://github.com/precice/precice/wiki/FSI-tutorial) (also [in your browser](http://run.precice.org/))
    * [CHT with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX)
    * [SSI with CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-SSI-with-CalculiX)
