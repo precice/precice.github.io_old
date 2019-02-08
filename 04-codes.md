@@ -57,25 +57,23 @@ If you would like to contribute to these adapters, please [contact us](../resour
 <ul class="codeslist">
 {% for a in official %}
   <li>
-    <h3 id="{{ a.ID }}">{{ a.name }}</h3>
+    <h3 id="{{ a.ID }}">{{ a.name }}<i class="fas {%- case a.status -%}
+    {% when 'up-to-date'%}
+    fa-check-circle
+    {% when 'needs-small-updates' %}
+    fa-info-circle
+    {% when 'experimental' %}
+    fa-flask
+    {% when 'out-of-date' %}
+    fa-minus-circle
+    {% else %}
+    {%- endcase -%} fa-fw" title="{{ a.status }}"></i></h3>
     <div>
       {{ a.content }}
     </div>
     <dl>
       <dt>Adapter's repository:</dt>
-      <dd><a href="{{ a.repository }}">Repository</a> written in {{ a.language }} <span class="label
-      {%- case a.status -%}
-      {% when 'up-to-date'%}
-       success
-       {% when 'needs-small-updates' %}
-       warning
-       {% when 'experimental' %}
-       alert
-       {% when 'out-of-date' %}
-       alert
-        {% else %}
-      {%- endcase -%}
-      ">{{ a.status }}</span></dd>
+      <dd><a href="{{ a.repository }}">Repository</a> written in {{ a.language }} is {{ a.status }}</dd>
       <dt>Supported {{ a.name }} versions:</dt>
       <dd>{{ a.versions }}</dd>
       <dt>Typical applications:</dt>

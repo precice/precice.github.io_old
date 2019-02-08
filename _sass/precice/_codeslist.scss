@@ -24,6 +24,9 @@ ul#overview {
         > h1, > h2, > h3 {
             @include card-divider;
             color: $white;
+            > i {
+                margin-left: auto;
+            }
         }
 
         > div {
