@@ -1,12 +1,16 @@
 
-$precice-codeslist-radius: $global-radius !default;
-$precice-codeslist-border-color: get-color(primary) !default;
-$precice-codeslist-padding: $global-padding !default;
-$precice-codeslist-image-radius: $global-radius !default;
-$precice-codeslist-image-width: 3rem !default;
-
-$precice-codeslist-item-padding: $precice-codeslist-padding / 2 $precice-codeslist-padding !default;
-
+ul#overview {
+    @include menu-base;
+    > li {
+        > span {
+            @include menu-text;
+        }
+        > ul {
+        @include menu-base;
+        @include menu-nested();
+    }
+    }
+}
 
 // the class to be applied to the ul
 .codeslist {

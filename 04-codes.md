@@ -12,17 +12,40 @@ permalink: /codes/
 
 There are various codes - free and proprietary ones - currently coupled with preCICE. If you want to add your code here, please let us know.
 
-**Official adapters:** {%- for a in official -%}
-[{{ a.name }}](#{{ a.ID }}){% if forloop.last == false %}, {% endif %}
-{% endfor %}
+<ul id="overview">
+  <li>
+  <span>Official adapters:</span>
+    <ul>
+    {%- for a in official -%}
+      <li>
+        <a href="#{{ a.ID }}">{{ a.name }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
 
-**Third-party adapters:** {%- for a in inofficial -%}
-[{{ a.name }}](#{{ a.ID }}){% if forloop.last == false %}, {% endif %}
-{% endfor %}
+  <li>
+  <span>Third-party adapters:</span>
+    <ul>
+    {%- for a in inofficial -%}
+      <li>
+        <a href="#{{ a.ID }}">{{ a.name }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
 
-**Legacy adapters:** {%- for a in legacy -%}
-[{{ a.name }}](#{{ a.ID }}){% if forloop.last == false %}, {% endif %}
-{% endfor %}
+  <li>
+  <span>Legacy adapters:</span>
+    <ul>
+    {%- for a in legacy -%}
+      <li>
+        <a href="#{{ a.ID }}">{{ a.name }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+</ul>
 
 ## Official adapters
 
