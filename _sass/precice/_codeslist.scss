@@ -29,6 +29,9 @@ $precice-codeslist-item-padding: $precice-codeslist-padding / 2 $precice-codesli
 
         > dl {
             @include card-section;
+            > dd > p {
+                margin: 0;
+            }
         }
     }
 }

@@ -9,8 +9,7 @@ application: Fluid-Structure Interaction (fluid part)
 can-write:
 can-read:
 versions:
+notes: Only incompressible flow simulations are supported.
 ---
 
 [Fluent](https://www.ansys.com/products/fluids/ansys-fluent) is a commercial Finite Volume solver for CFD, developed by [ANSYS](https://www.ansys.com/).
-
-* **Notes:** Only incompressible flow simulations are supported.
