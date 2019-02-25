@@ -1,0 +1,45 @@
+
+ul#overview {
+    @include menu-base;
+    > li {
+        > span {
+            @include menu-text;
+        }
+        > ul {
+        @include menu-base;
+        @include menu-nested();
+    }
+    }
+}
+
+// the class to be applied to the ul
+.codeslist {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+
+    > li {
+        @include card-container();
+
+        > h1, > h2, > h3 {
+            @include card-divider;
+            color: $white;
+            > i {
+                margin-right: 1rem;
+                font-size: larger;
+            }
+        }
+
+        > div {
+            @include card-section;
+            //margin: $precice-codeslist-item-padding;
+        }
+
+        > dl {
+            @include card-section;
+            > dd > p {
+                margin: 0;
+            }
+        }
+    }
+}
