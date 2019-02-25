@@ -6,8 +6,8 @@ repository: https://github.com/precice/fluent-adapter
 language: C
 status: experimental
 application: Fluid-Structure Interaction (fluid part)
-can-write:
-can-read:
+can-write: Forces
+can-read: Displacements
 versions:
 notes: Only incompressible flow simulations are supported.
 ---

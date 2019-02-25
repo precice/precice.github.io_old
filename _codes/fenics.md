@@ -5,6 +5,9 @@ category: official
 repository: https://github.com/precice/fenics-adapter
 language: Python
 status: experimental
+application: General FEM
+can-write: Temperature, Heat Flux
+can-read: Temperature, Heat Flux
 versions: 2017.2.0
 ---
 

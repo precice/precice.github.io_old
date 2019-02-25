@@ -5,9 +5,9 @@ category: official
 repository: https://github.com/precice/comsol-adapter
 language: C
 status: out-of-date
-application: Fluid-Structure Interaction (strucute part)
-can-write:
-can-read:
+application: Fluid-Structure Interaction (structure part)
+can-write: Displacements
+can-read: Forces
 versions:
 ---
 
