@@ -2,6 +2,7 @@
 name: FEniCS
 ID: fenics
 category: official
+order: 2
 repository: https://github.com/precice/fenics-adapter
 language: Python
 status: experimental

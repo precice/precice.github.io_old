@@ -2,6 +2,7 @@
 name: OpenFoam
 ID: openfoam
 category: official
+order: 1
 repository: https://github.com/precice/openfoam-adapter
 language: C++
 status: up-to-date

@@ -2,6 +2,7 @@
 name: Fluent
 ID: fluent
 category: official
+order: 6
 repository: https://github.com/precice/fluent-adapter
 language: C
 status: experimental
