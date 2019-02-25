@@ -4,7 +4,7 @@ title: Coupled Codes
 permalink: /codes/
 ---
 
-{% assign official = site.codes | where: "category", "official" %}
+{% assign official = site.codes | where: "category", "official" | sort: "order" %}
 {% assign inofficial = site.codes | where: "category", "inofficial" %}
 {% assign legacy = site.codes | where: "category", "legacy" %}
 
@@ -57,23 +57,20 @@ If you would like to contribute to these adapters, please [contact us](../resour
 <ul class="codeslist">
 {% for a in official %}
   <li>
-    <h3 id="{{ a.ID }}">{{ a.name }}<i class="fas {%- case a.status -%}
-    {% when 'up-to-date'%}
-    fa-check-circle
-    {% when 'needs-small-updates' %}
-    fa-info-circle
+    <h3 id="{{ a.ID }}"><i class="fas {%- case a.status -%}
     {% when 'experimental' %}
     fa-flask
-    {% when 'out-of-date' %}
-    fa-minus-circle
+    {% when 'up-to-date'%}
+    fa-check-circle
     {% else %}
-    {%- endcase -%} fa-fw" title="{{ a.status }}"></i></h3>
+    fa-exclamation-triangle
+    {% endcase %} fa-fw" title="{{ a.status }}"></i>{{ a.name }}</h3>
     <div>
       {{ a.content }}
     </div>
     <dl>
-      <dt>Adapter's repository:</dt>
-      <dd><a href="{{ a.repository }}">Repository</a> written in {{ a.language }} is {{ a.status }}</dd>
+      <dt>Adapter information:</dt>
+      <dd><a href="{{ a.repository }}">Adapter</a> is written in {{ a.language }} and has the status "{{ a.status }}"</dd>
       <dt>Supported {{ a.name }} versions:</dt>
       <dd>{{ a.versions }}</dd>
       <dt>Typical applications:</dt>

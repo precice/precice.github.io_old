@@ -25,7 +25,7 @@ ul#overview {
             @include card-divider;
             color: $white;
             > i {
-                margin-left: auto;
+                margin-right: 1rem;
                 font-size: larger;
             }
         }
