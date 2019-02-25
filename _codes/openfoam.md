@@ -1,5 +1,5 @@
 ---
-name: OpenFoam
+name: OpenFOAM
 ID: openfoam
 category: official
 order: 1
