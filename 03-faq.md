@@ -31,6 +31,10 @@ to the other. The simplest method uses the nearest-neighbor's value, while
 more advanced methods like the nearest-projection mapping or the Radial-Basis
 Function mapping include contributions from neighboring nodes.
 
+## Does partitioned coupling introduce error?
+
+In general yes, but it depends on the application whether this additional error is problematic. For some applications, e.g. FSI with a compressible fluid, the error can be controlled by the timestep size. For other applications, e.g. FSI with an incompressible fluid and strong coupling, the error can lead to instabilities (the so-called Added-Mass Effects), which in turn can be controlled by the implicit coupling algorithms preCICE offers.
+
 ## Does preCICE use files for the communication?
 
 No. Using files would be very slow. The preCICE participants communicate either
@@ -39,11 +43,43 @@ through TCP/IP sockets or through MPI ports.
 Additionally, any processes that need to communicate, do so directly (Peer-to-Peer),
 without needing to go through any central instance ("server").
 
+## Can the individual solvers run on two different platforms on two different machines in/out of a network?
+
+Yes, at least as long as communication over TCP/IP is possible. The solvers find each other using a network address, which is written in a file and read once in the beginning of the simulation. For this reason, all solvers need to be able to at least access a common file system.
+
+## Can preCICE couple more than two participants?
+
+Yes! [Here is an example](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX).
+
 ## Can preCICE be used for volume coupling?
 
 Yes, but it will be computationally expensive. preCICE is mainly designed to
 couple simulations that share a common surface boundary. In this case, all the
 coupled volume nodes should be specified in the coupling mesh.
+
+preCICE only knows about points and their connectivity, so it doesn't make much of a difference if the points are on a surface or on a volume. However, in the case of volume coupling, nearest-projection mapping would not be available. You may still use the nearest-neighbor or RBF mapping, however.
+
+## Can preCICE be used for one-way coupling?
+
+Yes! Several people are doing this already.
+
+Even though there may be other ways to do one-way coupling, it may still be beneficial to use preCICE here: flexible data mapping methods, parallel communication (your coupling data might be too large to write to disk), and already adapted solvers.
+
+## Can preCICE be used with adaptive meshes?
+
+Or: "Is it correct that preCICE cannot support couplings when the interface mesh is changing its connectivity during the simulation?"
+
+Currently, the mapping setup only occurs once during the initialization of preCICE. Thus, in order to modify the mapping one must restart the simulation. It depends on a case-by-case basis whether this costly method is acceptable or not.
+A dissertation in progress studies dynamically changing coupling meshes, such that preCICE will be able to handle adaptive meshes in the future.
+
+## Which code drives the coupled simulation in preCICE?
+Or: "Which code is executing the coupling iterations given that preCICE does not really have a centralized engine to orchestrate the simulation?"
+
+It is the preCICE library! Every participant loads the library and works on its own part of the mesh. Of course, there needs to be some cooperation between the different processes, but this does not need to be blocking or through a central process. If you want to know more details about the implementation of specific features, you may look into our [literature guide](https://github.com/precice/precice/wiki/Literature-guide), in particular in the dissertation of Benjamin Uekermann. And of course, the code is open!
+
+## Where can I find more details for the methods involved?
+
+Have a look into our [literature guide](https://github.com/precice/precice/wiki/Literature-guide).
 
 ## What are the advantages of preCICE in comparison to other coupling software?
 
