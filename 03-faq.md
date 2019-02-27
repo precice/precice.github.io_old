@@ -61,7 +61,7 @@ preCICE only knows about points and their connectivity, so it doesn't make much 
 
 ## Can preCICE be used for one-way coupling?
 
-Yes! Several people are doing this already and we also kind of do this in our [OpenFOAM-CalculiX FSI tutorial](https://github.com/precice/precice/wiki/Tutorial-for-FSI-with-OpenFOAM-and-CalculiX), where we have two one-way couplings (as we use different meshes). We also often use this for debugging. Nothing changes apart from the configuration file.
+Yes! Several people are doing this already.
 
 Even though there may be simpler ways to do one-way coupling, it may still be beneficial to use preCICE here: flexible data mapping methods and parallel communication (your coupling data might be too large to write to disk).
 
