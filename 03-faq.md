@@ -63,7 +63,7 @@ preCICE only knows about points and their connectivity, so it doesn't make much 
 
 Yes! Several people are doing this already.
 
-Even though there may be simpler ways to do one-way coupling, it may still be beneficial to use preCICE here: flexible data mapping methods and parallel communication (your coupling data might be too large to write to disk).
+Even though there may be other ways to do one-way coupling, it may still be beneficial to use preCICE here: flexible data mapping methods, parallel communication (your coupling data might be too large to write to disk), and already adapted solvers.
 
 ## Can preCICE be used with adaptive meshes?
 
