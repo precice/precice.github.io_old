@@ -45,7 +45,7 @@ without needing to go through any central instance ("server").
 
 ## Can the individual solvers run on two different platforms on two different machines in/out of a network?
 
-Yes, at least as long as communication over TCP/IP is possible. The participants find each other using a network address, which is written in a file and read once in the beginning of the simulation. For this reason, all the participants need to be started from the same directory.
+Yes, at least as long as communication over TCP/IP is possible. The solvers find each other using a network address, which is written in a file and read once in the beginning of the simulation. For this reason, all solvers need to be able to at least access a common file system.
 
 ## Can preCICE couple more than two participants?
 
