@@ -33,7 +33,7 @@ Function mapping include contributions from neighboring nodes.
 
 ## Does partitioned coupling introduce error?
 
-Partitioned coupling can indeed lead to errors such as the Added-Mass Effect. However, preCICE provides implicit coupling algorithms to treat the error introduced.
+In general yes, but it depends on the application whether this additional error is problematic. For some applications, e.g. FSI with a compressible fluid, the error can be controlled by the timestep size. For other applications, e.g. FSI with an incompressible fluid and strong coupling, the error can lead to instabilities (the so-called Added-Mass Effects), which in turn can be controlled by the implicit coupling algorithms preCICE offers.
 
 ## Does preCICE use files for the communication?
 
