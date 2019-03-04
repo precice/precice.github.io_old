@@ -31,6 +31,14 @@ to the other. The simplest method uses the nearest-neighbor's value, while
 more advanced methods like the nearest-projection mapping or the Radial-Basis
 Function mapping include contributions from neighboring nodes.
 
+## Can preCICE interpolate between an arbitrary / unstructured mesh and a regular / structured mesh?
+
+Yes. preCICE treats all meshes as unstructured meshes (including structured meshes). 
+
+## Does the data mapping between non-conforming meshes conserve physical quantatives?
+
+Please have a look at our [wiki page on the mapping configuration page](https://github.com/precice/precice/wiki/Mapping-Configuration) and the mentioned literature there. preCICE offers consistent and conservative mapping variants. Conservative mappings conserve the total sum of the mapped values. 
+
 ## Does partitioned coupling introduce error?
 
 In general yes, but it depends on the application whether this additional error is problematic. For some applications, e.g. FSI with a compressible fluid, the error can be controlled by the timestep size. For other applications, e.g. FSI with an incompressible fluid and strong coupling, the error can lead to instabilities (the so-called Added-Mass Effects), which in turn can be controlled by the implicit coupling algorithms preCICE offers.
@@ -69,8 +77,12 @@ Even though there may be other ways to do one-way coupling, it may still be bene
 
 Or: "Is it correct that preCICE cannot support couplings when the interface mesh is changing its connectivity during the simulation?"
 
-Currently, the mapping setup only occurs once during the initialization of preCICE. Thus, in order to modify the mapping one must restart the simulation. It depends on a case-by-case basis whether this costly method is acceptable or not.
+Currently, the mapping setup only occurs once during the initialization of preCICE. Thus, in order to modify the mesh and therewith the mapping one must restart the simulation. It depends on a case-by-case basis whether this costly method is acceptable or not.
 A dissertation in progress studies dynamically changing coupling meshes, such that preCICE will be able to handle adaptive meshes in the future.
+
+## Can preCICE be used with moving meshes?
+
+It depends on what exactly is meant by "moving". preCICE currently only supports static meshes, i.e. the mesh coordinates cannot be changed during a simulation. A dissertation in progress will introduce support for dynamic meshes. Nevertheless, also with static meshes, one can treat moving geometries and moving meshes if the respective solver uses an Arbitrary-Lagrangian-Eulerian approach.
 
 ## Which code drives the coupled simulation in preCICE?
 Or: "Which code is executing the coupling iterations given that preCICE does not really have a centralized engine to orchestrate the simulation?"
@@ -127,7 +139,7 @@ feedback we get from preCICE users.
 
 ## How is preCICE funded?
 
-preCICE is orginally an academic software. We have received public funding from several projects that use and develop preCICE. This applies currently, e.g., to the DFG-funded [ExaFSA project](http://ipvs.informatik.uni-stuttgart.de/SGS/EXAFSA/index.php), part of [SPPEXA](http://www.sppexa.de/). Recently, DFG had also a specific call on [research software sustainability](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/call_proposal_software), in which we were succesful: The project preDOM should take preCICE to the next level, from a prototype to a wide-spread sustainable scientific software. Specific funding for basic un-academic things such as tutorials, outreach, or documentation has been granted. Besides this public funding, both active academic developer groups, [SCCS](https://www5.in.tum.de/wiki/index.php/Home) at the Technical University of Munich and [SGS](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs) at the University of Stuttgart, also invest own internal funding.  
+preCICE is orginally an academic software. We have received public funding from several projects that use and develop preCICE. This applies currently, e.g., to the DFG-funded [ExaFSA project](http://ipvs.informatik.uni-stuttgart.de/SGS/EXAFSA/index.php), part of [SPPEXA](http://www.sppexa.de/). Recently, DFG had also a specific call on [research software sustainability](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/call_proposal_software), in which we were succesful: The project preDOM should take preCICE to the next level, from a prototype to a wide-spread sustainable scientific software. Specific funding for basic un-academic things such as tutorials, outreach, or documentation has been granted. We also receive funding through the [EuroTech PostDoc Program](http://postdoc.eurotech-universities.eu/), co-funded by the European Commission under its framework program Horizon 2020. Besides this public funding, both active academic developer groups, [SCCS](https://www5.in.tum.de/wiki/index.php/Home) at the Technical University of Munich and [SGS](https://www.ipvs.uni-stuttgart.de/abteilungen/sgs) at the University of Stuttgart, also invest own internal funding.  
 
 Since 2017, the spin-off [COPLON](http://coplon.de/) provides support, training, and software solutions for industrials users of preCICE. 
 
