@@ -14,7 +14,7 @@ notes: Linear elastic soid mechanics
 
 [deal.II](https://www.dealii.org/) is an open source software library supporting the creation of finite element codes. It uses state-of-the-art programming techniques to offer a modern interface to the complex data structures and algorithms required.
 
-Build status:<a style="text-decoration: none" href="https://travis-ci.org/precice/dealii-adapter" target="_blank"><img src="https://travis-ci.org/precice/dealii-adapter.svg?branch=master" alt="Build status">
+Build status: <a style="text-decoration: none" href="https://travis-ci.org/precice/dealii-adapter" target="_blank"><img src="https://travis-ci.org/precice/dealii-adapter.svg?branch=master" alt="Build status">
 </a> 
 
 #### Tutorials:
