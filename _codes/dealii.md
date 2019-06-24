@@ -2,13 +2,14 @@
 name: deal.II
 ID: dealii
 category: official
-order: 8
+order: 3
 repository: https://github.com/precice/dealii-adapter
 language: C++
 status: up-to-date
 application: Finite element method, in this case fluid-structure interaction (solid part)
 can-write: Displacement
 can-read: Forces
+version: Developed in deal.II 9.1.0
 notes: Linear elastic soid mechanics 
 ---
 

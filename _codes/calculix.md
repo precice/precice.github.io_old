@@ -2,7 +2,7 @@
 name: CalculiX
 ID: calculix
 category: official
-order: 3
+order: 4
 repository: https://github.com/precice/calculix-adapter
 language: C/Fortran
 status: up-to-date

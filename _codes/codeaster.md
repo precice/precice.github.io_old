@@ -2,7 +2,7 @@
 name: Code_Aster
 ID: code_aster
 category: official
-order: 5
+order: 6
 repository: https://github.com/precice/code_aster-adapter
 language: Python
 status: needs-small-updates
