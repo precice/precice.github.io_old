@@ -2,7 +2,7 @@
 name: SU2
 ID: su2
 category: official
-order: 4
+order: 5
 repository: https://github.com/precice/su2-adapter
 language: C++
 status: up-to-date

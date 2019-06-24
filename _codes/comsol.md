@@ -2,7 +2,7 @@
 name: COMSOL Multiphysics
 ID: comsol-multiphysics
 category: official
-order: 7
+order: 8
 repository: https://github.com/precice/comsol-adapter
 language: C
 status: out-of-date
