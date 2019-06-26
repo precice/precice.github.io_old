@@ -1,0 +1,54 @@
+- date: July 2019
+  icon: fas fa-graduation-cap
+  text: Graduation of Florian Lindner
+- date: May 2019
+  icon: fas fa-tag
+  text: Release v1.5.0
+- date: April 2019
+  icon: fas fa-star
+  text: 100 Stars on GitHub
+- date: March 2019
+  icon: fas fa-tag
+  text: Release v1.4.0
+- date: January 2019
+  icon: fas fa-university
+  text: New affiliate university TU Eindhoven
+- date: November 2018
+  icon: fas fa-tag
+  text: Release v1.3.0
+- date: October 2018
+  icon: fas fa-graduation-cap
+  text: Graduation of Klaudius Scheufele
+- date: August 2018
+  icon: fas fa-tag
+  text: Release v1.2.0
+- date: June 2018
+  icon: fas fa-star
+  text: 50 Stars on GitHub
+- date: April 2018
+  icon: fas fa-tag
+  text: Release v1.1.0
+- date: January 2018
+  icon: fas fa-star
+  text: 20 Stars on GitHub
+- date: January 2018
+  icon: fas fa-award
+  text: Approval of project preDOM
+- date: November 2017
+  icon: fas fa-tag
+  text: Release v1.0.0
+- date: Sometime in 2017
+  icon: fab fa-github
+  text: Migration to GitHub
+- date: October 2016
+  icon: fas fa-graduation-cap
+  text: Graduation of Benjamin Uekermann
+- date: October 2015
+  icon: fas fa-file-signature
+  text: Changed license from self-written BSD to LGPL3
+- date: 2015
+  icon: fas fa-graduation-cap
+  text: Graduation of Bernhard Gatzhammer
+- date: 2012
+  icon: fas fa-award
+  text: Approval of project ExaFSA

@@ -1,0 +1,140 @@
+$timeline-color: get-color(primary);
+$timeline-icon-color: $white;
+$timeline-transition: all 0.25s ease-in;
+$timeline-item-font-color: $black;
+$timeline-border: 2px solid $timeline-color;
+$timeline-thickness: 4px;
+
+%clearfix {
+  &::after,
+  &::before {
+    clear: both;
+    content: '';
+    display: block;
+    width: 100%;
+  }
+}
+
+.timeline-header {
+    text-align: center;
+}
+
+// Timeline
+.timeline {
+  list-style: none;
+  margin: 30px auto;
+  padding: 0 10px;
+  position: relative;
+  transition: $timeline-transition;
+  width: 100%;
+
+  &::before {
+    background: $timeline-color;
+    content: '';
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: $timeline-thickness;
+  }
+
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+    width: 100%;
+  }
+
+  > li {
+    margin-bottom: 1em;
+    position: relative;
+    @extend %clearfix;
+
+    > .timeline-icon {
+      color: $timeline-icon-color;
+      background: $timeline-color;
+      border-radius: 50%;
+      height: 50px;
+      left: 50%;
+      margin-left: -23px;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      width: 50px;
+      font-size: 2ex;
+      text-align: center;
+      vertical-align: bottom;
+      line-height:50px;
+    }
+
+    > article {
+      padding: 20px;
+      text-align: right;
+      transition: $timeline-transition;
+      width: 45%;
+
+      background: transparent;
+      border-top: $timeline-border;
+      border-right: $timeline-border;
+      border-radius: 0 $global-radius 0 0;
+
+      p {
+        color: $timeline-item-font-color;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 0;
+      }
+
+      > h2 {
+        font-size: 16px;
+        font-weight: bold;
+        font-variant: small-caps;
+        margin-bottom: 0;
+      }
+
+      &.right {
+        float: right;
+        text-align: left;
+        border-left: $timeline-border;
+        border-right: none;
+        border-radius:  $global-radius 0 0 0;
+      }
+    }
+  }
+}
+
+@include breakpoint(small only) {
+  .timeline {
+    margin: 30px;
+    padding: 0;
+    width: 90%;
+
+    &::before {
+      left: 0;
+    }
+
+    > li {
+      > article {
+        float: right;
+        text-align: left;
+        width: 90%;
+        border-left: $timeline-border;
+        border-right: none;
+        border-radius:  $global-radius 0 0 0;
+
+        &::before,
+        &.right::before {
+          border-left: 0;
+          border-right: 7px solid $timeline-color;
+          left: 10%;
+          margin-left: -6px;
+        }
+      }
+
+      .timeline-icon {
+        left: 0;
+      }
+    }
+  }
+}
+
