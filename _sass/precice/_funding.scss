@@ -1,0 +1,17 @@
+.funding {
+    list-style:none;
+    li {
+        margin: 0 0 20px 0;
+        width: 100%;
+        overflow: auto;
+        text-align: center;
+        img {
+            max-height: 4em;
+            margin: 0 1ex;
+        }
+        p {
+            color: #808080;
+            margin: 0;
+        }
+    }
+}
