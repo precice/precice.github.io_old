@@ -67,6 +67,8 @@ Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precic
   <li><a target="_blank" href=""><img src="../assets/funding/bmwi.png" alt="BMWi"></a></li>
   <li>
     <a target="_blank" href="http://postdoc.eurotech-universities.eu/"><img src="../assets/funding/eurotech.jpeg" alt="EuroTech"></a>
+  </li>
+  <li>
     <img src="../assets/funding/eu.png" alt="European Union">
     <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 754462</p>
   </li>
