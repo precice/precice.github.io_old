@@ -95,7 +95,7 @@ Further contributors include:
 The conceptual ideas of preCICE are not completely new, preCICE is an advancement of FSI*ce, which has been developed by Dr. Markus Brenk.
 
 
-## This project is funded by:
+## Funding
 
 <ul class="funding">
   <li><a target="_blank" href="http://www.sppexa.de/"><img src="../assets/funding/sppexa.jpg" alt="SPPEXA"></a></li>
@@ -109,6 +109,8 @@ The conceptual ideas of preCICE are not completely new, preCICE is an advancemen
     <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 754462</p>
   </li>
 </ul>
+
+## Impressum
 
 This website is maintained by
 
