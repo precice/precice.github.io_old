@@ -7,7 +7,7 @@
         @include breakpoint(medium) {
             @include xy-cell(1 of 3)
         }
-        margin-top: 1em;
+        margin-top: 2em;
         text-align: center;
         img {
             max-height: 4em;
