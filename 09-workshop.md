@@ -1,7 +1,7 @@
 ---
 layout: default
 title: preCICE Workshop 2020
-permalink: /workshop/
+permalink: /preCICE2020/
 ---
 
 # preCICE Workshop 2020
