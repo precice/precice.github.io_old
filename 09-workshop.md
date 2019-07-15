@@ -20,7 +20,7 @@ The following is a rough preliminary schedule for the workshop. The main part of
 
 ### Sunday, February 16
 
-If you are in Munich the day before, join us for a hiking trip on the Bavarian Alps. (optional, TBA)
+If you are in Munich the day before, join us for a social event on Sunday. (optional, TBA)
 
 ### Monday, February 17
 * 9:00 - 12:00 Hands-on introductory workshop (optional)
