@@ -100,7 +100,7 @@ The conceptual ideas of preCICE are not completely new, preCICE is an advancemen
 <ul class="funding">
   <li><a target="_blank" href="http://www.sppexa.de/"><img src="../assets/funding/sppexa.jpg" alt="SPPEXA"></a></li>
   <li><a target="_blank" href="http://gepris.dfg.de/gepris/projekt/391150578"><img src="../assets/funding/dfg.jpg" alt="preDOM"></a></li>
-  <li><a target="_blank" href=""><img src="../assets/funding/bmwi.png" alt="BMWi"></a></li>
+  <li><a target="_blank" href="https://www.bmwi.de/"><img src="../assets/funding/bmwi.png" alt="BMWi"></a></li>
   <li>
     <a target="_blank" href="http://postdoc.eurotech-universities.eu/"><img src="../assets/funding/eurotech.jpeg" alt="EuroTech"></a>
   </li>
