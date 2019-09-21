@@ -53,4 +53,6 @@ We would be very happy if you could choose a train or other environmentally-frie
 
 ## Accommodation
 
-We are preparing a list of recommended hotels, which will be available later this year and announced to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice).
+We have reserved a limited number of rooms for you at the hotel (TBA) for the price of (TBA) per night, including breakfast. We recommend this offer, as this very good, bavarian-style hotel is very close to the workshop venue and to the restaurant where we will host the invited dinner. It is also very well connected to the city center.
+
+Please use the code (TBA) when booking.
