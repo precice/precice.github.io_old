@@ -51,8 +51,4 @@ The TUM campus Garching is well connected to the Munich airport (MUC), as well a
 
 ## Accommodation
 
-<<<<<<< HEAD
 We are preparing a list of recommended hotels, which will be available later this year and announced to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice).
-=======
-We are preparing a list of recommended hotels, which will be available later this year and announced to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice).
->>>>>>> master
