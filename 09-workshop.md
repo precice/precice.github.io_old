@@ -41,7 +41,7 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 
 This is an academic, non-profit conference. However, we still have to collect a small registration fee.
 
-For early registrations (until November 29), the registration fee is 100€, which covers the catering and the workshop dinner. A later registration (until February 7) is also possible, with a registration fee of 150€.
+For early registrations (until November 15), the registration fee is 100€, which covers the catering and the workshop dinner. A later registration (until February 7) is also possible, with a registration fee of 150€.
 
 Please use the [registration form](https://www5.in.tum.de/workshops/precice-workshop/) to register.
 
@@ -73,3 +73,11 @@ We would be very happy if you could choose a train or other environmentally-frie
 We have reserved a limited number of rooms for you at the hotel (TBA) for the price of (TBA) per night, including breakfast. We recommend this offer, as this very good, bavarian-style hotel is very close to the workshop venue and to the restaurant where we will host the invited dinner. It is also very well connected to the city center.
 
 Please use the code (TBA) when booking.
+
+## Important dates
+
+* September 27: Registration opens.
+* November 15: End or early registration, abstract submission deadline.
+* December 15: Notification of acceptance, detailed schedule published.
+* February 7: Registration deadline.
+* February 17-18: Main part of the workshop.
