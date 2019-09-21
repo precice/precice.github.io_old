@@ -37,13 +37,30 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 
 * 9:00 - 18:00 Hands-on user support (if requested)
 
-## Call for contributions
-
-We are looking for speakers and we will offer longer and shorter slots for presentations. The call will follow later this year and announced to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice).
-
 ## Registration
 
-This is an academic, non-profit conference. However, we still have to collect a small registration fee. Details will be announced later this year and announced to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice).
+This is an academic, non-profit conference. However, we still have to collect a small registration fee.
+
+For early registrations (until November 29), the registration fee is 100€, which covers the catering and the workshop dinner. A later registration (until February 7) is also possible, with a registration fee of 150€.
+
+Please use the [registration form](https://www5.in.tum.de/workshops/precice-workshop/) to register.
+
+## Call for contributions
+
+We are aiming for 8-12 contributed talks of 15-25min each, focused more on coupling / preCICE-specific aspects and less on the scientific background of applications. We will notify you about acceptance until December 15.
+
+Please note that this is not a classical scientific conference, but a user and developer meeting. Contributions are very welcome, if they fit the purpose, but not mandatory.
+
+Possible contributions include (non-exclusively):
+
+*  New adapters for community codes
+*  Coupling numerics
+*  Comparison of different mapping, coupling, and communication methods
+*  Coupling boundary conditions
+*  Multi-scale coupling
+*  Building, packaging, testing, documentation and other Research Software Engineering topics
+
+Please use the [registration form](https://www5.in.tum.de/workshops/precice-workshop/) if you would like to submit a talk.
 
 ## Getting there
 
