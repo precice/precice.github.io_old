@@ -20,7 +20,7 @@ The following is a rough preliminary schedule for the workshop. The main part of
 
 ### Sunday, February 16
 
-If you are in Munich the day before, join us for a hiking trip on the Bavarian Alps. (optional, TBA)
+If you are in Munich the day before, join us for a social event on Sunday. (optional, TBA)
 
 ### Monday, February 17
 * 9:00 - 12:00 Hands-on introductory workshop (optional)
@@ -51,4 +51,8 @@ The TUM campus Garching is well connected to the Munich airport (MUC), as well a
 
 ## Accommodation
 
+<<<<<<< HEAD
 We are preparing a list of recommended hotels, which will be available later this year and announced to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice).
+=======
+We are preparing a list of recommended hotels, which will be available later this year and announced to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice).
+>>>>>>> master

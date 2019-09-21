@@ -18,3 +18,5 @@ plugins:
 
 sass:
   style: compressed
+
+exclude: [vendor] # Fix for travis

@@ -17,22 +17,19 @@ body > header {
 
         // responsive title bar
         > .title-bar {
-            a { height: $precice-header-item-base-size; }
-            .title-bar-right {
-                flex: 0 1 auto;
-                a {
-                    width: $precice-header-item-base-size;
-                    font-size: $precice-header-icon-font-size;
+            > .title-bar-gh {
+                display: flex;
+                margin-right: .5rem;
+                font-size: $precice-header-icon-font-size;
+                > a {
                     color: inherit;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
                     > i {
                         vertical-align: middle;
                     }
                 }
             }
         }
+
         // main menu
         > .top-bar {
             .is-logo {

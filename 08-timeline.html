@@ -1,0 +1,24 @@
+---
+layout: default
+title: Timeline
+permalink: /timeline/
+fullscreen: true
+---
+
+<h1 class="timeline-header">Timeline</h1>
+
+<ol class="timeline">
+  {% for item in site.data.timeline %}
+  {% assign even = forloop.index | modulo: 2%}
+  <li>
+    <i class="timeline-icon {{item.icon}}"></i>
+    <article{%- if even == 0 %} class="right"{%- endif -%}>
+        <h2>{{ item.date }}</h2>
+        <p> {{ item.text }} </p>
+      </article>
+  </li>
+  {% endfor %}
+  <li>
+    <i class="timeline-icon fas fa-coffee"></i>
+  </li>
+</ol>

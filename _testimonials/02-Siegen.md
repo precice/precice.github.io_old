@@ -1,6 +1,7 @@
 ---
 title: "Development of adapter-codes for multiphysical simulations"
 authors: "<a href=\"https://www.mb.uni-siegen.de/lfst/index.html.en?lang=en\">Dr.-Ing. Fettah Aldudak</a>, Chair of Fluid Mechanics, University of Siegen, Germany"
+img-url: ../assets/testimonial_siegen.png
 ---
 At the University of Siegen (LSM group), we are currently developing different adapter codes to run partitioned simulations using preCICE as the coupling interface.
 In a first step, we coupled two solvers within the frameworks of deal.

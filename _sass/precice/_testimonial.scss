@@ -69,6 +69,12 @@ $testimonial-shadow: none !default;
     > figure {
         @include card-section;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        > img {
+            margin-top: auto;
+            margin-bottom: auto !important;
+        }
     }
 
     > section {
