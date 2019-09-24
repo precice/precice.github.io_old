@@ -92,6 +92,7 @@ $testimonial-shadow: none !default;
     @include xy-cell(full);
     max-width: 40rem;
     max-height: 15rem;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
 }

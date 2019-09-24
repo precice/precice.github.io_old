@@ -8,7 +8,23 @@ fullscreen: true
 <h1>Testimonials</h1>
 
 <div class="testimonials">
+  <article class="testimonial" data-callout>
+    <header>
+      <h3>Do you use preCICE?</h3>
+    </header>
+    <section>
+      <p>
+        We are always happy to hear about interesting projects that use preCICE.
+      </p>
+    </section>
+    <section>
+      <a class="button primary float-center" href="../resources/#contact">Tell us your story!</a>
+    </section>
+  </article>
+</div>
 
+
+<div class="testimonials">
 {% assign testimonials = site.testimonials | reverse %}
 {% for testimonial in testimonials %}
   <article class="testimonial">
@@ -29,18 +45,4 @@ fullscreen: true
     </section>
   </article>
 {% endfor %}
-<article class="testimonial" data-callout>
-  <header>
-    <h3>Do you use preCICE?</h3>
-  </header>
-  <section>
-    <p>
-      We are always happy to hear about interesting projects that use preCICE.
-    </p>
-  </section>
-  <section>
-      <a class="button primary float-center" href="../resources/#contact">Tell us your story!</a>
-  </section>
-</article>
-
 </div>
