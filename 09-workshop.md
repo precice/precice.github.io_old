@@ -70,13 +70,12 @@ We would be very happy if you could choose a train or other environmentally-frie
 
 ## Accommodation
 
-We have reserved a limited number of rooms for you at the hotel (TBA) for the price of (TBA) per night, including breakfast. We recommend this offer, as this very good, bavarian-style hotel is very close to the workshop venue and to the restaurant where we will host the invited dinner. It is also very well connected to the city center.
+We have reserved a limited number of single rooms for you at the hotel [Hoyacker Hof](https://www.hoyackerhof.de/) for the price of 82€ per night, including breakfast. We recommend this offer, as this very good, bavarian-style hotel is very close to the workshop venue and to the restaurant where we will host the invited dinner. It is also very well connected to the city center.
 
-Please use the code (TBA) when booking.
+Please use the code `preCICE` when booking. The offer is available until January 7.
 
 ## Important dates
 
-* September 27: Registration opens.
 * November 15: End or early registration, abstract submission deadline.
 * December 15: Notification of acceptance, detailed schedule published.
 * February 7: Registration deadline.
