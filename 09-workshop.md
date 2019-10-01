@@ -66,7 +66,7 @@ Please use the [registration form](https://www5.in.tum.de/workshops/precice-work
 
 The TUM campus Garching is well connected to the Munich airport (MUC), as well as to the city center and central station. You can reach it using the subway line U6 (station Garching-Forschungszentrum). Have a look at the [Directions page of TUM](https://www.tum.de/en/about-tum/contact-directions/) for more.
 
-We would be very happy if you could choose a train or other environmentally-friendly ways to come to Munich. Please avoid flying!
+We would be very happy if you could choose a train or other environmentally-friendly ways to come to Munich. Please avoid flying if possible.
 
 ## Accommodation
 
