@@ -72,7 +72,7 @@ We would be very happy if you could choose a train or other environmentally-frie
 
 We have reserved a limited number of single rooms for you at the hotel [Hoyacker Hof](https://www.hoyackerhof.de/) for the price of 82€ per night, including breakfast. We recommend this offer, as this very good, bavarian-style hotel is very close to the workshop venue and to the restaurant where we will host the invited dinner. It is also very well connected to the city center.
 
-Please use the code `preCICE` when booking. The offer is available until January 7.
+Please use the code `preCICE` when [booking](https://www.hoyackerhof.de/en/booking/). The offer is available until January 7.
 
 ## Important dates
 
