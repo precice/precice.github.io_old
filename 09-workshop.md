@@ -37,7 +37,7 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 ### Tuesday, February 18
 * 09:00 - 10:00 Contributed Talks (3x)
 * 10:00 - 10:30 Developer Presentation (1x)
-* 10:20 - 11:00 Coffee Break
+* 10:30 - 11:00 Coffee Break
 * 11:00 - 12:00 Panel Discussion
 * 12:00 - 13:00 Lunch
 * 13:00 - 18:00 Hands-on user support (optional)
