@@ -25,7 +25,7 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 ### Monday, February 17
 * 09:00 - 11:00 Hands-on introductory workshop (optional, recommended if you are new to preCICE)
 * 11:30 - 11:40 Opening
-* 11:40 - 12:30 Introduction Blitz (1 slide and 1 minute per person) tbd.  
+* 11:40 - 12:30 Introduction Blitz (1 slide and 1 minute per person) (TBA)  
 * 12:30 - 13:30 Lunch
 * 13:30 - 14:30 Invited Speaker I
 * 14:30 - 15:30 Contributed Talks (3x) 
@@ -73,7 +73,7 @@ Please use the [registration form](https://www5.in.tum.de/workshops/precice-work
 
 ## Getting there
 
-The TUM campus Garching is well connected to the Munich airport (MUC), as well as to the city center and central station. You can reach it using the subway line U6 (station Garching-Forschungszentrum). Have a look at the [Directions page of TUM](https://www.tum.de/en/about-tum/contact-directions/) for more.
+The TUM campus Garching is well connected to the Munich airport (MUC), as well as to the city center and central train & bus stations. You can reach it using the subway line U6 (station Garching-Forschungszentrum). Have a look at the [Directions page of TUM](https://www.tum.de/en/about-tum/contact-directions/) for more.
 
 We would be very happy if you could choose a train or other environmentally-friendly ways to come to Munich. Please avoid flying if possible.
 
@@ -83,13 +83,14 @@ We have reserved a limited number of single rooms for you at the hotel [Hoyacker
 
 Please use the code `preCICE` when [booking](https://www.hoyackerhof.de/en/booking/). The offer is available until January 7.
 
+## Funding and travel grants
+
+This is a no-profit, academic conference. A big "thank you" to [SPPEXA](http://www.sppexa.de/) for the financial support of the Workshop! With this support, we are able to provide a small number of travel grants to (PhD) students who would not be able to join otherwise. If this applies to you, please explain your situation in the registration form.
+
 ## Important dates
 
-* November 15: End or early registration, abstract submission deadline.
+* November 15: End or early registration, abstract submission deadline, travel grant application deadline.
 * December 15: Notification of acceptance, detailed schedule published.
 * February 7: Registration deadline.
 * February 17-18: Main part of the workshop.
 
-## Funding and travel grants
-
-This is a no-profit, academic conference. A big "thank you" to [SPPEXA](http://www.sppexa.de/) for the financial support of the Workshop! Thanks to SPPEXA, we are able to provide a small number of travel grants to (PhD) students who would not be able to join otherwise. If this applies to you, please explain your situation using the registration form until the early registration deadline.
