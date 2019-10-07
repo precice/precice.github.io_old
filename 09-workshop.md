@@ -6,7 +6,7 @@ permalink: /preCICE2020/
 
 # preCICE Workshop 2020
 
-**Save the date!** February 17-18, 2020 at the [Technical University of Munich](https://www.tum.de/nc/en/), [Department of Informatics](http://www.in.tum.de/en/) (campus Garching), [Lecture Hall 2](https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=142&roomid=00.04.011@5604).
+February 17-18, 2020 at the [Technical University of Munich](https://www.tum.de/nc/en/), [Department of Informatics](http://www.in.tum.de/en/) (campus Garching), [Lecture Hall 2](https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=142&roomid=00.04.011@5604).
 
 After meeting you at invited sessions in conferences around Europe,
 it is time that we meet at home, where everything started.

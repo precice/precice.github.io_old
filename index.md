@@ -12,7 +12,7 @@ permalink: /
     <strong>News:</strong> (looking for the <a href="https://github.com/precice/precice/releases/latest">latest release on GitHub</a>...)
 </p>
 
-**preCICE Workshop 2020**: Save the date! February 17-18, 2020 in Munich, Germany.
+**preCICE Workshop 2020**: Registration is now open! [Read more...](preCICE2020/)
 
 **Give us your feedback**: [please use this form](https://precice.typeform.com/to/IeiyKF), it's important for us!
 
