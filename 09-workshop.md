@@ -89,7 +89,7 @@ This is a no-profit, academic conference. A big "thank you" to [SPPEXA](http://w
 
 ## Important dates
 
-* November 15: End or early registration, abstract submission deadline, travel grant application deadline.
+* November 15: End of early registration, abstract submission deadline, travel grant application deadline.
 * December 15: Notification of acceptance, detailed schedule published.
 * February 7: Registration deadline.
 * February 17-18: Main part of the workshop.
