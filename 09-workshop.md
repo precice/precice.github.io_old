@@ -23,13 +23,22 @@ The following is a rough preliminary schedule for the workshop. The main part of
 If you are in Munich the day before, join us for a social event on Sunday. (optional, TBA)
 
 ### Monday, February 17
-* 9:00 - 12:00 Hands-on introductory workshop (optional)
-* 12:00 - 13:00 Lunch
-* 13:00 - 19:00 Presentations by users, introduction to new features, invited presentations, and discussions in long coffee breaks
-* 20:00 - 23:00 Dinner
+* 09:00 - 11:00 Hands-on introductory workshop (optional, recommended if you are new to preCICE)
+* 11:30 - 11:40 Opening
+* 11:40 - 12:30 Introduction Blitz (1 slide and 1 minute per person) tbd.  
+* 12:30 - 13:30 Lunch
+* 13:30 - 14:30 Invited Speaker I
+* 14:30 - 15:30 Contributed Talks (3x) 
+* 15:30 - 16:30 Coffee Break, time for individual discussions
+* 16:30 - 17:30 Developer Presentations (2x) 
+* 17:30 - 18:30 Contributed Talks (3x)
+* 19:30 Dinner
 
 ### Tuesday, February 18
-* 9:00 - 12:00 More presentations by users, introduction to new features, invited presentations, and discussions in long coffee breaks
+* 09:00 - 10:00 Contributed Talks (3x)
+* 10:00 - 10:30 Developer Presentation (1x)
+* 10:20 - 11:00 Coffee Break
+* 11:00 - 12:00 Panel Discussion
 * 12:00 - 13:00 Lunch
 * 13:00 - 18:00 Hands-on user support (optional)
 
