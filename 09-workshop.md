@@ -80,3 +80,7 @@ Please use the code `preCICE` when [booking](https://www.hoyackerhof.de/en/booki
 * December 15: Notification of acceptance, detailed schedule published.
 * February 7: Registration deadline.
 * February 17-18: Main part of the workshop.
+
+## Funding and travel grants
+
+This is a no-profit, academic conference. A big "thank you" to [SPPEXA](http://www.sppexa.de/) for the financial support of the Workshop! Thanks to SPPEXA, we are able to provide a small number of travel grants to (PhD) students who would not be able to join otherwise. If this applies to you, please explain your situation using the registration form until the early registration deadline.
