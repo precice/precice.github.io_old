@@ -136,10 +136,13 @@ Please have a look at our [Wiki](https://github.com/precice/precice/wiki), where
 ## Contact
 
 ### Mailing List
-If you use preCICE, please subscribe to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice). You can report bugs or ask any questions there. We also use this mailing list to inform you about newest developments in preCICE.
+If you use preCICE, please subscribe to our [mailing list](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice). We use this mailing list to inform you about newest developments in preCICE. Please switch to Discourse for discussions.
+
+### Discourse Forum
+The main home of the preCICE community is now on [Discourse](https://precice.discourse.group/). Ask and write anything there, it may help another user or your future self!
 
 ### Gitter Chat Room
-In case you prefer a more interactive way of communication, preCICE has a [chat room on Gitter](https://gitter.im/precice/Lobby). If you use GitHub or Twitter, then you can simply login with your account, from any device. Feel free to ask us anything there!
+For first-level support, preCICE has a [chat room on Gitter](https://gitter.im/precice/Lobby). Feel free to ask us anything there, but please use Discourse for content that could be helpful for others.
 
 ### Report a bug
 If you found a bug, please open an issue on [GitHub](https://github.com/precice). Please discuss only one specific problem in each issue and remember that they are not the correct place to ask for general support. Prefer using our mailing list or Gitter for this.
