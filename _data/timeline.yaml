@@ -1,6 +1,9 @@
 - date: February 2020
   icon: fas fa-chalkboard-teacher
   text: 1st preCICE Workshop in Garching, Germany
+- date: October 2019
+  icon: fas fa-tag
+  text: Release v1.6.0
 - date: July 2019
   icon: fas fa-graduation-cap
   text: Graduation of Florian Lindner
