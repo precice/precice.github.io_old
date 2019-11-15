@@ -14,11 +14,11 @@ permalink: /
 
 **preCICE Workshop 2020**: Early registration extended until November 29. [Read more...](preCICE2020/)
 
+**preCICE in xSDK**: preCICE is now part of the [xSDK](https://xsdk.info/packages/) framework. [Read the compatibility policies...](https://github.com/xsdk-project/xsdk-policy-compatibility/blob/master/precice-policy-compatibility.md)
+
 **Give us your feedback**: [please use this form](https://precice.typeform.com/to/IeiyKF), it's important for us!
 
 **preCICE on Twitter**: Follow us at [@preCICE_org](https://twitter.com/preCICE_org) to always stay up-to-date!
-
-**preCICE in the media**: Feature on [Science Node](https://sciencenode.org/feature/exafsa.php)
 
 preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. Partitioned means that preCICE couples existing programs (solvers) capable of simulating a subpart of the complete physics involved in a simulation. This allows for the high flexibility that is needed to keep a decent time-to-solution for complex multi-physics scenarios. preCICE runs efficiently on a wide spectrum of systems, from low-end workstations up to complete compute clusters and has proven scalability on 10000s of MPI Ranks.
 
