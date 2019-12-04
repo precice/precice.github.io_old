@@ -4,7 +4,8 @@ title: preCICE Workshop 2020
 permalink: /preCICE2020/
 ---
 
-# preCICE Workshop 2020
+
+<img src="../assets/preCICE2020.svg" alt="preCICE Workshop banner" style="display:block; margin-left:auto; margin-right:auto;">
 
 February 17-18, 2020 at the [Technical University of Munich](https://www.tum.de/nc/en/), [Department of Informatics](http://www.in.tum.de/en/) (campus Garching), [Lecture Hall 2](https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=142&roomid=00.04.011@5604).
 
