@@ -55,23 +55,6 @@ For early registrations (until November 29), the registration fee is 100€, whi
 
 Please use the [registration form](https://www5.in.tum.de/workshops/precice-workshop/) to register.
 
-## Call for contributions
-
-We are aiming for 8-12 contributed talks of 15-25min each, focused more on coupling / preCICE-specific aspects and less on the scientific background of applications. We will notify you about acceptance until December 15.
-
-Please note that this is not a classical scientific conference, but a user and developer meeting. Contributions are very welcome, if they fit the purpose, but not mandatory.
-
-Possible contributions include (non-exclusively):
-
-*  New adapters for community codes
-*  Coupling numerics
-*  Comparison of different mapping, coupling, and communication methods
-*  Coupling boundary conditions
-*  Multi-scale coupling
-*  Building, packaging, testing, documentation and other Research Software Engineering topics
-
-Please use the [registration form](https://www5.in.tum.de/workshops/precice-workshop/) if you would like to submit a talk.
-
 ## Getting there
 
 The TUM campus Garching is well connected to the Munich airport (MUC), as well as to the city center and central train & bus stations. You can reach it using the subway line U6 (station Garching-Forschungszentrum). Have a look at the [Directions page of TUM](https://www.tum.de/en/about-tum/contact-directions/) for more.
@@ -86,7 +69,32 @@ Please use the code `preCICE` when [booking](https://www.hoyackerhof.de/en/booki
 
 ## Funding and travel grants
 
-This is a no-profit, academic conference. A big "thank you" to [SPPEXA](http://www.sppexa.de/) for the financial support of the Workshop! With this support, we are able to provide a small number of travel grants to (PhD) students who would not be able to join otherwise. If this applies to you, please explain your situation in the registration form.
+This is a no-profit, academic conference. A big "thank you" to <a href="http://www.sppexa.de/">SPPEXA</a> for the financial support of the Workshop!
+
+<details><summary>Oh no, you just missed the travel grant application deadline!</summary>
+<p>With this support, we are able to provide a small number of travel grants to (PhD) students who would not be able to join otherwise. If this applies to you, please explain your situation in the registration form.</p>
+</details>
+
+## Call for contributions
+
+<details><summary>Oh no, you just missed the call for contributions deadline!</summary>
+<p>We are aiming for 8-12 contributed talks of 15-25min each, focused more on coupling / preCICE-specific aspects and less on the scientific background of applications. We will notify you about acceptance until December 15.</p>
+
+<p>Please note that this is not a classical scientific conference, but a user and developer meeting. Contributions are very welcome, if they fit the purpose, but not mandatory.</p>
+
+<p>Possible contributions include (non-exclusively):
+<ul>
+<li>New adapters for community codes</li>
+<li>Coupling numerics</li>
+<li>Comparison of different mapping, coupling, and communication methods</li>
+<li>Coupling boundary conditions</li>
+<li>Multi-scale coupling</li>
+<li>Building, packaging, testing, documentation and other Research Software Engineering topics</li>
+</ul>
+</p>
+
+<p>Please use the <a href="https://www5.in.tum.de/workshops/precice-workshop/">registration form</a> if you would like to submit a talk.</p>
+</details>
 
 ## Important dates
 
