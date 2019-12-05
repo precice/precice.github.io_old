@@ -6,9 +6,6 @@ main {
         height:1.5em;
     }
 
-    ul {
-        margin-left: 0
-    }
     @include breakpoint(medium) {
         ul {
             margin-left: $list-side-margin;
