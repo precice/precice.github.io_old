@@ -103,3 +103,7 @@ This is a no-profit, academic conference. A big "thank you" to <a href="http://w
 * February 7: Registration deadline.
 * February 17-18: Main part of the workshop.
 
+## Get the poster - spread the word!
+
+<a href="../material/flyers/preCICE2020-poster.pdf" title="preCICE Workshop 2020 poster on GitHub"><img src="../material/flyers/preCICE2020-poster.png" alt="preCICE Workshop poster (png)"></a>
+
