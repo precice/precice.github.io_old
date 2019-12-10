@@ -106,6 +106,10 @@ If you have written any other adapter, please [let us know](../resources/#contac
       <dt>Contact:</dt>
       <dd>{{ a.contact | markdownify }}</dd>
     {% endif %}
+    {% if a.repository %}
+      <dt>Resources:</dt>
+      <dd><a href="{{ a.repository }}">Adapter repository</a></dd>
+    {% endif %}
       <dt>Typical applications:</dt>
       <dd>{{ a.application }}</dd>
     {% if a.notes %}
