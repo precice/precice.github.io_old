@@ -14,6 +14,8 @@ notes: This adapter also supports nearest-projection mapping.
 ---
 [CalculiX](http://www.calculix.de/) is a free/open-source (GPL) Finite Element solver, developed at the [MTU Aero Engines](http://www.mtu.de/).
 
+Build / system tests status: <a style="text-decoration: none" href="https://travis-ci.org/precice/calculix-adapter" target="_blank"><img src="https://travis-ci.org/precice/calculix-adapter.svg?branch=master" alt="Build status"></a>
+
 #### Tutorials:
    * [FSI with SU2 and CalculiX](https://github.com/precice/precice/wiki/FSI-tutorial) (also [in your browser](http://run.precice.org/))
    * [CHT with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX)
