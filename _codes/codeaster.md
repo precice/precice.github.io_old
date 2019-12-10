@@ -10,6 +10,7 @@ application: Conjugate Heat Transfer (solid part)
 can-write: Sink Temperature, Heat Transfer Coefficient
 can-read: Sink Temperature, Heat Transfer Coefficient
 versions: 12 (currently not actively maintained)
+notes: We are currently working in updating the adapter.
 ---
 
 [Code_Aster](https://code-aster.org/) is a free/open-source (GPL) Finite Element solver, developed at the [Electricite De France](https://www.edf.fr/).
