@@ -15,37 +15,125 @@ it is time that we meet at home, where everything started.
 In the two (core) days of the Workshop, we plan to have talks by users and developers
 of preCICE, presenting challenging applications, latest features, as well as the foundations.
 
-## Preliminary schedule
+## Program
 
-The following is a rough preliminary schedule for the workshop. The main part of the workshop stretches between Monday noon to Tuesday noon. However, we also plan additional events directly before and after the conference.
+The main part of the workshop stretches between Monday noon to Tuesday noon. However, we also plan additional events directly before and after the conference.
 
 ### Sunday, February 16
 
 If you are in Munich the day before, join us for a social event on Sunday. (optional, TBA)
 
 ### Monday, February 17
-* 09:00 - 11:00 Hands-on introductory workshop (optional, recommended if you are new to preCICE)
-* 11:30 - 11:40 Opening
-* 11:40 - 12:30 Introduction Blitz (1 slide and 1 minute per person) (TBA)  
-* 12:30 - 13:30 Lunch
-* 13:30 - 14:30 Invited Speaker I
-* 14:30 - 15:30 Contributed Talks (3x) 
-* 15:30 - 16:30 Coffee Break, time for individual discussions
-* 16:30 - 17:30 Developer Presentations (2x) 
-* 17:30 - 18:30 Contributed Talks (3x)
-* 19:30 Dinner
+* 09:00 - 11:45 <a href="#workshop">Hands-on introductory workshop</a> (Room: 02.07.023)
+    * 10:30 - 11:00: Coffee break (Magistrale)
+* 11:30 - 12:00 Registration (Magistrale)
+* 12:00 - 13:00 Lunch (Magistrale)
+* 13:00 - 13:15 Opening
+* 13:15 - 14:00 Introduction Blitz
+* 14:00 - 15:00 Keynote: Prof. Claus-Dieter Munz (TBA)
+* 15:00 - 15:30 Frédéric Simonis: preCICE v2.0 and beyond
+* 15:30 - 16:30 Coffee Break
+* 16:30 - 17:00 Alexander Jaust: Coupling fluid flows with DuMuX
+* 17:00 - 17:30 Alban Rousset: 6-way coupling of DEM+CFD+FEM with preCICE
+* 17:30 - 18:00 Kaspars Dadzis: Crystal growth as a challenge for multi-physics coupling
+* 18:00 - 18:30 Amin Totounferoush: Two-Level parallel initialization in preCICE
+* 19:30 - 22:30 Dinner at the [Garchinger Augustiner](http://garchinger-augustiner.com/)
 
 ### Tuesday, February 18
-* 09:00 - 10:00 Contributed Talks (3x)
-* 10:00 - 10:30 Developer Presentation (1x)
+* 09:00 - 09:30 Jessica Mariño: An efficient way to build preCICE adapters and improve FSI simulations
+* 09:30 - 10:00 Nitish Arya: Volume Coupling using preCICE for an AeroAcoustic simulation
+* 10:00 - 10:30 Benjamin Rüth: High-order and multi-rate time stepping with preCICE
 * 10:30 - 11:00 Coffee Break
-* 11:00 - 12:00 Panel Discussion
+* 11:00 - 12:00 preCICE World Café (Magistrale)
 * 12:00 - 13:00 Lunch
-* 13:00 - 18:00 Hands-on user support (optional)
+* 13:00 - 18:00 Hands-on user support (Room: 02.07.023)
 
 ### Wednesday, February 19
 
-* 9:00 - 18:00 Hands-on user support (if requested)
+* 9:00 - 18:00 Hands-on user support (Room: 02.07.023)
+
+## Program details
+
+<details class="workshop-event" id="workshop"><summary>Hands-on introductory workshop</summary>
+<p>Instructors: <a href="https://www5.in.tum.de/wiki/index.php/Gerasimos_Chourdakis,_M.Sc.">Gerasimos Chourdakis</a>, <a href="https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann">Benjamin Uekermann</a><br/>
+Affiliation: Technical Univerisy of Munich, Eindhoven University of Technology, preCICE developers.</p>
+<p>A hands-on introduction to preCICE, recommended for new users that want to learn how to couple their own codes.</p>
+<p>More details will be announced soon.</p>
+</details>
+
+<details class="workshop-event" id="intro"><summary>Introduction Blitz</summary>
+<p>Introduce yourself in 1 slide and 1 minute per person.</p>
+<p>More details will be announced soon.</p>
+</details>
+
+<details class="workshop-event" id="keynote"><summary>Keynote: Prof. Claus-Dieter Munz</summary>
+<p>Authors: <a href="https://www.iag.uni-stuttgart.de/institut/team/Munz-00008/">Prof. Claus-Dieter Munz</a><br/>
+Affiliation: University of Stuttgart</p>
+<p>More details will be announced soon.</p>
+</details>
+
+<details class="workshop-event" id="Simonis"><summary>Frédéric Simonis: preCICE v2.0 and beyond</summary>
+<p>Speaker: <a href="https://www5.in.tum.de/wiki/index.php/Fr%C3%A9d%C3%A9ric_Simonis,_M.Sc.">Frédéric Simonis</a><br/>
+Affiliation: Technical University of Munich, preCICE developer</p>
+<p>More details will be announced soon.</p>
+</details>
+
+<details class="workshop-event" id="Jaust"><summary>Alexander Jaust: Coupling fluid flows with DuMuX</summary>
+<p>Authors: <a href="https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Alexander.Jaust?__locale=en">Alexander Jaust</a>, Kilian Weishaupt, Miriam Mehl, Bernd Flemisch<br/>
+Affiliation: University of Stuttgart</p>
+<p>Many porous media applications involve multiphysics systems that can be separated by a sharp interface, for example coupling porous-media flow and free flow. The solver DuMuX (DUNE for Multi-{Phase, Component, Scale, Physics, ...} [1]) is a C++-based open-source software that is used extensively for solving flow and transport processes in porous media.</p>
+<p>This talk will focus on a new preCICE adapter that allows to couple DuMuX with DuMuX or other solvers aiming to be applicable to a wide variety of porous media applications. In the talk we discuss the development, the adapter's current capabilities, and we give a short overview on how to use the adapter, especially in the context of coupling porous-media flow and free flow. We will conclude with the discussion of future plans and possible extensions of the adapter.</p>
+<p>[1] https://dumux.org/</p>
+</details>
+
+<details class="workshop-event" id="Rousset"><summary>Alban Rousset: 6-way coupling of DEM+CFD+FEM with preCICE</summary>
+<p>Authors: Xavier Besseron, <a href="https://wwwen.uni.lu/research/fstc/research_unit_in_engineering_sciences_rues/members/alban_rousset">Alban Rousset</a>, Alice Peyraut, Bernhard Peters<br/>
+Affiliation: University of Luxembourg</p>
+<p>In this work, we present our preliminary results on the 6-way coupling of 3 numerical solvers: XDEM for the Discrete Element Method (DEM), OpenFOAM for Computation Fluid Dynamics (CFD), and deal.II for Finite Element Method (FEM). We relied on the existing preCICE adapters for OpenFOAM and deal.II and we have implemented a new preCICE adapter for the eXtended Discrete Element Method (XDEM), an innovative DEM software developed at the University of Luxembourg. The XDEM adapter permits coupling of the particulate phase of DEM with CFD and FEM:
+- DEM+FEM is a surface coupling that performs the exchange of surface forces and displacement between the particles and a deformable solid;
+- DEM+CFD is a volume coupling that performs the exchange of porosity, momentum, drag force and buoyancy between the particles and the fluid.
+Put together with the pre-existing CFD+FEM coupling, we obtain a 6-way coupled multi-physics solver for particles, fluid and deformable solids. We have tested and evaluated our multi-physics solver on the tutorial case “Cylinder with a flap” derived from the benchmarking case of Turek and Hron, that we extended to include a particulate phase solved by XDEM.
+</p></details>
+
+<details class="workshop-event" id="Dadzis"><summary>Kaspars Dadzis: Crystal growth as a challenge for multi-physics coupling</summary>
+<p>Authors: Kaspars Dadzis<br/>
+Affiliation: <a href="https://www.ikz-berlin.de/en/">Leibniz Institute for Crystal Growth</a>, Berlin</p>
+<p>Many technologically relevant crystalline materials are produced in complex high-temperature processes involving a large variety of physical phenomena such as heat transfer including radiation and phase change, electromagnetism, melt and gas flows, thermal stresses. Numerous specialized or general-purpose simulation tools (e.g., Comsol, OpenFOAM) have been applied to these processes, however, two key issues are still not solved. First, insufficient data for model validation due to limited possibilities of in-situ measurements. Second, incomplete knowledge about coupling effects between various physical phenomena and lack of appropriate models. We are addressing these issues within the framework of a Starting Grant from the European Research Council (ERC). An experimental platform will be developed for in-situ analysis of crystal growth processes of model materials with modern measurement techniques. The obtained data will be used to establish a new level of physical understanding and a new generation of multiphysical models for crystal growth. The present contribution discusses the practical challenges in this project with a focus on multi-physics coupling.</p>
+</details>
+
+<details class="workshop-event" id="Totounferoush"><summary>Amin Totounferoush: Two-Level parallel initialization in preCICE</summary>
+<p>Authors: <a href="https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Amin.Totounferoush?__locale=en">Amin Totounferoush</a><br/>
+Affiliation: University of Stuttgart, preCICE developer</p>
+<p>More details will be announced soon.</p>
+</details>
+
+<details class="workshop-event" id="Marino"><summary>Jessica Mariño: An efficient way to build preCICE adapters and improve FSI simulations</summary>
+<p>Authors: <a href="https://www.fnb.tu-darmstadt.de/fachgebiet_fnb/fnb_mitarbeiter/fnb_mitarbeiter_details_130560.en.jsp">Jessica Mariño</a>, Elena Kolb, Michael Schäfer<br/>
+Affiliation: Technical University of Darmstadt</p>
+<p>Research at FNB focuses on the modeling and simulation of multiphysics phenomena, such as the interaction of multiphase flows with flexible structures and aeroacoustic effects induced by fluid-structure interaction (FSI). For some years, our research in the field of FSI was performed using an implicit partitioned method based on the in-house flow solver FASTEST, the structural solver FEAP, and the quasi-standard coupling interface MpCCI version 3.1.1. The method was intensively tested and optimized. However, the system memory issues with MpCCI 3.1.1 and the lack of information about the coupling process in the black-box MpCCI, motivated the change of the coupling software to preCICE. A first version of the FASTEST adapter, which was based on the old MpCCI implementation, led to limited functionality of preCICE. Our recent efforts, which included rebuilding the preCICE adapter almost from scratch and the change to the CalculiX structural solver, significantly improved the efficiency and accuracy of the coupling framework. The present work intends to share our experience on reusing/rebuilding existing coupling approaches, the accompanying validation processes and adapter maintenance.</p>
+</details>
+
+<details class="workshop-event" id="Arya"><summary>Nitish Arya: Volume Coupling using preCICE for an AeroAcoustic simulation</summary>
+<p>Authors: <a href="http://home.iitk.ac.in/~ashoke/people.php">Nitish Arya</a><br/>
+Affiliation: Indian Institute of Technology</p>
+<p>The present study uses preCICE to couple OpenFOAM and nektar++ for an aeroacoustic application. Initially, the mean velocity, density and pressure from a compressible solver in OpenFOAM are transferred to nektar++. These fields are then used as basefields over which the acoustic perturbations are calculated using APESolver in the nektar++ framework. The source terms from OpenFOAM are transferred at each time step. The computational domain in nektar++ is divided into two parts- the first part is the region where the acoustic equations are solved using the source terms from the flow solver and the second part corresponds to the free propagation region without any source terms. The source terms are exchanged within a volume where dominant acoustic sources are present. Large Eddy Simulation (LES) is employed for the flow solver while the acoustic solver uses Acoustic Perturbation Equations employing a Discontinuous Galerkin Method. The simulation is validated against the experimental results for flow over a cubic obstacle kept over a flat plate.</p>
+</details>
+
+<details class="workshop-event" id="Rueth"><summary>Benjamin Rüth: High-order and multi-rate time stepping with preCICE</summary>
+<p>Authors: <a href="https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)">Benjamin Rüth</a><br/>
+Affiliation: Technical University of Munich, preCICE developer</p>
+<p>More details will be announced soon.</p>
+</details>
+
+<details class="workshop-event" id="worldcafe"><summary>preCICE World Café</summary>
+<p>Speak up! Join our <a href="https://en.wikipedia.org/wiki/World_caf%C3%A9">World Café</a> to discover and give us feedback on various aspects of preCICE.</p>
+<p>More details will be announced soon.</p>
+</details>
+
+<details class="workshop-event" id="support"><summary>Hands-on user support</summary>
+<p>Discourse and Gitter help us a lot everyday, but there is nothing like sitting together and discussing a problem. Join us on Tuesday evening and Wednesday in the room 02.07.023 and show us your own projects and open issues with preCICE.</p>
+<p>More details will be announced soon.</p>
+</details>
 
 ## Registration
 
