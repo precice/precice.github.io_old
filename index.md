@@ -23,7 +23,7 @@ The software offers methods for transient equation coupling, communication means
 preCICE is an open-source software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice).
 
 <figure class="text-center">
-  <img src="../assets/precice_overview.png">
+  <a href="../material/overview"><img src="../assets/precice_overview.png"></a>
 </figure>
 
 ## Unique Features
