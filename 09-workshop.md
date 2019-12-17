@@ -122,7 +122,8 @@ Affiliation: Indian Institute of Technology</p>
 <details class="workshop-event" id="Rueth"><summary>Benjamin Rüth: High-order and multi-rate time stepping with preCICE</summary>
 <p>Authors: <a href="https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)">Benjamin Rüth</a><br/>
 Affiliation: Technical University of Munich, preCICE developer</p>
-<p>More details will be announced soon.</p>
+<p>Many multi-physics applications have solver components that come with their respective scale in time and space. The spatial mapping of preCICE already allows to consequently connect different scales in space, i.e. different mesh resolutions. However, for the time dimension, only a very limited subcycling scheme is implemented to support different scales in time and timestep sizes.</p>
+<p>In this talk, we present a coupling scheme that utilizes waveform iteration and interpolates between time steps of each component to reach high order in time. We present a draft for the future implementation in preCICE and give usage examples. Finally, we want to discuss possible effects on the preCICE API and configuration.</p>
 </details>
 
 <details class="workshop-event" id="worldcafe"><summary>preCICE World Café</summary>
