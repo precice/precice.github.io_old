@@ -30,7 +30,7 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 * 12:00 - 13:00 Lunch (Magistrale)
 * 13:00 - 13:15 Opening
 * 13:15 - 14:00 Introduction Blitz
-* 14:00 - 15:00 Keynote: Prof. Claus-Dieter Munz (TBA)
+* 14:00 - 15:00 Keynote: Claus-Dieter Munz: Numerical Approaches for the Sharp Resolution of Interfaces
 * 15:00 - 15:30 Frédéric Simonis: preCICE v2.0 and beyond
 * 15:30 - 16:30 Coffee Break
 * 16:30 - 17:00 Alexander Jaust: Coupling fluid flows with DuMuX
@@ -66,10 +66,10 @@ Affiliation: Technical Univerisy of Munich, Eindhoven University of Technology, 
 <p>More details will be announced soon.</p>
 </details>
 
-<details class="workshop-event" id="keynote"><summary>Keynote: Prof. Claus-Dieter Munz</summary>
-<p>Authors: <a href="https://www.iag.uni-stuttgart.de/institut/team/Munz-00008/">Prof. Claus-Dieter Munz</a><br/>
+<details class="workshop-event" id="keynote"><summary>Keynote: Claus-Dieter Munz</summary>
+<p>Authors: <a href="https://www.iag.uni-stuttgart.de/institut/team/Munz-00008/">Claus-Dieter Munz</a><br/>
 Affiliation: University of Stuttgart</p>
-<p>More details will be announced soon.</p>
+<p>The need of heterogeneous coupling often appears in the simulation of complex technical problems. One may differ the problems with regions of different physical behavior, such as e.g. fluid structure interaction, or problems with regions of different mathematical or numerical modelling. The first class of problems is mainly motivated by the physical situation. Different physical processes occur in different parts and interact. The coupling here is usually imposed by an exchange of the boundary values for the different physical models. The other class is motivated by the quest to computational efficiency and consists of problems, in which the occurrence of different sub regions is more or less artificially introduced to save computational effort. An example here is the change of the flow equations to linear wave propagation equations to calculate the noise propagation to the outer field. Problems with use of different grids to handle the complexity of the geometry are as well divided into this group. In this talk, I will show different examples with focus to the sharp interface approximation and the coupling. These include aeroacoustic problems with noise generation and propagation, the zonal approach for turbulent flow, partly based on modelling and highly resolved regions, fluid structure interaction and multiphase flow.</p>
 </details>
 
 <details class="workshop-event" id="Simonis"><summary>Frédéric Simonis: preCICE v2.0 and beyond</summary>
