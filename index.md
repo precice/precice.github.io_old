@@ -40,7 +40,11 @@ In contrast to other coupling software, preCICE is prepared for the next generat
 
 Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precice.github.io/tree/master/material/slides/preCICE_Slides.pdf) 
 
-## To cite preCICE, please use:  
+## How to cite preCICE?  
+
+You can cite the preCICE library using the following paper.
+Please also consider citing the adapters you use. You can find the respective references in the documentation of our adapters and in our [literature guide](https://github.com/precice/precice/wiki/Literature-guide).
+
 <div class="publications">
 <article class="publication">
   <header>
