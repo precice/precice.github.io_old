@@ -47,7 +47,7 @@ Download overview slides: [preCICE_Slides.pdf](https://github.com/precice/precic
 ## How to cite preCICE?  
 
 You can cite the preCICE library using the following paper.
-Please also cite each adapter you use. You can find the respective references in the documentation of our adapters and in our [literature guide](https://github.com/precice/precice/wiki/Literature-guide).
+Please also consider citing the adapters you use. You can find the respective references in the documentation of our adapters and in our [literature guide](https://github.com/precice/precice/wiki/Literature-guide).
 
 <div class="publications">
 <article class="publication">
