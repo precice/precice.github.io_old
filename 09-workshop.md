@@ -44,8 +44,8 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 * 09:30 - 10:00 Nitish Arya: Volume Coupling using preCICE for an AeroAcoustic simulation
 * 10:00 - 10:30 Benjamin Rüth: High-order and multi-rate time stepping with preCICE
 * 10:30 - 11:00 Coffee Break
-* 11:00 - 12:00 preCICE World Café (Magistrale)
-* 12:00 - 13:00 Lunch
+* 11:00 - 12:30 preCICE World Café (Magistrale)
+* 12:30 - 13:30 Lunch
 * 13:00 - 18:00 Hands-on user support (Room: 02.07.023)
 
 ### Wednesday, February 19
