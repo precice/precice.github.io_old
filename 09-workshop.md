@@ -79,7 +79,7 @@ Affiliation: Technical University of Munich, preCICE developer</p>
 </details>
 
 <details class="workshop-event" id="Jaust"><summary>Alexander Jaust: Coupling fluid flows with DuMuX</summary>
-<p>Authors: <a href="https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Alexander.Jaust?__locale=en">Alexander Jaust</a>, Kilian Weishaupt, Miriam Mehl, Bernd Flemisch<br/>
+<p>Authors: <a href="https://www.ipvs.uni-stuttgart.de/institute/team/Jaust-00001/">Alexander Jaust</a>, Kilian Weishaupt, Miriam Mehl, Bernd Flemisch<br/>
 Affiliation: University of Stuttgart</p>
 <p>Many porous media applications involve multiphysics systems that can be separated by a sharp interface, for example coupling porous-media flow and free flow. The solver DuMuX (DUNE for Multi-{Phase, Component, Scale, Physics, ...} [1]) is a C++-based open-source software that is used extensively for solving flow and transport processes in porous media.</p>
 <p>This talk will focus on a new preCICE adapter that allows to couple DuMuX with DuMuX or other solvers aiming to be applicable to a wide variety of porous media applications. In the talk we discuss the development, the adapter's current capabilities, and we give a short overview on how to use the adapter, especially in the context of coupling porous-media flow and free flow. We will conclude with the discussion of future plans and possible extensions of the adapter.</p>
@@ -102,7 +102,7 @@ Affiliation: <a href="https://www.ikz-berlin.de/en/">Leibniz Institute for Cryst
 </details>
 
 <details class="workshop-event" id="Totounferoush"><summary>Amin Totounferoush: Two-Level parallel initialization in preCICE</summary>
-<p>Authors: <a href="https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Amin.Totounferoush?__locale=en">Amin Totounferoush</a><br/>
+<p>Authors: <a href="https://www.ipvs.uni-stuttgart.de/institute/team/Totounferoush/">Amin Totounferoush</a><br/>
 Affiliation: University of Stuttgart, preCICE developer</p>
 <p>More details will be announced soon.</p>
 </details>
