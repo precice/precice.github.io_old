@@ -115,11 +115,11 @@ The conceptual ideas of preCICE are not completely new, preCICE is an advancemen
 This website is maintained by
 
 <tt>
-Florian Lindner  
-Simulation großer Systeme  
-Institut für parallele und verteilte Systeme, Universität Stuttgart  
-Universitätsstraße 38 | 70569 Stuttgart | Germany  
-Tel: +49 (0)711 685 88427
+Benjamin Uekermann
+Eindhoven University of Technology
+Department of Mechanical Engineering
+Energy Technology
+P.O. Box 513 | 5600MB EINDHOVEN | The Netherlands
 </tt>
 
 <figure>
