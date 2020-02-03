@@ -115,10 +115,10 @@ The conceptual ideas of preCICE are not completely new, preCICE is an advancemen
 This website is maintained by
 
 <tt>
-Benjamin Uekermann
-Eindhoven University of Technology
-Department of Mechanical Engineering
-Energy Technology
+Benjamin Uekermann  
+Eindhoven University of Technology  
+Department of Mechanical Engineering  
+Energy Technology  
 P.O. Box 513 | 5600MB EINDHOVEN | The Netherlands
 </tt>
 
