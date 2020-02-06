@@ -46,7 +46,7 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 * 10:30 - 11:00 Coffee Break
 * 11:00 - 12:30 preCICE World Café (Magistrale)
 * 12:30 - 13:30 Lunch
-* 13:00 - 18:00 Hands-on user support (Room: 02.07.023)
+* 13:30 - 18:00 Hands-on user support (Room: 02.07.023)
 
 ### Wednesday, February 19
 
@@ -58,12 +58,12 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 <p>Instructors: <a href="https://www5.in.tum.de/wiki/index.php/Gerasimos_Chourdakis,_M.Sc.">Gerasimos Chourdakis</a>, <a href="https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann">Benjamin Uekermann</a><br/>
 Affiliation: Technical Univerisy of Munich, Eindhoven University of Technology, preCICE developers.</p>
 <p>A hands-on introduction to preCICE, recommended for new users that want to learn how to couple their own codes.</p>
-<p>More details will be announced soon.</p>
+<p>We will couple two simple Python codes, discussing the basic methods of the preCICE API and the structure of the configuration file. We will then also look into cases from the preCICE tutorials.</p>
+<p>Please bring your own laptop, with preCICE v2 (TBA) and the Python bindings installed. An VM image for VirtualBox will also be available.</p>
 </details>
 
 <details class="workshop-event" id="intro"><summary>Introduction Blitz</summary>
 <p>Introduce yourself in 1 slide and 1 minute per person.</p>
-<p>More details will be announced soon.</p>
 </details>
 
 <details class="workshop-event" id="keynote"><summary>Keynote: Claus-Dieter Munz: Numerical Approaches for the Sharp Resolution of Interfaces</summary>
@@ -75,7 +75,8 @@ Affiliation: University of Stuttgart</p>
 <details class="workshop-event" id="Simonis"><summary>Frédéric Simonis: preCICE v2.0 and beyond</summary>
 <p>Speaker: <a href="https://www5.in.tum.de/wiki/index.php/Fr%C3%A9d%C3%A9ric_Simonis,_M.Sc.">Frédéric Simonis</a><br/>
 Affiliation: Technical University of Munich, preCICE developer</p>
-<p>More details will be announced soon.</p>
+<p>preCICE 2.0 brings many changes and improvements at the price of breaking backwards compatibility.
+This talk presents an overview on what has changed in this major release and presents a comprehensive guide on how to painlessly upgrade adapters and configurations. Furthermore, we will have a brief overview of upcoming features.</p>
 </details>
 
 <details class="workshop-event" id="Jaust"><summary>Alexander Jaust: Coupling fluid flows with DuMuX</summary>
@@ -128,12 +129,12 @@ Affiliation: Technical University of Munich, preCICE developer</p>
 
 <details class="workshop-event" id="worldcafe"><summary>preCICE World Café</summary>
 <p>Speak up! Join our <a href="https://en.wikipedia.org/wiki/World_caf%C3%A9">World Café</a> to discover and give us feedback on various aspects of preCICE.</p>
-<p>More details will be announced soon.</p>
+<p>The concept will be described in the beginning of the session.</p>
 </details>
 
 <details class="workshop-event" id="support"><summary>Hands-on user support</summary>
 <p>Discourse and Gitter help us a lot everyday, but there is nothing like sitting together and discussing a problem. Join us on Tuesday evening and Wednesday in the room 02.07.023 and show us your own projects and open issues with preCICE.</p>
-<p>More details will be announced soon.</p>
+<p>There will be a list where you can add your name and topic during the workshop. However, it would help us if you sent us a description beforehand.</p>
 </details>
 
 ## Registration
