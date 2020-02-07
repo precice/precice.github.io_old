@@ -59,7 +59,7 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 Affiliation: Technical Univerisy of Munich, Eindhoven University of Technology, preCICE developers.</p>
 <p>A hands-on introduction to preCICE, recommended for new users that want to learn how to couple their own codes.</p>
 <p>We will couple two simple Python codes, discussing the basic methods of the preCICE API and the structure of the configuration file. We will then also look into cases from the preCICE tutorials.</p>
-<p>Please bring your own laptop, with preCICE v2 (TBA) and the Python bindings installed. An VM image for VirtualBox will also be available.</p>
+<p>Please bring your own laptop, with preCICE v2 and the Python bindings installed. A VM image for VirtualBox will also be available.</p>
 </details>
 
 <details class="workshop-event" id="intro"><summary>Introduction Blitz</summary>
@@ -105,7 +105,8 @@ Affiliation: <a href="https://www.ikz-berlin.de/en/">Leibniz Institute for Cryst
 <details class="workshop-event" id="Totounferoush"><summary>Amin Totounferoush: Two-Level parallel initialization in preCICE</summary>
 <p>Authors: <a href="https://www.ipvs.uni-stuttgart.de/institute/team/Totounferoush/">Amin Totounferoush</a><br/>
 Affiliation: University of Stuttgart, preCICE developer</p>
-<p>More details will be announced soon.</p>
+<p>We introduce a new parallel scheme for communication initialization in partitioned multi-physics simulations. The old solution to establish connections in preCICE is based on transferring the whole interface mesh from one solver to the other one. In this approach, the mesh partitions are gathered in a master rank of one solver and communicated to the master rank of the other solver. The receiving master rank broadcasts the whole mesh to the rest of the interface ranks. Each rank then compares its local mesh partition with the received mesh to find the connections and the list of the data that needs to be exchanged during run time. This approach introduces a communication bottleneck and, therefore, does not scale to higher numbers of cores. Furthermore, the storage of the complete mesh at the master ranks is very memory consuming.</p>
+<p>To address these issues, we propose a two-level parallel approach. In the first level, instead of communicating the whole mesh via master ranks, we only communicate a bounding box for each interface mesh partition via the master-master communication channel. This information is enough to find the possible connections between ranks of the participants. In the second level, each rank communicates its mesh partition to the connected ranks for final filtering and finding the actual list of data that must be communicated during the simulation. Various test cases are studied and analyzed. The initial measurements show that the new initialization method outperforms the old one in terms of run time, scalability and memory consumption.</p>
 </details>
 
 <details class="workshop-event" id="Marino"><summary>Jessica Mariño: An efficient way to build preCICE adapters and improve FSI simulations</summary>
