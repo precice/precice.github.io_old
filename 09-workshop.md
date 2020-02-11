@@ -58,8 +58,8 @@ If you are in Munich the day before, join us for a social event on Sunday. (opti
 <p>Instructors: <a href="https://www5.in.tum.de/wiki/index.php/Gerasimos_Chourdakis,_M.Sc.">Gerasimos Chourdakis</a>, <a href="https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann">Benjamin Uekermann</a><br/>
 Affiliation: Technical Univerisy of Munich, Eindhoven University of Technology, preCICE developers.</p>
 <p>A hands-on introduction to preCICE, recommended for new users that want to learn how to couple their own codes.</p>
-<p>We will couple two simple Python codes, discussing the basic methods of the preCICE API and the structure of the configuration file. We will then also look into cases from the preCICE tutorials.</p>
-<p>Please bring your own laptop, with preCICE v2 and the Python bindings installed. A VM image for VirtualBox will also be available.</p>
+<p>We will couple two simple Python codes, discussing the basic methods of the preCICE API and the structure of the configuration file. We will then also look into tools useful for developing and debugging coupled simulations.</p>
+<p>Please bring your own laptop, with preCICE v2, Python 3.6 or newer, and the Python bindings installed. Optionally, please also install ParaView and gnuplot, or similar software to visualize VTK point data and CSV files. A VM image for VirtualBox will also be available.</p>
 </details>
 
 <details class="workshop-event" id="intro"><summary>Introduction Blitz</summary>
