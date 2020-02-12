@@ -8,6 +8,12 @@ leads:
     institution: University of Stuttgart
     url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl
     img: Miriam_Mehl
+  - fullname: Dr. rer. nat. Benjamin Uekermann 
+    name: Uekermann
+    institution:  Eindhoven University of Technology
+    github: uekerman
+    url:  https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann
+    img: Benjamin_Uekermann
 
 main:
   - fullname: Gerasimos Chourdakis, M.Sc.
@@ -51,12 +57,6 @@ main:
     github: atotoun
     url:  https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Amin.Totounferoush
     img: Amin_Totounferoush
-  - fullname: Dr. rer. nat. Benjamin Uekermann 
-    name: Uekermann
-    institution:  Eindhoven University of Technology
-    github: uekerman
-    url:  https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann
-    img: Benjamin_Uekermann
 
 main-inactive:
   - fullname: Dr. Bernhard Gatzhammer
