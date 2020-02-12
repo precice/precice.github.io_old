@@ -21,7 +21,13 @@ The main part of the workshop stretches between Monday noon to Tuesday noon. How
 
 ### Sunday, February 16
 
-If you are in Munich the day before, join us for a social event on Sunday. (optional, TBA)
+If you are in Munich the day before, join us for a social event on Sunday:
+* 14:00 - 16:00 Guided city tour in Munich
+* 16:00 - 18:00 Experience Munich on your own
+* 18:30 - 19:00 Quick tour through Neuhausen
+* 19:00 - 22:00 Dinner at [Großwirt](http://www.grosswirt.de/)
+
+More details have been sent to registered participants.
 
 ### Monday, February 17
 * 09:00 - 11:45 <a href="#workshop">Hands-on introductory workshop</a> (Room: 02.07.023)
