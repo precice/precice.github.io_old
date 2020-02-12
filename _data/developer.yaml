@@ -1,19 +1,17 @@
 leads:
-  - fullname: Prof. Dr. Hans-Joachim Bungartz
-    name: Bungartz
-    institution: Technical University of Munich
-    url: https://www5.in.tum.de/wiki/index.php/Univ.-Prof._Dr._Hans-Joachim_Bungartz
-    img: Hans_Bungartz
-  - fullname: Prof. Dr. Miriam Mehl
-    institution: University of Stuttgart
-    url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl
-    img: Miriam_Mehl
   - fullname: Dr. rer. nat. Benjamin Uekermann 
-    name: Uekermann
     institution:  Eindhoven University of Technology
     github: uekerman
     url:  https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann
     img: Benjamin_Uekermann
+  - fullname: Prof. Dr. Miriam Mehl
+    institution: University of Stuttgart
+    url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl
+    img: Miriam_Mehl
+  - fullname: Prof. Dr. Hans-Joachim Bungartz
+    institution: Technical University of Munich
+    url: https://www5.in.tum.de/wiki/index.php/Univ.-Prof._Dr._Hans-Joachim_Bungartz
+    img: Hans_Bungartz
 
 main:
   - fullname: Gerasimos Chourdakis, M.Sc.
@@ -40,11 +38,6 @@ main:
     github: BenjaminRueth
     url:  https://www5.in.tum.de/wiki/index.php/Benjamin_R%C3%BCth,_M.Sc._(hons)
     img: Benjamin_Rueth
-  - fullname: Alexander Rusch, M.Sc.
-    name: Rusch
-    institution:  ETH Zürich
-    github: arusch
-    img: Alexander_Rusch
   - fullname: Frédéric Simonis, M.Sc.
     name: Simonis
     institution:  Technical University of Munich
@@ -57,6 +50,12 @@ main:
     github: atotoun
     url:  https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Amin.Totounferoush
     img: Amin_Totounferoush
+  - fullname: Dr. rer. nat. Benjamin Uekermann 
+    name: Uekermann
+    institution:  Eindhoven University of Technology
+    github: uekerman
+    url:  https://www5.in.tum.de/wiki/index.php/Dr._rer._nat._Benjamin_Uekermann
+    img: Benjamin_Uekermann
 
 main-inactive:
   - fullname: Dr. Bernhard Gatzhammer
@@ -68,6 +67,11 @@ main-inactive:
     institution: University of Stuttgart
     github: scheufks
     url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Klaudius.Scheufele
+  - fullname: Alexander Rusch, M.Sc.
+    name: Rusch
+    institution:  ETH Zürich
+    github: arusch
+    img: Alexander_Rusch
 
 contributors:
   - fullname: Georg Abrams 
