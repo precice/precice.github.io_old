@@ -1,6 +1,9 @@
 - date: February 2020
   icon: fas fa-chalkboard-teacher
   text: 1st preCICE Workshop in Garching, Germany
+- date: February 2020
+  icon: fas fa-tag
+  text: Release v2.0.0
 - date: September 2019
   icon: fas fa-tag
   text: Release v1.6.0
