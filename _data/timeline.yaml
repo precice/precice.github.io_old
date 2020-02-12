@@ -4,6 +4,9 @@
 - date: February 2020
   icon: fas fa-tag
   text: Release v2.0.0
+- date: February 2020
+  icon: fab fa-github
+  text: MATLAB bindings released
 - date: September 2019
   icon: fas fa-tag
   text: Release v1.6.0
