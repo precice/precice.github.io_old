@@ -13,7 +13,7 @@ Thank you everybody who helped or participated in the workshop. After all the po
 * _All in all nice workshop!_
 
 <figure class="text-center">
-<img src="../assets/workshop-group.jpeg" alt="preCICE Workshop group" style="display:block; margin-left:auto; margin-right:auto;" width="60%" height: auto;>
+<img src="../assets/workshop-group.jpeg" alt="preCICE Workshop group" style="display:block; margin-left:auto; margin-right:auto;" width="60%" height="auto">
 </figure>
 
 February 17-18, 2020 at the [Technical University of Munich](https://www.tum.de/nc/en/), [Department of Informatics](http://www.in.tum.de/en/) (campus Garching), [Lecture Hall 2](https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=142&roomid=00.04.011@5604). [Register](https://www5.in.tum.de/workshops/precice-workshop/) until February 7.
