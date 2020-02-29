@@ -7,6 +7,15 @@ permalink: /preCICE2020/
 
 <img src="../assets/preCICE2020.svg" alt="preCICE Workshop banner" style="display:block; margin-left:auto; margin-right:auto;">
 
+Thank you everybody who helped or participated in the workshop. After all the positive feedback, we are confident to repeat the workshop in 2021. Some of the feedback:
+* _Fantastic organisation throughout. Great efforts. Loved to meet people in different fields and also in similar fields._
+* _Thanks for the great workshop in the true sense of this word!_ 
+* _All in all nice workshop!_
+
+<figure class="text-center">
+<img src="../assets/workshop-group.jpeg" alt="preCICE Workshop group" style="display:block; margin-left:auto; margin-right:auto;" width="60%">
+<figure class="text-center">
+
 February 17-18, 2020 at the [Technical University of Munich](https://www.tum.de/nc/en/), [Department of Informatics](http://www.in.tum.de/en/) (campus Garching), [Lecture Hall 2](https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=142&roomid=00.04.011@5604). [Register](https://www5.in.tum.de/workshops/precice-workshop/) until February 7.
 
 After meeting you at invited sessions in conferences around Europe,
