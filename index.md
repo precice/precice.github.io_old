@@ -12,7 +12,7 @@ permalink: /
     <strong>News:</strong> (looking for the <a href="https://github.com/precice/precice/releases/latest">latest release on GitHub</a>...)
 </p>
 
-**preCICE Workshop 2020**: The schedule is out! Register until February 7. [Read more...](preCICE2020/)
+**Now also on YouTube**: Subscribe to our new [YouTube channel](https://www.youtube.com/channel/UCxZdSQdmDrheEqxq8g48t6A), where you can also find the talks from the preCICE Workshop 2020.
 
 **preCICE in xSDK**: preCICE is now part of the [xSDK](https://xsdk.info/packages/) framework. [Read the compatibility policies...](https://github.com/xsdk-project/xsdk-policy-compatibility/blob/master/precice-policy-compatibility.md)
 
