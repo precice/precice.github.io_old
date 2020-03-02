@@ -148,7 +148,7 @@ For first-level support, preCICE has a [chat room on Gitter](https://gitter.im/p
 If you found a bug, please open an issue on [GitHub](https://github.com/precice). Please discuss only one specific problem in each issue and remember that they are not the correct place to ask for general support. Prefer using our mailing list or Gitter for this.
 
 ### Social Media
-Follow us on [Twitter](https://twitter.com/preCICE_org) and on [ResearchGate](https://www.researchgate.net/project/preCICE)!
+Follow us on [Twitter](https://twitter.com/preCICE_org), [YouTube](https://www.youtube.com/channel/UCxZdSQdmDrheEqxq8g48t6A), and on [ResearchGate](https://www.researchgate.net/project/preCICE)!
 
 ## For developers
 
