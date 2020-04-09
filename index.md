@@ -18,7 +18,7 @@ permalink: /
 
 preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. Partitioned means that preCICE couples existing programs (solvers) capable of simulating a subpart of the complete physics involved in a simulation. This allows for the high flexibility that is needed to keep a decent time-to-solution for complex multi-physics scenarios. preCICE runs efficiently on a wide spectrum of systems, from low-end workstations up to complete compute clusters and has proven scalability on 10000s of MPI Ranks.
 
-The software offers methods for transient equation coupling, communication means, and data mapping schemes. preCICE is written in C++ and offers bindings for C, Fortran, Matlab, and Python. [Ready-to-use adapters](codes) for well-known commercial and open-source solvers, such as OpenFOAM, deal.II, FEniCS, SU2, or CalculiX, are available. Due to the minimally-invasive approach of preCICE, adapters for in-house codes can be implemented and validated in only a few weeks.
+The software offers methods for transient equation coupling, communication means, and data mapping schemes. preCICE is written in C++ and offers additional bindings for C, Fortran, Matlab, and Python. [Ready-to-use adapters](codes) for well-known commercial and open-source solvers, such as OpenFOAM, deal.II, FEniCS, SU2, or CalculiX, are available. Due to the minimally-invasive approach of preCICE, adapters for in-house codes can be implemented and validated in only a few weeks.
 
 preCICE is an open-source software under the LGPL3 license and available on [GitHub](https://github.com/precice/precice).
 
