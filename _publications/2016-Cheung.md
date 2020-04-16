@@ -4,4 +4,4 @@ pub-url: http://www5.in.tum.de/pub/Cheung2016_Thesis.pdf
 year: 2016
 authors: "Lucia Cheung Yau"
 ---
-Master's thesis, Institut für Informatik, Technische Universität München
+Master's thesis, Department of Informatics, Technical University of Munich
