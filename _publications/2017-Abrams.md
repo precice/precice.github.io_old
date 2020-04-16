@@ -3,4 +3,4 @@ title: "Entwicklung eines XML-basierten Konfigurationsframeworks einer verteilte
 year: 2017
 authors: "Georg Abrams"
 ---
-Bachelor's Thesis
+Bachelor's thesis
