@@ -3,4 +3,4 @@ title: "Entwurf und Implementierung von Systemtests für eine verteilte Multi-Ph
 year: 2018
 authors: "Yakup Hoshaber"
 ---
-Bachelor's Thesis
+Bachelor's thesis
