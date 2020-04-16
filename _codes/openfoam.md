@@ -21,6 +21,7 @@ Build / system tests status: <a style="text-decoration: none" href="https://trav
 #### Tutorials:
   * [CHT with OpenFOAM](https://github.com/precice/openfoam-adapter/wiki/Tutorial-for-CHT:-Flow-over-a-heated-plate)
   * [CHT with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-CHT-with-OpenFOAM-and-CalculiX)
+  * [CHT with OpenFOAM and Code_Aster](https://github.com/precice/code_aster-adapter/wiki/Flow-over-plate-Code_Aster-Tutorial)
   * [FSI with OpenFOAM and CalculiX](https://github.com/precice/precice/wiki/Tutorial-for-FSI-with-OpenFOAM-and-CalculiX)
   * [FSI with OpenFOAM and deal.II](https://github.com/precice/precice/wiki/Tutorial-for-FSI-with-deal.II-and-OpenFOAM)
   * and [more](https://github.com/precice/openfoam-adapter/wiki)
