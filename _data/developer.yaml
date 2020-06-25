@@ -6,7 +6,7 @@ leads:
     img: Benjamin_Uekermann
   - fullname: Prof. Dr. Miriam Mehl
     institution: University of Stuttgart
-    url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Miriam.Mehl
+    url: https://www.ipvs.uni-stuttgart.de/institute/team/Mehl-00008/
     img: Miriam_Mehl
   - fullname: Prof. Dr. Hans-Joachim Bungartz
     institution: Technical University of Munich
@@ -48,7 +48,7 @@ main:
     name: Totounferoush
     institution:  University of Stuttgart
     github: atotoun
-    url:  https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Amin.Totounferoush
+    url:  https://www.ipvs.uni-stuttgart.de/institute/team/Totounferoush/
     img: Amin_Totounferoush
   - fullname: Dr. rer. nat. Benjamin Uekermann 
     name: Uekermann
