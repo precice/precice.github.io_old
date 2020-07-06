@@ -34,7 +34,7 @@ In contrast to other coupling software, preCICE is prepared for the next generat
 
 + **Pure library approach:** In contrast to a framework approach, the solvers call preCICE instead of being called by the framework. This makes coupling minimally-invasive and thus easy to set up and to maintain. The preCICE API operates on a generic level, allowing highest flexibility and the implementation of new adapters in as little as approximately 30 lines of code.
 
-+ **Sophisticated and robust quasi-Newton coupling algorithms:** They enable the partitioned realization of strongly-coupled problems, such as those  observed in hemodynamic applications.
++ **Sophisticated and robust quasi-Newton coupling algorithms:** They enable the partitioned realization of strongly-coupled problems, such as those observed in hemodynamic applications. In some communities, quasi-Newton coupling is also known as Anderson acceleration.
 
 + **Multi coupling:** preCICE allows the robust coupling of an arbitrary number of solvers to one overall simulation.
 
