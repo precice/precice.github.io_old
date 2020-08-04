@@ -8,8 +8,8 @@ language: C++
 status: up-to-date
 application: Finite element method, in this case fluid-structure interaction (solid part)
 can-write: Displacement
-can-read: Forces
-versions: Developed in deal.II 9.1.0, newer versions should also work.
+can-read: Force, Stress
+versions: deal.II 9.2, newer versions should also work. deal.II 9.1 still supported in a different branch.
 notes: Example with linear elastic solid mechanics. This adapter can work either as 2D or 3D.
 ---
 
