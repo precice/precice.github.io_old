@@ -8,7 +8,7 @@ language: C++
 status: up-to-date
 application: Fluid-Structure Interaction (fluid part)
 can-write: Force
-can-read: Displacement
+can-read: Displacement delta
 versions: 4.0.x-6.0.x
 ---
 
