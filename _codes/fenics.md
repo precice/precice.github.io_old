@@ -17,5 +17,7 @@ versions: 2017.2.0
 Build / system tests status: <a style="text-decoration: none" href="https://travis-ci.org/precice/fenics-adapter" target="_blank"><img src="https://travis-ci.org/precice/fenics-adapter.svg?branch=master" alt="Build status"></a>
 
 #### Tutorials:
-No step-by-step tutorials are available at the moment.
-However, you may like to have a look at the tutorials in the adapter repository.
+
+- [Partitioned Heat Equation with FEniCS](https://github.com/precice/precice/wiki/Tutorial-for-solving-the-heat-equation-in-a-partitioned-fashion-using-FEniCS)
+- [CHT with OpenFOAM and FEniCS](https://github.com/precice/precice/wiki/Tutorial-for-CHT:-Flow-over-a-heated-plate-with-OpenFOAM-and-FEniCS)
+- [FSI with OpenFOAM and FEniCS](https://github.com/precice/precice/wiki/Tutorial-for-FSI-with-FEniCS-and-OpenFOAM)
