@@ -26,12 +26,6 @@ main:
     github: KyleDavisSA
     url: https://www.ipvs.uni-stuttgart.de/institute/team/Davis/
     img: Kyle_Davis
-  - fullname: Dipl.-Ing. Florian Lindner
-    name: Lindner
-    institution: University of Stuttgart
-    github: floli
-    url: https://www.ipvs.uni-stuttgart.de/abteilungen/sgs/abteilung/mitarbeiter/Florian.Lindner
-    img: Florian_Lindner
   - fullname: Benjamin Rüth, M.Sc. (hons)
     name: Rüth
     institution:  Technical University of Munich
@@ -62,6 +56,11 @@ main-inactive:
     name: Gatzhammer
     institution: Alumni of Technical University of Munich
     github: gatzhamm
+  - fullname: Dr. rer. nat. Florian Lindner
+    name: Lindner
+    institution: University of Stuttgart
+    github: floli
+    img: Florian_Lindner
   - fullname: Dr. rer. nat. Klaudius Scheufele
     name: Scheufele
     institution: University of Texas at Austin 
