@@ -153,4 +153,4 @@ Follow us on [Twitter](https://twitter.com/preCICE_org), [YouTube](https://www.y
 ## For developers
 
 ### Source Code Documentation
-The [source code documentation](https://xgm.de/precice/docs/), is auto-generated daily for the most important branches. It also provides the definitve [API documentation](http://xgm.de/precice/docs/develop/classprecice_1_1SolverInterface.html).
+The [source code documentation](https://www.precice.org/doxygen/), is auto-generated daily for the most important branches. It also provides the definitve [API documentation](https://www.precice.org/doxygen/master/classprecice_1_1SolverInterface.html).
