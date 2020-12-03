@@ -95,6 +95,7 @@ Please use the <a href="https://tagung.informatik-forum.org/preCICE2021/register
 
 ## Important dates
 
-* January 7: Early bird registration
-* January 7: Abstract submission
-* February 22-25: Workshop.
+* Early bird registration until January 7
+* Late registration until February 15 
+* Abstract submission until January 7
+* Workshop February 22-25
