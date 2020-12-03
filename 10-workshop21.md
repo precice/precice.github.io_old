@@ -74,7 +74,7 @@ For early registrations (until January 7), the registration fee is 50€. Regist
 
 Please use the [registration form](https://tagung.informatik-forum.org/preCICE2021/register) to register.
 
-For those that do not have access to funding, you can write an email to us and we will evaluate each case individually. For selected cases we will supply a voucher to be used when registering that voids the required payment.
+For those that do not have access to funding to pay for the registration, you can write an email to us at precice2021@ipvs.uni-stuttgart.de, and we will evaluate each case individually. For selected cases we will supply a voucher to be used when registering that voids the required payment.
 
 ## Call for contributions
 
