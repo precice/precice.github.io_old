@@ -92,7 +92,6 @@ Possible contributions include (non-exclusively):
 
 
 Please use the <a href="https://tagung.informatik-forum.org/preCICE2021/register">registration form</a> if you would like to submit a talk.
-</details>
 
 ## Important dates
 
