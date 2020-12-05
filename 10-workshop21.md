@@ -29,9 +29,9 @@ The workshop stretches from Monday noon to Thursday evening. Further details on 
 
 If you are in Munich the day before, join us for a social event on Sunday:
 * 13:00 - 13:30 Welcoming
-* 13:30 - 14:00 Introductory Video Q&A Session
+* 13:30 - 14:00 Introductory video Q&A session
 * 14:30 - 15:00 Break
-* 15:00 - 17:00 Introductory Workshop I
+* 15:00 - 17:00 Introductory workshop I
 
 More details have been sent to registered participants.
 
@@ -41,16 +41,16 @@ More details have been sent to registered participants.
   * live chat Q&A during video
   * live Q&A afterwards
 * 13:00 - 14:00 Break
-* 14:00 - 16:00 Introductory Workshop II
+* 14:00 - 16:00 Introductory workshop II
 * 16:00 - 17:00 Frédéric Simonis: What's new in preCICE
 
 
 ### Wednesday, February 24
-* 10:00 - 11:30 Developer Talks
-* 11:30 - 12:00 Speakers in break out rooms for Q&A
+* 10:00 - 11:30 Developer talks
+* 11:30 - 12:00 Speakers in breakout rooms for Q&A
 * 12:00 - 13:00 Break
 * 13:00 - 14:30 Developer talks
-* 14:30 - 15:00 Speakers in break out rooms for Q&A
+* 14:30 - 15:00 Speakers in breakout rooms for Q&A
 * 15:00 - 16:00 Break
 * 16:00 - 17:00 Workshop feedback
 * 17:00 - 17:10 Closing
