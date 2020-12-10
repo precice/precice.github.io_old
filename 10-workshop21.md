@@ -27,13 +27,10 @@ The workshop stretches from Monday noon to Thursday evening. Further details on 
 
 ### Monday, February 22
 
-If you are in Munich the day before, join us for a social event on Sunday:
 * 13:00 - 13:30 Welcoming
 * 13:30 - 14:00 Introductory video Q&A session
 * 14:30 - 15:00 Break
 * 15:00 - 17:00 Introductory workshop I
-
-More details have been sent to registered participants.
 
 ### Tuesday, February 23
 * 10:00 - 13:00 User presentations (20-30 min each)
@@ -98,4 +95,5 @@ Please use the <a href="https://tagung.informatik-forum.org/preCICE2021/register
 * Early bird registration until January 7
 * Late registration until February 15 
 * Abstract submission until January 7
+* Recorded talks to be received until February 8
 * Workshop February 22-25
